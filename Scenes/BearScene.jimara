@@ -89,6 +89,84 @@
 		"Name[0]": "PointLight",
 		"Radius[0]": 100.0
 	},
+	"Component[16]": {
+		"Enabled[0]": true,
+		"Name[0]": "Camera_Target",
+		"Position[0]": [
+			0.0,
+			2.0,
+			0.0
+		],
+		"Rotation[0]": [
+			4.0,
+			170.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[17]": {
+		"Enabled[0]": true,
+		"Name[0]": "Camera_Boom",
+		"Position[0]": [
+			0.0,
+			0.0,
+			-7.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[18]": {
+		"Clear color[0]": [
+			0.054594382643699646,
+			0.5640081763267517,
+			0.6960784196853638,
+			1.0
+		],
+		"Close Plane[0]": 0.0010000000474974513,
+		"Enabled[0]": true,
+		"Far Plane[0]": 10000.0,
+		"Field of view[0]": 64.0,
+		"Name[0]": "Camera",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Render Category[0]": 0,
+		"Render Priority[0]": 0
+	},
+	"Component[19]": {
+		"Enabled[0]": true,
+		"Name[0]": "Box",
+		"Position[0]": [
+			0.0,
+			4.0,
+			0.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.25,
+			0.25,
+			0.25
+		]
+	},
 	"Component[1]": {
 		"Enabled[0]": true,
 		"Name[0]": "BearScene",
@@ -106,6 +184,40 @@
 			1.0,
 			1.0,
 			1.0
+		]
+	},
+	"Component[20]": {
+		"Enabled[0]": true,
+		"Instanced[0]": true,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -1265771011357638757,
+			"Word[1]": 4035089871313439853,
+			"Word[2]": -3583355939427195498,
+			"Word[3]": -1653136093903532486
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[21]": {
+		"Enabled[0]": true,
+		"Kinematic[0]": false,
+		"Lock[0]": 0,
+		"Mass[0]": 1.0,
+		"Name[0]": "Rigidbody"
+	},
+	"Component[22]": {
+		"Enabled[0]": true,
+		"Name[0]": "BoxCollider",
+		"Size[0]": [
+			2.0,
+			2.0,
+			2.0
 		]
 	},
 	"Component[2]": {
@@ -229,7 +341,7 @@
 		"Static[0]": false
 	},
 	"Node[0]": {
-		"Child Count[0]": 2,
+		"Child Count[0]": 4,
 		"Node[0]": {
 			"Child Count[0]": 5,
 			"Node[0]": {
@@ -290,10 +402,38 @@
 			},
 			"Type[0]": "Jimara::Transform"
 		},
+		"Node[2]": {
+			"Child Count[0]": 1,
+			"Node[0]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::Camera"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[3]": {
+			"Child Count[0]": 2,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::MeshRenderer"
+			},
+			"Node[1]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
+				},
+				"Type[0]": "Jimara::Rigidbody"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
 		"Type[0]": "Jimara::Component"
 	},
 	"Resources[0]": {
-		"Count[0]": 5,
+		"Count[0]": 6,
 		"ResourceId[0]": {
 			"Word[0]": 6664672384288179952,
 			"Word[1]": 484067359045946523,
@@ -323,6 +463,12 @@
 			"Word[1]": -4463905671962397199,
 			"Word[2]": -5263184535465465874,
 			"Word[3]": -4432868153338116397
+		},
+		"ResourceId[5]": {
+			"Word[0]": -1265771011357638757,
+			"Word[1]": 4035089871313439853,
+			"Word[2]": -3583355939427195498,
+			"Word[3]": -1653136093903532486
 		}
 	}
 }
