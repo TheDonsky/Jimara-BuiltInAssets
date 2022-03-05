@@ -150,22 +150,8 @@
 	},
 	"Component[19]": {
 		"Enabled[0]": true,
-		"Name[0]": "Box",
-		"Position[0]": [
-			0.0,
-			4.0,
-			0.0
-		],
-		"Rotation[0]": [
-			0.0,
-			0.0,
-			0.0
-		],
-		"Scale[0]": [
-			0.25,
-			0.25,
-			0.25
-		]
+		"Name[0]": "AudioListener",
+		"Volume[0]": 1.0
 	},
 	"Component[1]": {
 		"Enabled[0]": true,
@@ -188,6 +174,25 @@
 	},
 	"Component[20]": {
 		"Enabled[0]": true,
+		"Name[0]": "Box",
+		"Position[0]": [
+			0.0,
+			4.0,
+			0.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.25,
+			0.25,
+			0.25
+		]
+	},
+	"Component[21]": {
+		"Enabled[0]": true,
 		"Instanced[0]": true,
 		"Name[0]": "MeshRenderer",
 		"ReferenceId[0]": {
@@ -204,14 +209,14 @@
 		},
 		"Static[0]": false
 	},
-	"Component[21]": {
+	"Component[22]": {
 		"Enabled[0]": true,
 		"Kinematic[0]": false,
 		"Lock[0]": 0,
 		"Mass[0]": 1.0,
 		"Name[0]": "Rigidbody"
 	},
-	"Component[22]": {
+	"Component[23]": {
 		"Enabled[0]": true,
 		"Name[0]": "BoxCollider",
 		"Size[0]": [
@@ -219,6 +224,21 @@
 			2.0,
 			2.0
 		]
+	},
+	"Component[24]": {
+		"Enabled[0]": true,
+		"Looping[0]": true,
+		"Name[0]": "AudioSource3D",
+		"Pitch[0]": 1.0,
+		"Playing[0]": false,
+		"Priority[0]": 0,
+		"ReferenceId[0]": {
+			"Word[0]": 8211668808434510263,
+			"Word[1]": -198904311922887152,
+			"Word[2]": -5252853645379885448,
+			"Word[3]": -8588506170053871019
+		},
+		"Volume[0]": 1.0
 	},
 	"Component[2]": {
 		"Enabled[0]": true,
@@ -405,17 +425,21 @@
 		"Node[2]": {
 			"Child Count[0]": 1,
 			"Node[0]": {
-				"Child Count[0]": 1,
+				"Child Count[0]": 2,
 				"Node[0]": {
 					"Child Count[0]": 0,
 					"Type[0]": "Jimara::Camera"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::AudioListener"
 				},
 				"Type[0]": "Jimara::Transform"
 			},
 			"Type[0]": "Jimara::Transform"
 		},
 		"Node[3]": {
-			"Child Count[0]": 2,
+			"Child Count[0]": 3,
 			"Node[0]": {
 				"Child Count[0]": 0,
 				"Type[0]": "Jimara::MeshRenderer"
@@ -428,12 +452,16 @@
 				},
 				"Type[0]": "Jimara::Rigidbody"
 			},
+			"Node[2]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::AudioSource3D"
+			},
 			"Type[0]": "Jimara::Transform"
 		},
 		"Type[0]": "Jimara::Component"
 	},
 	"Resources[0]": {
-		"Count[0]": 6,
+		"Count[0]": 7,
 		"ResourceId[0]": {
 			"Word[0]": 6664672384288179952,
 			"Word[1]": 484067359045946523,
@@ -469,6 +497,12 @@
 			"Word[1]": 4035089871313439853,
 			"Word[2]": -3583355939427195498,
 			"Word[3]": -1653136093903532486
+		},
+		"ResourceId[6]": {
+			"Word[0]": 8211668808434510263,
+			"Word[1]": -198904311922887152,
+			"Word[2]": -5252853645379885448,
+			"Word[3]": -8588506170053871019
 		}
 	}
 }
