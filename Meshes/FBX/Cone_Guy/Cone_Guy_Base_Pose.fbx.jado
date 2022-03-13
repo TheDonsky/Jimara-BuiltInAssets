@@ -2,6 +2,9 @@
 	"Animations[0]": {
 		"Count[0]": 0
 	},
+	"Collision meshes[0]": {
+		"Count[0]": 0
+	},
 	"Heirarchy[0]": {
 		"Word[0]": 6897916612615830634,
 		"Word[1]": -8109628010417861925,
