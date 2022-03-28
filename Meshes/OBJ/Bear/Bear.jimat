@@ -1,10 +1,9 @@
 {
-	"CreateMipmaps[0]": true,
-	"Filtering[0]": 1,
-	"ImageGUID[0]": {
+	"Diffuse[0]": {
 		"Word[0]": -37787638815603232,
 		"Word[1]": -2203821905221989771,
 		"Word[2]": -5410766907735278908,
 		"Word[3]": -6422505469919614753
-	}
+	},
+	"Shader[0]": "Jimara/Data/Materials/SampleDiffuse/Jimara_SampleDiffuseShader"
 }

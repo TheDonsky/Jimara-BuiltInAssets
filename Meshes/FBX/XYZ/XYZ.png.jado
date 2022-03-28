@@ -1,5 +1,6 @@
 {
 	"CreateMipmaps[0]": true,
+	"Filtering[0]": 1,
 	"ImageGUID[0]": {
 		"Word[0]": -5755491165862453056,
 		"Word[1]": -5528511830005919158,

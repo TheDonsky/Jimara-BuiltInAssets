@@ -250,6 +250,99 @@
 		},
 		"Volume[0]": 1.0
 	},
+	"Component[25]": {
+		"Enabled[0]": true,
+		"Name[0]": "XYZ_Forward(+Y)_Up(-Z)",
+		"Position[0]": [
+			1.600000023841858,
+			1.0,
+			0.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[26]": {
+		"Enabled[0]": true,
+		"Name[0]": "X_Transform",
+		"Position[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Rotation[0]": [
+			90.0,
+			-90.0,
+			-90.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[27]": {
+		"Enabled[0]": true,
+		"Instanced[0]": true,
+		"Name[0]": "X_Mesh",
+		"ReferenceId[0]": {
+			"Word[0]": 8981318391921771380,
+			"Word[1]": 1083181703573339722,
+			"Word[2]": -7975438228713837512,
+			"Word[3]": 5777429859333938573
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 6343200366554814987,
+			"Word[1]": -667940862252340819,
+			"Word[2]": 4974458327370166487,
+			"Word[3]": 4873917276774335109
+		},
+		"Static[0]": false
+	},
+	"Component[28]": {
+		"Enabled[0]": true,
+		"Name[0]": "Y_Transform",
+		"Position[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Rotation[0]": [
+			90.0,
+			-90.0,
+			-90.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[29]": {
+		"Enabled[0]": true,
+		"Instanced[0]": true,
+		"Name[0]": "Y_Mesh",
+		"ReferenceId[0]": {
+			"Word[0]": -1851890923388507594,
+			"Word[1]": 7137710919286543039,
+			"Word[2]": 1898075133617419504,
+			"Word[3]": 6200659995447758616
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 6343200366554814987,
+			"Word[1]": -667940862252340819,
+			"Word[2]": 4974458327370166487,
+			"Word[3]": 4873917276774335109
+		},
+		"Static[0]": false
+	},
 	"Component[2]": {
 		"Enabled[0]": true,
 		"Instanced[0]": true,
@@ -268,6 +361,191 @@
 		},
 		"Static[0]": false
 	},
+	"Component[30]": {
+		"Enabled[0]": true,
+		"Name[0]": "Z_Transform",
+		"Position[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Rotation[0]": [
+			90.0,
+			-90.0,
+			-90.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[31]": {
+		"Enabled[0]": true,
+		"Instanced[0]": true,
+		"Name[0]": "Z_Mesh",
+		"ReferenceId[0]": {
+			"Word[0]": -2027925866535856423,
+			"Word[1]": -7901898601463593601,
+			"Word[2]": -4703255516823670371,
+			"Word[3]": 1553301143776925914
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 6343200366554814987,
+			"Word[1]": -667940862252340819,
+			"Word[2]": 4974458327370166487,
+			"Word[3]": 4873917276774335109
+		},
+		"Static[0]": false
+	},
+	"Component[32]": {
+		"Enabled[0]": true,
+		"Name[0]": "DirectionThingie_X",
+		"Position[0]": [
+			2.0,
+			0.0,
+			0.0
+		],
+		"Rotation[0]": [
+			25.94991683959961,
+			-84.5884017944336,
+			-89.92929077148438
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			0.9999998807907104
+		]
+	},
+	"Component[33]": {
+		"Enabled[0]": true,
+		"Instanced[0]": true,
+		"Name[0]": "DirectionThingie",
+		"ReferenceId[0]": {
+			"Word[0]": -1399297661268537524,
+			"Word[1]": -3681391455664214148,
+			"Word[2]": 2194310310905519116,
+			"Word[3]": 9011113505748316861
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[34]": {
+		"Enabled[0]": true,
+		"Name[0]": "DirectionThingie_Z",
+		"Position[0]": [
+			0.0,
+			0.0,
+			2.0
+		],
+		"Rotation[0]": [
+			25.949899673461914,
+			-174.58837890625,
+			-89.92928314208984
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			0.9999998807907104
+		]
+	},
+	"Component[35]": {
+		"Enabled[0]": true,
+		"Instanced[0]": true,
+		"Name[0]": "DirectionThingie",
+		"ReferenceId[0]": {
+			"Word[0]": -1399297661268537524,
+			"Word[1]": -3681391455664214148,
+			"Word[2]": 2194310310905519116,
+			"Word[3]": 9011113505748316861
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[36]": {
+		"Enabled[0]": true,
+		"Name[0]": "DirectionThingie_Y",
+		"Position[0]": [
+			0.0,
+			2.0,
+			0.0
+		],
+		"Rotation[0]": [
+			63.53016662597656,
+			-10.967622756958008,
+			77.8553466796875
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[37]": {
+		"Enabled[0]": true,
+		"Instanced[0]": true,
+		"Name[0]": "DirectionThingie",
+		"ReferenceId[0]": {
+			"Word[0]": -1399297661268537524,
+			"Word[1]": -3681391455664214148,
+			"Word[2]": 2194310310905519116,
+			"Word[3]": 9011113505748316861
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[38]": {
+		"Enabled[0]": true,
+		"Name[0]": "RodA",
+		"Position[0]": [
+			0.5,
+			0.0,
+			0.5
+		],
+		"Rotation[0]": [
+			90.0,
+			-54.73561477661133,
+			-9.735615730285645
+		],
+		"Scale[0]": [
+			8.0,
+			2.0,
+			1.0
+		]
+	},
+	"Component[39]": {
+		"Enabled[0]": true,
+		"Instanced[0]": true,
+		"Name[0]": "RodThing",
+		"ReferenceId[0]": {
+			"Word[0]": 5236528732202043422,
+			"Word[1]": -4117286883566948387,
+			"Word[2]": 3083640605748067965,
+			"Word[3]": 366354051184175276
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
 	"Component[3]": {
 		"Enabled[0]": true,
 		"Name[0]": "Collider",
@@ -277,6 +555,80 @@
 			"Word[2]": -7397224147980390289,
 			"Word[3]": -5689930557707907955
 		}
+	},
+	"Component[40]": {
+		"Enabled[0]": true,
+		"Name[0]": "RodB",
+		"Position[0]": [
+			0.04419417679309845,
+			0.0,
+			-0.5
+		],
+		"Rotation[0]": [
+			-0.0,
+			89.99999237060547,
+			0.0
+		],
+		"Scale[0]": [
+			4.0,
+			2.0,
+			0.4999999701976776
+		]
+	},
+	"Component[41]": {
+		"Enabled[0]": true,
+		"Instanced[0]": true,
+		"Name[0]": "RodThing",
+		"ReferenceId[0]": {
+			"Word[0]": 5236528732202043422,
+			"Word[1]": -4117286883566948387,
+			"Word[2]": 3083640605748067965,
+			"Word[3]": 366354051184175276
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[42]": {
+		"Enabled[0]": true,
+		"Name[0]": "RodC",
+		"Position[0]": [
+			0.0781249925494194,
+			0.0,
+			8.940696716308594e-08
+		],
+		"Rotation[0]": [
+			1.6164854969247244e-05,
+			-90.00001525878906,
+			90.0
+		],
+		"Scale[0]": [
+			0.9999999403953552,
+			0.5,
+			0.5
+		]
+	},
+	"Component[43]": {
+		"Enabled[0]": true,
+		"Instanced[0]": true,
+		"Name[0]": "RodThing",
+		"ReferenceId[0]": {
+			"Word[0]": 5236528732202043422,
+			"Word[1]": -4117286883566948387,
+			"Word[2]": 3083640605748067965,
+			"Word[3]": 366354051184175276
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
 	},
 	"Component[4]": {
 		"Enabled[0]": true,
@@ -363,15 +715,15 @@
 			"Word[3]": -4432868153338116397
 		},
 		"ReferenceId[1]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
+			"Word[0]": 8011877125616677971,
+			"Word[1]": -7671490928677299199,
+			"Word[2]": 7677582037433110194,
+			"Word[3]": 6721797542362118118
 		},
 		"Static[0]": false
 	},
 	"Node[0]": {
-		"Child Count[0]": 4,
+		"Child Count[0]": 5,
 		"Node[0]": {
 			"Child Count[0]": 5,
 			"Node[0]": {
@@ -468,10 +820,86 @@
 			},
 			"Type[0]": "Jimara::Transform"
 		},
+		"Node[4]": {
+			"Child Count[0]": 7,
+			"Node[0]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[1]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[2]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[3]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[4]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[5]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[6]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[1]": {
+					"Child Count[0]": 2,
+					"Node[0]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::MeshRenderer"
+					},
+					"Node[1]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::MeshRenderer"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Type[0]": "Jimara::Transform"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
 		"Type[0]": "Jimara::Component"
 	},
 	"Resources[0]": {
-		"Count[0]": 11,
+		"Count[0]": 18,
 		"ResourceId[0]": {
 			"Word[0]": 6664672384288179952,
 			"Word[1]": 484067359045946523,
@@ -479,10 +907,52 @@
 			"Word[3]": 8086642116658709734
 		},
 		"ResourceId[10]": {
+			"Word[0]": -1265771011357638757,
+			"Word[1]": 4035089871313439853,
+			"Word[2]": -3583355939427195498,
+			"Word[3]": -1653136093903532486
+		},
+		"ResourceId[11]": {
 			"Word[0]": 8211668808434510263,
 			"Word[1]": -198904311922887152,
 			"Word[2]": -5252853645379885448,
 			"Word[3]": -8588506170053871019
+		},
+		"ResourceId[12]": {
+			"Word[0]": 8981318391921771380,
+			"Word[1]": 1083181703573339722,
+			"Word[2]": -7975438228713837512,
+			"Word[3]": 5777429859333938573
+		},
+		"ResourceId[13]": {
+			"Word[0]": 6343200366554814987,
+			"Word[1]": -667940862252340819,
+			"Word[2]": 4974458327370166487,
+			"Word[3]": 4873917276774335109
+		},
+		"ResourceId[14]": {
+			"Word[0]": -1851890923388507594,
+			"Word[1]": 7137710919286543039,
+			"Word[2]": 1898075133617419504,
+			"Word[3]": 6200659995447758616
+		},
+		"ResourceId[15]": {
+			"Word[0]": -2027925866535856423,
+			"Word[1]": -7901898601463593601,
+			"Word[2]": -4703255516823670371,
+			"Word[3]": 1553301143776925914
+		},
+		"ResourceId[16]": {
+			"Word[0]": -1399297661268537524,
+			"Word[1]": -3681391455664214148,
+			"Word[2]": 2194310310905519116,
+			"Word[3]": 9011113505748316861
+		},
+		"ResourceId[17]": {
+			"Word[0]": 5236528732202043422,
+			"Word[1]": -4117286883566948387,
+			"Word[2]": 3083640605748067965,
+			"Word[3]": 366354051184175276
 		},
 		"ResourceId[1]": {
 			"Word[0]": -7172379983368361242,
@@ -527,16 +997,16 @@
 			"Word[3]": -4432868153338116397
 		},
 		"ResourceId[8]": {
+			"Word[0]": 8011877125616677971,
+			"Word[1]": -7671490928677299199,
+			"Word[2]": 7677582037433110194,
+			"Word[3]": 6721797542362118118
+		},
+		"ResourceId[9]": {
 			"Word[0]": -5657778042710853910,
 			"Word[1]": 58522108101440645,
 			"Word[2]": 1952739186177723803,
 			"Word[3]": 2575653391652751877
-		},
-		"ResourceId[9]": {
-			"Word[0]": -1265771011357638757,
-			"Word[1]": 4035089871313439853,
-			"Word[2]": -3583355939427195498,
-			"Word[3]": -1653136093903532486
 		}
 	}
 }
