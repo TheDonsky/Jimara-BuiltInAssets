@@ -1,0 +1,14 @@
+{
+	"Color[0]": [
+		0.0,
+		0.8480392098426819,
+		0.07482685893774033
+	],
+	"Diffuse[0]": {
+		"Word[0]": 0,
+		"Word[1]": 0,
+		"Word[2]": 0,
+		"Word[3]": 0
+	},
+	"Shader[0]": "Jimara/Data/Materials/SampleDiffuse/Jimara_SampleDiffuseShader"
+}
