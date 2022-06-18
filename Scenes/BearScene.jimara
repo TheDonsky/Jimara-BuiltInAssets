@@ -146,7 +146,8 @@
 			"Word[3]": 0
 		},
 		"Render Category[0]": 0,
-		"Render Priority[0]": 0
+		"Render Priority[0]": 0,
+		"Renderer Flags[0]": 7
 	},
 	"Component[19]": {
 		"Enabled[0]": true,
@@ -181,7 +182,7 @@
 			0.0
 		],
 		"Rotation[0]": [
-			0.0,
+			-0.0,
 			0.0,
 			0.0
 		],
@@ -193,7 +194,9 @@
 	},
 	"Component[21]": {
 		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
 		"Instanced[0]": true,
+		"Layer[0]": 0,
 		"Name[0]": "MeshRenderer",
 		"ReferenceId[0]": {
 			"Word[0]": -1265771011357638757,
@@ -290,7 +293,9 @@
 	},
 	"Component[27]": {
 		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
 		"Instanced[0]": true,
+		"Layer[0]": 0,
 		"Name[0]": "X_Mesh",
 		"ReferenceId[0]": {
 			"Word[0]": 8981318391921771380,
@@ -327,7 +332,9 @@
 	},
 	"Component[29]": {
 		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
 		"Instanced[0]": true,
+		"Layer[0]": 0,
 		"Name[0]": "Y_Mesh",
 		"ReferenceId[0]": {
 			"Word[0]": -1851890923388507594,
@@ -345,7 +352,9 @@
 	},
 	"Component[2]": {
 		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
 		"Instanced[0]": true,
+		"Layer[0]": 0,
 		"Name[0]": "Backdrop",
 		"ReferenceId[0]": {
 			"Word[0]": 6664672384288179952,
@@ -382,7 +391,9 @@
 	},
 	"Component[31]": {
 		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
 		"Instanced[0]": true,
+		"Layer[0]": 0,
 		"Name[0]": "Z_Mesh",
 		"ReferenceId[0]": {
 			"Word[0]": -2027925866535856423,
@@ -419,7 +430,9 @@
 	},
 	"Component[33]": {
 		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
 		"Instanced[0]": true,
+		"Layer[0]": 0,
 		"Name[0]": "DirectionThingie",
 		"ReferenceId[0]": {
 			"Word[0]": -1399297661268537524,
@@ -456,7 +469,9 @@
 	},
 	"Component[35]": {
 		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
 		"Instanced[0]": true,
+		"Layer[0]": 0,
 		"Name[0]": "DirectionThingie",
 		"ReferenceId[0]": {
 			"Word[0]": -1399297661268537524,
@@ -493,7 +508,9 @@
 	},
 	"Component[37]": {
 		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
 		"Instanced[0]": true,
+		"Layer[0]": 0,
 		"Name[0]": "DirectionThingie",
 		"ReferenceId[0]": {
 			"Word[0]": -1399297661268537524,
@@ -530,7 +547,9 @@
 	},
 	"Component[39]": {
 		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
 		"Instanced[0]": true,
+		"Layer[0]": 0,
 		"Name[0]": "RodThing",
 		"ReferenceId[0]": {
 			"Word[0]": 5236528732202043422,
@@ -577,7 +596,9 @@
 	},
 	"Component[41]": {
 		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
 		"Instanced[0]": true,
+		"Layer[0]": 0,
 		"Name[0]": "RodThing",
 		"ReferenceId[0]": {
 			"Word[0]": 5236528732202043422,
@@ -614,7 +635,9 @@
 	},
 	"Component[43]": {
 		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
 		"Instanced[0]": true,
+		"Layer[0]": 0,
 		"Name[0]": "RodThing",
 		"ReferenceId[0]": {
 			"Word[0]": 5236528732202043422,
@@ -630,9 +653,850 @@
 		},
 		"Static[0]": false
 	},
+	"Component[44]": {
+		"ComponentFieldSublist[0]": {
+			"ComponentFieldSublist[0]": {
+				"char[0]": 65,
+				"signed char[0]": 66,
+				"unsigned char[0]": 67,
+				"wchar_t[0]": 4333
+			},
+			"ComponentFieldSublist[1]": {
+				"ComponentFieldSublist[0]": {
+					"int[0]": -2,
+					"long long[0]": -4,
+					"long[0]": -3,
+					"short[0]": -1
+				},
+				"ComponentFieldSublist[1]": {
+					"unsigned int[0]": 2,
+					"unsigned long long[0]": 4,
+					"unsigned long[0]": 3,
+					"unsigned short[0]": 1
+				}
+			},
+			"ComponentFieldSublist[2]": {
+				"double[0]": 9.989999771118164,
+				"float[0]": 3.140000104904175
+			},
+			"ComponentFieldSublist[3]": {
+				"Vector2[0]": [
+					2.0,
+					2.0
+				],
+				"Vector3[0]": [
+					3.0,
+					3.0,
+					3.0
+				],
+				"Vector4[0]": [
+					4.0,
+					4.0,
+					4.0,
+					4.0
+				]
+			},
+			"ComponentFieldSublist[4]": {
+				"Matrix2[0]": [
+					0.0,
+					0.10000000149011612,
+					1.0,
+					1.100000023841858
+				],
+				"Matrix3[0]": [
+					0.0,
+					0.10000000149011612,
+					0.20000000298023224,
+					1.0,
+					1.100000023841858,
+					1.2000000476837158,
+					2.0,
+					2.0999999046325684,
+					2.200000047683716
+				],
+				"Matrix4[0]": [
+					0.0,
+					0.10000000149011612,
+					0.20000000298023224,
+					0.30000001192092896,
+					1.0,
+					1.100000023841858,
+					1.2000000476837158,
+					1.2999999523162842,
+					2.0,
+					2.0999999046325684,
+					2.200000047683716,
+					2.299999952316284,
+					3.0,
+					3.0999999046325684,
+					3.200000047683716,
+					3.299999952316284
+				]
+			},
+			"ComponentFieldSublist[5]": {
+				"std::string[0]": "Text",
+				"std::wstring[0]": [
+					4322,
+					4308,
+					4325,
+					4321,
+					4322,
+					4312
+				]
+			},
+			"ComponentFieldSublist[6]": {
+				"ReferenceId[0]": {
+					"Word[0]": 3,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				},
+				"ReferenceId[1]": {
+					"Word[0]": 1772334747847776544,
+					"Word[1]": -3531811341499427562,
+					"Word[2]": 223568082040655262,
+					"Word[3]": 3629863748718453968
+				},
+				"ReferenceId[2]": {
+					"Word[0]": 8027354481216652672,
+					"Word[1]": 7614553462287599183,
+					"Word[2]": -4181844318169356405,
+					"Word[3]": -5787626578365364495
+				}
+			},
+			"bool[0]": false
+		},
+		"ComponentFieldSublist[1]": {
+			"ComponentFieldSublist[0]": {
+				"char[0]": 65,
+				"signed char[0]": 66,
+				"unsigned char[0]": 67,
+				"wchar_t[0]": 4333
+			},
+			"ComponentFieldSublist[1]": {
+				"ComponentFieldSublist[0]": {
+					"int[0]": -2,
+					"long long[0]": -4,
+					"long[0]": -3,
+					"short[0]": -1
+				},
+				"ComponentFieldSublist[1]": {
+					"unsigned int[0]": 2,
+					"unsigned long long[0]": 4,
+					"unsigned long[0]": 3,
+					"unsigned short[0]": 1
+				}
+			},
+			"ComponentFieldSublist[2]": {
+				"double[0]": 9.989999771118164,
+				"float[0]": 3.140000104904175
+			},
+			"ComponentFieldSublist[3]": {
+				"Vector2[0]": [
+					2.0,
+					2.0
+				],
+				"Vector3[0]": [
+					3.0,
+					3.0,
+					3.0
+				],
+				"Vector4[0]": [
+					4.0,
+					4.0,
+					4.0,
+					4.0
+				]
+			},
+			"ComponentFieldSublist[4]": {
+				"Matrix2[0]": [
+					0.0,
+					0.10000000149011612,
+					1.0,
+					1.100000023841858
+				],
+				"Matrix3[0]": [
+					0.0,
+					0.10000000149011612,
+					0.20000000298023224,
+					1.0,
+					1.100000023841858,
+					1.2000000476837158,
+					2.0,
+					2.0999999046325684,
+					2.200000047683716
+				],
+				"Matrix4[0]": [
+					0.0,
+					0.10000000149011612,
+					0.20000000298023224,
+					0.30000001192092896,
+					1.0,
+					1.100000023841858,
+					1.2000000476837158,
+					1.2999999523162842,
+					2.0,
+					2.0999999046325684,
+					2.200000047683716,
+					2.299999952316284,
+					3.0,
+					3.0999999046325684,
+					3.200000047683716,
+					3.299999952316284
+				]
+			},
+			"ComponentFieldSublist[5]": {
+				"std::string[0]": "Text",
+				"std::wstring[0]": [
+					4322,
+					4308,
+					4325,
+					4321,
+					4322,
+					4312
+				]
+			},
+			"ComponentFieldSublist[6]": {
+				"ReferenceId[0]": {
+					"Word[0]": 0,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				},
+				"ReferenceId[1]": {
+					"Word[0]": 0,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				},
+				"ReferenceId[2]": {
+					"Word[0]": 0,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				}
+			},
+			"bool[0]": false
+		},
+		"ComponentFieldSublist[2]": {
+			"ComponentFieldSublist[0]": {
+				"char[0]": 65,
+				"signed char[0]": 66,
+				"unsigned char[0]": 67,
+				"wchar_t[0]": 4333
+			},
+			"ComponentFieldSublist[1]": {
+				"ComponentFieldSublist[0]": {
+					"int[0]": -2,
+					"long long[0]": -4,
+					"long[0]": -3,
+					"short[0]": -1
+				},
+				"ComponentFieldSublist[1]": {
+					"unsigned int[0]": 2,
+					"unsigned long long[0]": 4,
+					"unsigned long[0]": 3,
+					"unsigned short[0]": 1
+				}
+			},
+			"ComponentFieldSublist[2]": {
+				"double[0]": 9.989999771118164,
+				"float[0]": 3.140000104904175
+			},
+			"ComponentFieldSublist[3]": {
+				"Vector2[0]": [
+					2.0,
+					2.0
+				],
+				"Vector3[0]": [
+					3.0,
+					3.0,
+					3.0
+				],
+				"Vector4[0]": [
+					4.0,
+					4.0,
+					4.0,
+					4.0
+				]
+			},
+			"ComponentFieldSublist[4]": {
+				"Matrix2[0]": [
+					0.0,
+					0.10000000149011612,
+					1.0,
+					1.100000023841858
+				],
+				"Matrix3[0]": [
+					0.0,
+					0.10000000149011612,
+					0.20000000298023224,
+					1.0,
+					1.100000023841858,
+					1.2000000476837158,
+					2.0,
+					2.0999999046325684,
+					2.200000047683716
+				],
+				"Matrix4[0]": [
+					0.0,
+					0.10000000149011612,
+					0.20000000298023224,
+					0.30000001192092896,
+					1.0,
+					1.100000023841858,
+					1.2000000476837158,
+					1.2999999523162842,
+					2.0,
+					2.0999999046325684,
+					2.200000047683716,
+					2.299999952316284,
+					3.0,
+					3.0999999046325684,
+					3.200000047683716,
+					3.299999952316284
+				]
+			},
+			"ComponentFieldSublist[5]": {
+				"std::string[0]": "Text",
+				"std::wstring[0]": [
+					4322,
+					4308,
+					4325,
+					4321,
+					4322,
+					4312
+				]
+			},
+			"ComponentFieldSublist[6]": {
+				"ReferenceId[0]": {
+					"Word[0]": 0,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				},
+				"ReferenceId[1]": {
+					"Word[0]": 0,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				},
+				"ReferenceId[2]": {
+					"Word[0]": 0,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				}
+			},
+			"bool[0]": false
+		},
+		"ComponentFieldSublist[3]": {
+			"ComponentFieldSublist[0]": {
+				"char[0]": 65,
+				"signed char[0]": 66,
+				"unsigned char[0]": 67,
+				"wchar_t[0]": 4333
+			},
+			"ComponentFieldSublist[1]": {
+				"ComponentFieldSublist[0]": {
+					"int[0]": -2,
+					"long long[0]": -4,
+					"long[0]": -3,
+					"short[0]": -1
+				},
+				"ComponentFieldSublist[1]": {
+					"unsigned int[0]": 2,
+					"unsigned long long[0]": 4,
+					"unsigned long[0]": 3,
+					"unsigned short[0]": 1
+				}
+			},
+			"ComponentFieldSublist[2]": {
+				"double[0]": 9.989999771118164,
+				"float[0]": 3.140000104904175
+			},
+			"ComponentFieldSublist[3]": {
+				"Vector2[0]": [
+					2.0,
+					2.0
+				],
+				"Vector3[0]": [
+					3.0,
+					3.0,
+					3.0
+				],
+				"Vector4[0]": [
+					4.0,
+					4.0,
+					4.0,
+					4.0
+				]
+			},
+			"ComponentFieldSublist[4]": {
+				"Matrix2[0]": [
+					0.0,
+					0.10000000149011612,
+					1.0,
+					1.100000023841858
+				],
+				"Matrix3[0]": [
+					0.0,
+					0.10000000149011612,
+					0.20000000298023224,
+					1.0,
+					1.100000023841858,
+					1.2000000476837158,
+					2.0,
+					2.0999999046325684,
+					2.200000047683716
+				],
+				"Matrix4[0]": [
+					0.0,
+					0.10000000149011612,
+					0.20000000298023224,
+					0.30000001192092896,
+					1.0,
+					1.100000023841858,
+					1.2000000476837158,
+					1.2999999523162842,
+					2.0,
+					2.0999999046325684,
+					2.200000047683716,
+					2.299999952316284,
+					3.0,
+					3.0999999046325684,
+					3.200000047683716,
+					3.299999952316284
+				]
+			},
+			"ComponentFieldSublist[5]": {
+				"std::string[0]": "Text",
+				"std::wstring[0]": [
+					4322,
+					4308,
+					4325,
+					4321,
+					4322,
+					4312
+				]
+			},
+			"ComponentFieldSublist[6]": {
+				"ReferenceId[0]": {
+					"Word[0]": 0,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				},
+				"ReferenceId[1]": {
+					"Word[0]": 0,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				},
+				"ReferenceId[2]": {
+					"Word[0]": 0,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				}
+			},
+			"bool[0]": false
+		},
+		"ComponentFieldSublist[4]": {
+			"ComponentFieldSublist[0]": {
+				"char[0]": 65,
+				"signed char[0]": 66,
+				"unsigned char[0]": 67,
+				"wchar_t[0]": 4333
+			},
+			"ComponentFieldSublist[1]": {
+				"ComponentFieldSublist[0]": {
+					"int[0]": -2,
+					"long long[0]": -4,
+					"long[0]": -3,
+					"short[0]": -1
+				},
+				"ComponentFieldSublist[1]": {
+					"unsigned int[0]": 2,
+					"unsigned long long[0]": 4,
+					"unsigned long[0]": 3,
+					"unsigned short[0]": 1
+				}
+			},
+			"ComponentFieldSublist[2]": {
+				"double[0]": 9.989999771118164,
+				"float[0]": 3.140000104904175
+			},
+			"ComponentFieldSublist[3]": {
+				"Vector2[0]": [
+					2.0,
+					2.0
+				],
+				"Vector3[0]": [
+					3.0,
+					3.0,
+					3.0
+				],
+				"Vector4[0]": [
+					4.0,
+					4.0,
+					4.0,
+					4.0
+				]
+			},
+			"ComponentFieldSublist[4]": {
+				"Matrix2[0]": [
+					0.0,
+					0.10000000149011612,
+					1.0,
+					1.100000023841858
+				],
+				"Matrix3[0]": [
+					0.0,
+					0.10000000149011612,
+					0.20000000298023224,
+					1.0,
+					1.100000023841858,
+					1.2000000476837158,
+					2.0,
+					2.0999999046325684,
+					2.200000047683716
+				],
+				"Matrix4[0]": [
+					0.0,
+					0.10000000149011612,
+					0.20000000298023224,
+					0.30000001192092896,
+					1.0,
+					1.100000023841858,
+					1.2000000476837158,
+					1.2999999523162842,
+					2.0,
+					2.0999999046325684,
+					2.200000047683716,
+					2.299999952316284,
+					3.0,
+					3.0999999046325684,
+					3.200000047683716,
+					3.299999952316284
+				]
+			},
+			"ComponentFieldSublist[5]": {
+				"std::string[0]": "Text",
+				"std::wstring[0]": [
+					4322,
+					4308,
+					4325,
+					4321,
+					4322,
+					4312
+				]
+			},
+			"ComponentFieldSublist[6]": {
+				"ReferenceId[0]": {
+					"Word[0]": 0,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				},
+				"ReferenceId[1]": {
+					"Word[0]": 0,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				},
+				"ReferenceId[2]": {
+					"Word[0]": 0,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				}
+			},
+			"bool[0]": false
+		},
+		"ComponentFieldSublist[5]": {
+			"ComponentFieldSublist[0]": {
+				"char[0]": 65,
+				"signed char[0]": 66,
+				"unsigned char[0]": 67,
+				"wchar_t[0]": 4333
+			},
+			"ComponentFieldSublist[1]": {
+				"ComponentFieldSublist[0]": {
+					"int[0]": -2,
+					"long long[0]": -4,
+					"long[0]": -3,
+					"short[0]": -1
+				},
+				"ComponentFieldSublist[1]": {
+					"unsigned int[0]": 2,
+					"unsigned long long[0]": 4,
+					"unsigned long[0]": 3,
+					"unsigned short[0]": 1
+				}
+			},
+			"ComponentFieldSublist[2]": {
+				"double[0]": 9.989999771118164,
+				"float[0]": 3.140000104904175
+			},
+			"ComponentFieldSublist[3]": {
+				"Vector2[0]": [
+					2.0,
+					2.0
+				],
+				"Vector3[0]": [
+					3.0,
+					3.0,
+					3.0
+				],
+				"Vector4[0]": [
+					4.0,
+					4.0,
+					4.0,
+					4.0
+				]
+			},
+			"ComponentFieldSublist[4]": {
+				"Matrix2[0]": [
+					0.0,
+					0.10000000149011612,
+					1.0,
+					1.100000023841858
+				],
+				"Matrix3[0]": [
+					0.0,
+					0.10000000149011612,
+					0.20000000298023224,
+					1.0,
+					1.100000023841858,
+					1.2000000476837158,
+					2.0,
+					2.0999999046325684,
+					2.200000047683716
+				],
+				"Matrix4[0]": [
+					0.0,
+					0.10000000149011612,
+					0.20000000298023224,
+					0.30000001192092896,
+					1.0,
+					1.100000023841858,
+					1.2000000476837158,
+					1.2999999523162842,
+					2.0,
+					2.0999999046325684,
+					2.200000047683716,
+					2.299999952316284,
+					3.0,
+					3.0999999046325684,
+					3.200000047683716,
+					3.299999952316284
+				]
+			},
+			"ComponentFieldSublist[5]": {
+				"std::string[0]": "Text",
+				"std::wstring[0]": [
+					4322,
+					4308,
+					4325,
+					4321,
+					4322,
+					4312
+				]
+			},
+			"ComponentFieldSublist[6]": {
+				"ReferenceId[0]": {
+					"Word[0]": 0,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				},
+				"ReferenceId[1]": {
+					"Word[0]": 0,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				},
+				"ReferenceId[2]": {
+					"Word[0]": 0,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				}
+			},
+			"bool[0]": false
+		},
+		"ComponentFieldSublist[6]": {
+			"ComponentFieldSublist[0]": {
+				"char[0]": 65,
+				"signed char[0]": 66,
+				"unsigned char[0]": 67,
+				"wchar_t[0]": 4333
+			},
+			"ComponentFieldSublist[1]": {
+				"ComponentFieldSublist[0]": {
+					"int[0]": -2,
+					"long long[0]": -4,
+					"long[0]": -3,
+					"short[0]": -1
+				},
+				"ComponentFieldSublist[1]": {
+					"unsigned int[0]": 2,
+					"unsigned long long[0]": 4,
+					"unsigned long[0]": 3,
+					"unsigned short[0]": 1
+				}
+			},
+			"ComponentFieldSublist[2]": {
+				"double[0]": 9.989999771118164,
+				"float[0]": 3.140000104904175
+			},
+			"ComponentFieldSublist[3]": {
+				"Vector2[0]": [
+					2.0,
+					2.0
+				],
+				"Vector3[0]": [
+					3.0,
+					3.0,
+					3.0
+				],
+				"Vector4[0]": [
+					4.0,
+					4.0,
+					4.0,
+					4.0
+				]
+			},
+			"ComponentFieldSublist[4]": {
+				"Matrix2[0]": [
+					0.0,
+					0.10000000149011612,
+					1.0,
+					1.100000023841858
+				],
+				"Matrix3[0]": [
+					0.0,
+					0.10000000149011612,
+					0.20000000298023224,
+					1.0,
+					1.100000023841858,
+					1.2000000476837158,
+					2.0,
+					2.0999999046325684,
+					2.200000047683716
+				],
+				"Matrix4[0]": [
+					0.0,
+					0.10000000149011612,
+					0.20000000298023224,
+					0.30000001192092896,
+					1.0,
+					1.100000023841858,
+					1.2000000476837158,
+					1.2999999523162842,
+					2.0,
+					2.0999999046325684,
+					2.200000047683716,
+					2.299999952316284,
+					3.0,
+					3.0999999046325684,
+					3.200000047683716,
+					3.299999952316284
+				]
+			},
+			"ComponentFieldSublist[5]": {
+				"std::string[0]": "Text",
+				"std::wstring[0]": [
+					4322,
+					4308,
+					4325,
+					4321,
+					4322,
+					4312
+				]
+			},
+			"ComponentFieldSublist[6]": {
+				"ReferenceId[0]": {
+					"Word[0]": 0,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				},
+				"ReferenceId[1]": {
+					"Word[0]": 0,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				},
+				"ReferenceId[2]": {
+					"Word[0]": 0,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				}
+			},
+			"bool[0]": false
+		}
+	},
+	"Component[45]": {
+		"Enabled[0]": true,
+		"Name[0]": "EmitionPoint",
+		"Position[0]": [
+			0.0,
+			0.5,
+			4.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[46]": {
+		"ColliderRadius[0]": 0.5,
+		"ComponentFieldSublist[0]": {
+			"Max[0]": 0.20000000298023224,
+			"Min[0]": 0.10000000149011612
+		},
+		"ComponentFieldSublist[1]": {
+			"Max[0]": 0.10000000149011612,
+			"Min[0]": 0.0
+		},
+		"ComponentFieldSublist[2]": {
+			"Max[0]": 4.0,
+			"Min[0]": 2.0
+		},
+		"ComponentFieldSublist[3]": {
+			"Max[0]": 10.0,
+			"Min[0]": 7.0
+		},
+		"Direction[0]": [
+			0.0,
+			1.0,
+			0.0
+		],
+		"EmitterRadius[0]": 0.5,
+		"Enabled[0]": true,
+		"Name[0]": "ObjectEmitter",
+		"ReferenceId[0]": {
+			"Word[0]": 5025929695161961268,
+			"Word[1]": -4463905671962397199,
+			"Word[2]": -5263184535465465874,
+			"Word[3]": -4432868153338116397
+		},
+		"Spread[0]": 11.48900032043457
+	},
 	"Component[4]": {
 		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
 		"Instanced[0]": true,
+		"Layer[0]": 0,
 		"Name[0]": "Platform",
 		"ReferenceId[0]": {
 			"Word[0]": -1431358487606638862,
@@ -660,7 +1524,9 @@
 	},
 	"Component[6]": {
 		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
 		"Instanced[0]": true,
+		"Layer[0]": 0,
 		"Name[0]": "Surface",
 		"ReferenceId[0]": {
 			"Word[0]": -2707481890063195167,
@@ -688,7 +1554,9 @@
 	},
 	"Component[8]": {
 		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
 		"Instanced[0]": true,
+		"Layer[0]": 0,
 		"Name[0]": "Text",
 		"ReferenceId[0]": {
 			"Word[0]": -1086587185299083308,
@@ -706,7 +1574,9 @@
 	},
 	"Component[9]": {
 		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
 		"Instanced[0]": true,
+		"Layer[0]": 0,
 		"Name[0]": "Bear",
 		"ReferenceId[0]": {
 			"Word[0]": 5025929695161961268,
@@ -723,7 +1593,7 @@
 		"Static[0]": false
 	},
 	"Node[0]": {
-		"Child Count[0]": 5,
+		"Child Count[0]": 7,
 		"Node[0]": {
 			"Child Count[0]": 5,
 			"Node[0]": {
@@ -896,10 +1766,22 @@
 			},
 			"Type[0]": "Jimara::Transform"
 		},
+		"Node[5]": {
+			"Child Count[0]": 0,
+			"Type[0]": "Jimara::SampleGame::ComponentFieldTypes"
+		},
+		"Node[6]": {
+			"Child Count[0]": 1,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::SampleGame::ObjectEmitter"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
 		"Type[0]": "Jimara::Component"
 	},
 	"Resources[0]": {
-		"Count[0]": 20,
+		"Count[0]": 21,
 		"ResourceId[0]": {
 			"Word[0]": 6664672384288179952,
 			"Word[1]": 484067359045946523,
@@ -971,6 +1853,12 @@
 			"Word[1]": -3667761378520544644,
 			"Word[2]": -3440256433728220267,
 			"Word[3]": 2296246512485657131
+		},
+		"ResourceId[20]": {
+			"Word[0]": 1772334747847776544,
+			"Word[1]": -3531811341499427562,
+			"Word[2]": 223568082040655262,
+			"Word[3]": 3629863748718453968
 		},
 		"ResourceId[2]": {
 			"Word[0]": -7172379983368361242,
