@@ -2353,6 +2353,35 @@
 		},
 		"Spread[0]": 11.48900032043457
 	},
+	"Component[88]": {
+		"Enabled[0]": true,
+		"Name[0]": "CharacterInstance",
+		"Position[0]": [
+			2.2439050674438477,
+			0.6125587224960327,
+			3.3490374088287354
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[89]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -6200146170758881471,
+			"Word[1]": -5395051759304626342,
+			"Word[2]": -8281783678795527913,
+			"Word[3]": -2172428576778553609
+		}
+	},
 	"Component[8]": {
 		"Enabled[0]": true,
 		"Geometry Type[0]": 0,
@@ -2394,7 +2423,7 @@
 		"Static[0]": false
 	},
 	"Node[0]": {
-		"Child Count[0]": 8,
+		"Child Count[0]": 9,
 		"Node[0]": {
 			"Child Count[0]": 5,
 			"Node[0]": {
@@ -2743,10 +2772,18 @@
 			},
 			"Type[0]": "Jimara::Transform"
 		},
+		"Node[8]": {
+			"Child Count[0]": 1,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::Subscene"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
 		"Type[0]": "Jimara::Component"
 	},
 	"Resources[0]": {
-		"Count[0]": 22,
+		"Count[0]": 23,
 		"ResourceId[0]": {
 			"Word[0]": 6664672384288179952,
 			"Word[1]": 484067359045946523,
@@ -2830,6 +2867,12 @@
 			"Word[1]": -5809245987759003144,
 			"Word[2]": 911840446177728406,
 			"Word[3]": -3973447733194979316
+		},
+		"ResourceId[22]": {
+			"Word[0]": -6200146170758881471,
+			"Word[1]": -5395051759304626342,
+			"Word[2]": -8281783678795527913,
+			"Word[3]": -2172428576778553609
 		},
 		"ResourceId[2]": {
 			"Word[0]": -7172379983368361242,
