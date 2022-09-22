@@ -60,9 +60,9 @@
 	"Component[13]": {
 		"Ambient Light Amount[0]": 0.25,
 		"Color[0]": [
-			1.0,
-			1.0,
-			1.0
+			0.06829041987657547,
+			0.8932142853736877,
+			0.9646017551422119
 		],
 		"ComponentFieldSublist[0]": {
 			"ComponentFieldSublist[0]": {
@@ -120,7 +120,7 @@
 		],
 		"Enabled[0]": true,
 		"Filter Size[0]": 7,
-		"Intensity[0]": 200.0,
+		"Intensity[0]": 20.0,
 		"Name[0]": "PointLight",
 		"Radius[0]": 40.0,
 		"Shadow Resolution[0]": 512,
@@ -154,7 +154,7 @@
 		"Enabled[0]": true,
 		"Filter Size[0]": 5,
 		"Inner Angle[0]": 41.36199951171875,
-		"Intensity[0]": 100.0,
+		"Intensity[0]": 16.0,
 		"Name[0]": "SpotLight",
 		"Outer Angle[0]": 67.40399932861328,
 		"Range[0]": 100.0,
@@ -169,11 +169,69 @@
 	},
 	"Component[18]": {
 		"Enabled[0]": true,
+		"Name[0]": "Spot_Strong",
+		"Position[0]": [
+			-4.944864749908447,
+			1.0529348850250244,
+			11.605135917663574
+		],
+		"Rotation[0]": [
+			90.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[19]": {
+		"Color[0]": [
+			0.8495575189590454,
+			0.8149604797363281,
+			0.06766384840011597
+		],
+		"Enabled[0]": true,
+		"Inner Angle[0]": 26.18899917602539,
+		"Intensity[0]": 512.0,
+		"Name[0]": "SpotLight",
+		"Outer Angle[0]": 26.18899917602539,
+		"Range[0]": 10.0,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Shadow Resolution[0]": 0
+	},
+	"Component[1]": {
+		"Enabled[0]": true,
+		"Name[0]": "BearScene",
+		"Position[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[20]": {
+		"Enabled[0]": true,
 		"Name[0]": "Camera_Boom",
 		"Position[0]": [
-			6.156755034680828e-07,
-			4.841332912445068,
-			-3.910576105117798
+			4.173377021743363e-07,
+			2.0272765159606934,
+			-6.322114944458008
 		],
 		"Rotation[0]": [
 			12.141706466674805,
@@ -186,7 +244,7 @@
 			1.0
 		]
 	},
-	"Component[19]": {
+	"Component[21]": {
 		"Clear color[0]": [
 			0.054594382643699646,
 			0.5640081763267517,
@@ -215,33 +273,14 @@
 		"Render Priority[0]": 0,
 		"Renderer Flags[0]": 7
 	},
-	"Component[1]": {
-		"Enabled[0]": true,
-		"Name[0]": "BearScene",
-		"Position[0]": [
-			0.0,
-			0.0,
-			0.0
-		],
-		"Rotation[0]": [
-			0.0,
-			0.0,
-			0.0
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0
-		]
-	},
-	"Component[20]": {
+	"Component[22]": {
 		"Distance[0]": 4.0,
 		"Enabled[0]": true,
 		"Max pitch[0]": 80.0,
 		"Min pitch[0]": -60.0,
 		"Name[0]": "ThirdPersonCamera",
 		"ReferenceId[0]": {
-			"Word[0]": 23,
+			"Word[0]": 27,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -251,18 +290,30 @@
 		"Zoom-in speed[0]": 2.0,
 		"Zoom-out speed[0]": 1.0
 	},
-	"Component[21]": {
+	"Component[23]": {
 		"Enabled[0]": true,
 		"Name[0]": "AudioListener",
 		"Volume[0]": 1.0
 	},
-	"Component[22]": {
+	"Component[24]": {
+		"Enabled[0]": true,
+		"Name[0]": "PostFX"
+	},
+	"Component[25]": {
+		"Enabled[0]": true,
+		"Name[0]": "Bloom",
+		"Render Category[0]": 1024,
+		"Render Priority[0]": 0,
+		"Size[0]": 0.5,
+		"Strength[0]": 1.0
+	},
+	"Component[26]": {
 		"Enabled[0]": true,
 		"Name[0]": "Box",
 		"Position[0]": [
-			0.0,
-			4.0,
-			0.0
+			-1.9832847897305328e-07,
+			1.1859564781188965,
+			-2.4115984439849854
 		],
 		"Rotation[0]": [
 			-0.0,
@@ -275,7 +326,7 @@
 			0.25
 		]
 	},
-	"Component[23]": {
+	"Component[27]": {
 		"Enabled[0]": true,
 		"Geometry Type[0]": 0,
 		"Instanced[0]": true,
@@ -295,7 +346,7 @@
 		},
 		"Static[0]": false
 	},
-	"Component[24]": {
+	"Component[28]": {
 		"Angular Velocity[0]": [
 			0.0,
 			0.0,
@@ -313,7 +364,7 @@
 			0.0
 		]
 	},
-	"Component[25]": {
+	"Component[29]": {
 		"Enabled[0]": true,
 		"Name[0]": "BoxCollider",
 		"ReferenceId[0]": {
@@ -326,63 +377,6 @@
 			2.0,
 			2.0,
 			2.0
-		]
-	},
-	"Component[26]": {
-		"Acceleration[0]": 8.0,
-		"Ground Check Distance[0]": 0.5,
-		"Ground Check Origin[0]": -0.25,
-		"Jump speed[0]": 8.0,
-		"Max velocity[0]": 4.0,
-		"Min velocity[0]": 1.0,
-		"Movement deadzone[0]": 0.25,
-		"ReferenceId[0]": {
-			"Word[0]": 29,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		}
-	},
-	"Component[27]": {
-		"Enabled[0]": true,
-		"Looping[0]": true,
-		"Name[0]": "AudioSource3D",
-		"Pitch[0]": 1.0,
-		"Playing[0]": false,
-		"Priority[0]": 0,
-		"ReferenceId[0]": {
-			"Word[0]": 8211668808434510263,
-			"Word[1]": -198904311922887152,
-			"Word[2]": -5252853645379885448,
-			"Word[3]": -8588506170053871019
-		},
-		"Volume[0]": 1.0
-	},
-	"Component[28]": {
-		"ReferenceId[0]": {
-			"Word[0]": 20,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		}
-	},
-	"Component[29]": {
-		"Enabled[0]": true,
-		"Name[0]": "XYZ_Forward(+Y)_Up(-Z)",
-		"Position[0]": [
-			1.600000023841858,
-			1.0,
-			0.0
-		],
-		"Rotation[0]": [
-			0.0,
-			0.0,
-			0.0
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0
 		]
 	},
 	"Component[2]": {
@@ -406,56 +400,55 @@
 		"Static[0]": false
 	},
 	"Component[30]": {
-		"Enabled[0]": true,
-		"Name[0]": "X_Transform",
-		"Position[0]": [
-			0.0,
-			0.0,
-			0.0
-		],
-		"Rotation[0]": [
-			90.0,
-			-90.0,
-			-90.0
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0
-		]
+		"Acceleration[0]": 8.0,
+		"Ground Check Distance[0]": 0.5,
+		"Ground Check Origin[0]": -0.25,
+		"Jump speed[0]": 8.0,
+		"Max velocity[0]": 4.0,
+		"Min velocity[0]": 1.0,
+		"Movement deadzone[0]": 0.25,
+		"ReferenceId[0]": {
+			"Word[0]": 33,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
 	},
 	"Component[31]": {
 		"Enabled[0]": true,
-		"Geometry Type[0]": 0,
-		"Instanced[0]": true,
-		"Layer[0]": 0,
-		"Name[0]": "X_Mesh",
+		"Looping[0]": true,
+		"Name[0]": "AudioSource3D",
+		"Pitch[0]": 1.0,
+		"Playing[0]": false,
+		"Priority[0]": 0,
 		"ReferenceId[0]": {
-			"Word[0]": 8981318391921771380,
-			"Word[1]": 1083181703573339722,
-			"Word[2]": -7975438228713837512,
-			"Word[3]": 5777429859333938573
+			"Word[0]": 8211668808434510263,
+			"Word[1]": -198904311922887152,
+			"Word[2]": -5252853645379885448,
+			"Word[3]": -8588506170053871019
 		},
-		"ReferenceId[1]": {
-			"Word[0]": 6343200366554814987,
-			"Word[1]": -667940862252340819,
-			"Word[2]": 4974458327370166487,
-			"Word[3]": 4873917276774335109
-		},
-		"Static[0]": false
+		"Volume[0]": 1.0
 	},
 	"Component[32]": {
+		"ReferenceId[0]": {
+			"Word[0]": 22,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[33]": {
 		"Enabled[0]": true,
-		"Name[0]": "Y_Transform",
+		"Name[0]": "XYZ_Forward(+Y)_Up(-Z)",
 		"Position[0]": [
-			0.0,
-			0.0,
+			1.600000023841858,
+			1.0,
 			0.0
 		],
 		"Rotation[0]": [
-			90.0,
-			-90.0,
-			-90.0
+			0.0,
+			0.0,
+			0.0
 		],
 		"Scale[0]": [
 			1.0,
@@ -463,29 +456,9 @@
 			1.0
 		]
 	},
-	"Component[33]": {
-		"Enabled[0]": true,
-		"Geometry Type[0]": 0,
-		"Instanced[0]": true,
-		"Layer[0]": 0,
-		"Name[0]": "Y_Mesh",
-		"ReferenceId[0]": {
-			"Word[0]": -1851890923388507594,
-			"Word[1]": 7137710919286543039,
-			"Word[2]": 1898075133617419504,
-			"Word[3]": 6200659995447758616
-		},
-		"ReferenceId[1]": {
-			"Word[0]": 6343200366554814987,
-			"Word[1]": -667940862252340819,
-			"Word[2]": 4974458327370166487,
-			"Word[3]": 4873917276774335109
-		},
-		"Static[0]": false
-	},
 	"Component[34]": {
 		"Enabled[0]": true,
-		"Name[0]": "Z_Transform",
+		"Name[0]": "X_Transform",
 		"Position[0]": [
 			0.0,
 			0.0,
@@ -507,6 +480,84 @@
 		"Geometry Type[0]": 0,
 		"Instanced[0]": true,
 		"Layer[0]": 0,
+		"Name[0]": "X_Mesh",
+		"ReferenceId[0]": {
+			"Word[0]": 8981318391921771380,
+			"Word[1]": 1083181703573339722,
+			"Word[2]": -7975438228713837512,
+			"Word[3]": 5777429859333938573
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 6343200366554814987,
+			"Word[1]": -667940862252340819,
+			"Word[2]": 4974458327370166487,
+			"Word[3]": 4873917276774335109
+		},
+		"Static[0]": false
+	},
+	"Component[36]": {
+		"Enabled[0]": true,
+		"Name[0]": "Y_Transform",
+		"Position[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Rotation[0]": [
+			90.0,
+			-90.0,
+			-90.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[37]": {
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "Y_Mesh",
+		"ReferenceId[0]": {
+			"Word[0]": -1851890923388507594,
+			"Word[1]": 7137710919286543039,
+			"Word[2]": 1898075133617419504,
+			"Word[3]": 6200659995447758616
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 6343200366554814987,
+			"Word[1]": -667940862252340819,
+			"Word[2]": 4974458327370166487,
+			"Word[3]": 4873917276774335109
+		},
+		"Static[0]": false
+	},
+	"Component[38]": {
+		"Enabled[0]": true,
+		"Name[0]": "Z_Transform",
+		"Position[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Rotation[0]": [
+			90.0,
+			-90.0,
+			-90.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[39]": {
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
 		"Name[0]": "Z_Mesh",
 		"ReferenceId[0]": {
 			"Word[0]": -2027925866535856423,
@@ -519,84 +570,6 @@
 			"Word[1]": -667940862252340819,
 			"Word[2]": 4974458327370166487,
 			"Word[3]": 4873917276774335109
-		},
-		"Static[0]": false
-	},
-	"Component[36]": {
-		"Enabled[0]": true,
-		"Name[0]": "DirectionThingie_X",
-		"Position[0]": [
-			2.0,
-			0.0,
-			0.0
-		],
-		"Rotation[0]": [
-			25.94991683959961,
-			-84.5884017944336,
-			-89.92929077148438
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			0.9999998807907104
-		]
-	},
-	"Component[37]": {
-		"Enabled[0]": true,
-		"Geometry Type[0]": 0,
-		"Instanced[0]": true,
-		"Layer[0]": 0,
-		"Name[0]": "DirectionThingie",
-		"ReferenceId[0]": {
-			"Word[0]": -1399297661268537524,
-			"Word[1]": -3681391455664214148,
-			"Word[2]": 2194310310905519116,
-			"Word[3]": 9011113505748316861
-		},
-		"ReferenceId[1]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		},
-		"Static[0]": false
-	},
-	"Component[38]": {
-		"Enabled[0]": true,
-		"Name[0]": "DirectionThingie_Z",
-		"Position[0]": [
-			0.0,
-			0.0,
-			2.0
-		],
-		"Rotation[0]": [
-			25.949899673461914,
-			-174.58837890625,
-			-89.92928314208984
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			0.9999998807907104
-		]
-	},
-	"Component[39]": {
-		"Enabled[0]": true,
-		"Geometry Type[0]": 0,
-		"Instanced[0]": true,
-		"Layer[0]": 0,
-		"Name[0]": "DirectionThingie",
-		"ReferenceId[0]": {
-			"Word[0]": -1399297661268537524,
-			"Word[1]": -3681391455664214148,
-			"Word[2]": 2194310310905519116,
-			"Word[3]": 9011113505748316861
-		},
-		"ReferenceId[1]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
 		},
 		"Static[0]": false
 	},
@@ -618,21 +591,21 @@
 	},
 	"Component[40]": {
 		"Enabled[0]": true,
-		"Name[0]": "DirectionThingie_Y",
+		"Name[0]": "DirectionThingie_X",
 		"Position[0]": [
-			0.0,
 			2.0,
+			0.0,
 			0.0
 		],
 		"Rotation[0]": [
-			63.53016662597656,
-			-10.967622756958008,
-			77.8553466796875
+			25.94991683959961,
+			-84.5884017944336,
+			-89.92929077148438
 		],
 		"Scale[0]": [
 			1.0,
 			1.0,
-			1.0
+			0.9999998807907104
 		]
 	},
 	"Component[41]": {
@@ -657,6 +630,84 @@
 	},
 	"Component[42]": {
 		"Enabled[0]": true,
+		"Name[0]": "DirectionThingie_Z",
+		"Position[0]": [
+			0.0,
+			0.0,
+			2.0
+		],
+		"Rotation[0]": [
+			25.949899673461914,
+			-174.58837890625,
+			-89.92928314208984
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			0.9999998807907104
+		]
+	},
+	"Component[43]": {
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "DirectionThingie",
+		"ReferenceId[0]": {
+			"Word[0]": -1399297661268537524,
+			"Word[1]": -3681391455664214148,
+			"Word[2]": 2194310310905519116,
+			"Word[3]": 9011113505748316861
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[44]": {
+		"Enabled[0]": true,
+		"Name[0]": "DirectionThingie_Y",
+		"Position[0]": [
+			0.0,
+			2.0,
+			0.0
+		],
+		"Rotation[0]": [
+			63.53016662597656,
+			-10.967622756958008,
+			77.8553466796875
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[45]": {
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "DirectionThingie",
+		"ReferenceId[0]": {
+			"Word[0]": -1399297661268537524,
+			"Word[1]": -3681391455664214148,
+			"Word[2]": 2194310310905519116,
+			"Word[3]": 9011113505748316861
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[46]": {
+		"Enabled[0]": true,
 		"Name[0]": "RodA",
 		"Position[0]": [
 			0.5,
@@ -672,84 +723,6 @@
 			8.0,
 			2.0,
 			1.0
-		]
-	},
-	"Component[43]": {
-		"Enabled[0]": true,
-		"Geometry Type[0]": 0,
-		"Instanced[0]": true,
-		"Layer[0]": 0,
-		"Name[0]": "RodThing",
-		"ReferenceId[0]": {
-			"Word[0]": 5236528732202043422,
-			"Word[1]": -4117286883566948387,
-			"Word[2]": 3083640605748067965,
-			"Word[3]": 366354051184175276
-		},
-		"ReferenceId[1]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		},
-		"Static[0]": false
-	},
-	"Component[44]": {
-		"Enabled[0]": true,
-		"Name[0]": "RodB",
-		"Position[0]": [
-			0.04419417679309845,
-			0.0,
-			-0.5
-		],
-		"Rotation[0]": [
-			-0.0,
-			89.99999237060547,
-			0.0
-		],
-		"Scale[0]": [
-			4.0,
-			2.0,
-			0.4999999701976776
-		]
-	},
-	"Component[45]": {
-		"Enabled[0]": true,
-		"Geometry Type[0]": 0,
-		"Instanced[0]": true,
-		"Layer[0]": 0,
-		"Name[0]": "RodThing",
-		"ReferenceId[0]": {
-			"Word[0]": 5236528732202043422,
-			"Word[1]": -4117286883566948387,
-			"Word[2]": 3083640605748067965,
-			"Word[3]": 366354051184175276
-		},
-		"ReferenceId[1]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		},
-		"Static[0]": false
-	},
-	"Component[46]": {
-		"Enabled[0]": true,
-		"Name[0]": "RodC",
-		"Position[0]": [
-			0.0781249925494194,
-			0.0,
-			8.940696716308594e-08
-		],
-		"Rotation[0]": [
-			1.6164854969247244e-05,
-			-90.00001525878906,
-			90.0
-		],
-		"Scale[0]": [
-			0.9999999403953552,
-			0.5,
-			0.5
 		]
 	},
 	"Component[47]": {
@@ -774,41 +747,42 @@
 	},
 	"Component[48]": {
 		"Enabled[0]": true,
-		"Name[0]": "Cone_Guy_Animated",
+		"Name[0]": "RodB",
 		"Position[0]": [
-			-2.559664249420166,
+			0.04419417679309845,
 			0.0,
-			1.1188645032689237e-07
+			-0.5
 		],
 		"Rotation[0]": [
 			-0.0,
-			105.59923553466797,
+			89.99999237060547,
 			0.0
 		],
 		"Scale[0]": [
+			4.0,
 			2.0,
-			2.0,
-			2.0
+			0.4999999701976776
 		]
 	},
 	"Component[49]": {
 		"Enabled[0]": true,
-		"Name[0]": "Cone_Guy",
-		"Position[0]": [
-			0.0,
-			1.0,
-			0.0
-		],
-		"Rotation[0]": [
-			89.99999237060547,
-			-180.0,
-			180.0
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0
-		]
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "RodThing",
+		"ReferenceId[0]": {
+			"Word[0]": 5236528732202043422,
+			"Word[1]": -4117286883566948387,
+			"Word[2]": 3083640605748067965,
+			"Word[3]": 366354051184175276
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
 	},
 	"Component[4]": {
 		"Enabled[0]": true,
@@ -831,100 +805,177 @@
 		"Static[0]": false
 	},
 	"Component[50]": {
+		"Enabled[0]": true,
+		"Name[0]": "RodC",
+		"Position[0]": [
+			0.0781249925494194,
+			0.0,
+			8.940696716308594e-08
+		],
+		"Rotation[0]": [
+			1.6164854969247244e-05,
+			-90.00001525878906,
+			90.0
+		],
+		"Scale[0]": [
+			0.9999999403953552,
+			0.5,
+			0.5
+		]
+	},
+	"Component[51]": {
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "RodThing",
+		"ReferenceId[0]": {
+			"Word[0]": 5236528732202043422,
+			"Word[1]": -4117286883566948387,
+			"Word[2]": 3083640605748067965,
+			"Word[3]": 366354051184175276
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[52]": {
+		"Enabled[0]": true,
+		"Name[0]": "Cone_Guy_Animated",
+		"Position[0]": [
+			-2.559664249420166,
+			0.0,
+			1.1188645032689237e-07
+		],
+		"Rotation[0]": [
+			-0.0,
+			105.59923553466797,
+			0.0
+		],
+		"Scale[0]": [
+			2.0,
+			2.0,
+			2.0
+		]
+	},
+	"Component[53]": {
+		"Enabled[0]": true,
+		"Name[0]": "Cone_Guy",
+		"Position[0]": [
+			0.0,
+			1.0,
+			0.0
+		],
+		"Rotation[0]": [
+			89.99999237060547,
+			-180.0,
+			180.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[54]": {
 		"ComponentFieldSublist[0]": {
 			"Count[0]": 16,
 			"ReferenceId[0]": {
-				"Word[0]": 53,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			},
-			"ReferenceId[10]": {
-				"Word[0]": 68,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			},
-			"ReferenceId[11]": {
-				"Word[0]": 75,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			},
-			"ReferenceId[12]": {
-				"Word[0]": 76,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			},
-			"ReferenceId[13]": {
-				"Word[0]": 77,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			},
-			"ReferenceId[14]": {
-				"Word[0]": 78,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			},
-			"ReferenceId[15]": {
-				"Word[0]": 79,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			},
-			"ReferenceId[1]": {
-				"Word[0]": 54,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			},
-			"ReferenceId[2]": {
-				"Word[0]": 55,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			},
-			"ReferenceId[3]": {
-				"Word[0]": 56,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			},
-			"ReferenceId[4]": {
 				"Word[0]": 57,
 				"Word[1]": 0,
 				"Word[2]": 0,
 				"Word[3]": 0
 			},
-			"ReferenceId[5]": {
+			"ReferenceId[10]": {
+				"Word[0]": 72,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
+			"ReferenceId[11]": {
+				"Word[0]": 79,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
+			"ReferenceId[12]": {
+				"Word[0]": 80,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
+			"ReferenceId[13]": {
+				"Word[0]": 81,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
+			"ReferenceId[14]": {
+				"Word[0]": 82,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
+			"ReferenceId[15]": {
+				"Word[0]": 83,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
+			"ReferenceId[1]": {
 				"Word[0]": 58,
 				"Word[1]": 0,
 				"Word[2]": 0,
 				"Word[3]": 0
 			},
+			"ReferenceId[2]": {
+				"Word[0]": 59,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
+			"ReferenceId[3]": {
+				"Word[0]": 60,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
+			"ReferenceId[4]": {
+				"Word[0]": 61,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
+			"ReferenceId[5]": {
+				"Word[0]": 62,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
 			"ReferenceId[6]": {
-				"Word[0]": 64,
+				"Word[0]": 68,
 				"Word[1]": 0,
 				"Word[2]": 0,
 				"Word[3]": 0
 			},
 			"ReferenceId[7]": {
-				"Word[0]": 65,
+				"Word[0]": 69,
 				"Word[1]": 0,
 				"Word[2]": 0,
 				"Word[3]": 0
 			},
 			"ReferenceId[8]": {
-				"Word[0]": 66,
+				"Word[0]": 70,
 				"Word[1]": 0,
 				"Word[2]": 0,
 				"Word[3]": 0
 			},
 			"ReferenceId[9]": {
-				"Word[0]": 67,
+				"Word[0]": 71,
 				"Word[1]": 0,
 				"Word[2]": 0,
 				"Word[3]": 0
@@ -955,7 +1006,7 @@
 		},
 		"Static[0]": false
 	},
-	"Component[51]": {
+	"Component[55]": {
 		"Enabled[0]": true,
 		"Name[0]": "Armature",
 		"Position[0]": [
@@ -974,7 +1025,7 @@
 			1.0
 		]
 	},
-	"Component[52]": {
+	"Component[56]": {
 		"Enabled[0]": true,
 		"Name[0]": "Core_0",
 		"Position[0]": [
@@ -993,7 +1044,7 @@
 			1.0
 		]
 	},
-	"Component[53]": {
+	"Component[57]": {
 		"Enabled[0]": true,
 		"Name[0]": "Core_1",
 		"Position[0]": [
@@ -1012,7 +1063,7 @@
 			1.0
 		]
 	},
-	"Component[54]": {
+	"Component[58]": {
 		"Enabled[0]": true,
 		"Name[0]": "Core_2",
 		"Position[0]": [
@@ -1031,7 +1082,7 @@
 			0.9999998807907104
 		]
 	},
-	"Component[55]": {
+	"Component[59]": {
 		"Enabled[0]": true,
 		"Name[0]": "Core_3",
 		"Position[0]": [
@@ -1049,74 +1100,6 @@
 			1.0000001192092896,
 			1.0000001192092896
 		]
-	},
-	"Component[56]": {
-		"Enabled[0]": true,
-		"Name[0]": "Core_4",
-		"Position[0]": [
-			2.9802322387695313e-08,
-			0.2999999225139618,
-			-1.4901161193847656e-08
-		],
-		"Rotation[0]": [
-			358.2816162109375,
-			346.063720703125,
-			7.485818386077881
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0
-		]
-	},
-	"Component[57]": {
-		"Enabled[0]": true,
-		"Name[0]": "Core_5",
-		"Position[0]": [
-			-4.470347647611561e-08,
-			0.29999974370002747,
-			1.4901161193847656e-08
-		],
-		"Rotation[0]": [
-			320.0542907714844,
-			6.6916375160217285,
-			303.42291259765625
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0000001192092896
-		]
-	},
-	"Component[58]": {
-		"Enabled[0]": true,
-		"Name[0]": "Core_5_end",
-		"Position[0]": [
-			0.0,
-			0.2999999523162842,
-			-0.0
-		],
-		"Rotation[0]": [
-			-0.0,
-			-0.0,
-			0.0
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0
-		]
-	},
-	"Component[59]": {
-		"Enabled[0]": true,
-		"Name[0]": "SphereCollider",
-		"Radius[0]": 0.12615841627120972,
-		"ReferenceId[0]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		}
 	},
 	"Component[5]": {
 		"Enabled[0]": true,
@@ -1136,6 +1119,74 @@
 	},
 	"Component[60]": {
 		"Enabled[0]": true,
+		"Name[0]": "Core_4",
+		"Position[0]": [
+			2.9802322387695313e-08,
+			0.2999999225139618,
+			-1.4901161193847656e-08
+		],
+		"Rotation[0]": [
+			358.2816162109375,
+			346.063720703125,
+			7.485818386077881
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[61]": {
+		"Enabled[0]": true,
+		"Name[0]": "Core_5",
+		"Position[0]": [
+			-4.470347647611561e-08,
+			0.29999974370002747,
+			1.4901161193847656e-08
+		],
+		"Rotation[0]": [
+			320.0542907714844,
+			6.6916375160217285,
+			303.42291259765625
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0000001192092896
+		]
+	},
+	"Component[62]": {
+		"Enabled[0]": true,
+		"Name[0]": "Core_5_end",
+		"Position[0]": [
+			0.0,
+			0.2999999523162842,
+			-0.0
+		],
+		"Rotation[0]": [
+			-0.0,
+			-0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[63]": {
+		"Enabled[0]": true,
+		"Name[0]": "SphereCollider",
+		"Radius[0]": 0.12615841627120972,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[64]": {
+		"Enabled[0]": true,
 		"Name[0]": "SphereCollider",
 		"Radius[0]": 0.16172009706497192,
 		"ReferenceId[0]": {
@@ -1145,7 +1196,7 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[61]": {
+	"Component[65]": {
 		"Enabled[0]": true,
 		"Name[0]": "SphereCollider",
 		"Radius[0]": 0.13845355808734894,
@@ -1156,7 +1207,7 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[62]": {
+	"Component[66]": {
 		"Enabled[0]": true,
 		"Name[0]": "SphereCollider",
 		"Radius[0]": 0.14651307463645935,
@@ -1167,7 +1218,7 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[63]": {
+	"Component[67]": {
 		"Enabled[0]": true,
 		"Name[0]": "Hand_0.R",
 		"Position[0]": [
@@ -1186,7 +1237,7 @@
 			1.0000001192092896
 		]
 	},
-	"Component[64]": {
+	"Component[68]": {
 		"Enabled[0]": true,
 		"Name[0]": "Hand_1.R",
 		"Position[0]": [
@@ -1205,7 +1256,7 @@
 			0.9999998807907104
 		]
 	},
-	"Component[65]": {
+	"Component[69]": {
 		"Enabled[0]": true,
 		"Name[0]": "Hand_2.R",
 		"Position[0]": [
@@ -1223,74 +1274,6 @@
 			1.0,
 			1.0000001192092896
 		]
-	},
-	"Component[66]": {
-		"Enabled[0]": true,
-		"Name[0]": "Hand_3.R",
-		"Position[0]": [
-			-2.9802322387695313e-08,
-			0.20119917392730713,
-			-7.450580596923828e-09
-		],
-		"Rotation[0]": [
-			58.211639404296875,
-			314.9055480957031,
-			349.038330078125
-		],
-		"Scale[0]": [
-			1.0037729740142822,
-			1.0037729740142822,
-			1.0037730932235718
-		]
-	},
-	"Component[67]": {
-		"Enabled[0]": true,
-		"Name[0]": "Hand_4.R",
-		"Position[0]": [
-			-3.725290298461914e-08,
-			0.14000000059604645,
-			3.5390254282674505e-08
-		],
-		"Rotation[0]": [
-			23.662124633789063,
-			347.5531311035156,
-			357.3654479980469
-		],
-		"Scale[0]": [
-			2.3371896743774414,
-			2.3371896743774414,
-			2.3371896743774414
-		]
-	},
-	"Component[68]": {
-		"Enabled[0]": true,
-		"Name[0]": "Hand_4.R_end",
-		"Position[0]": [
-			0.0,
-			0.09321731328964233,
-			-0.0
-		],
-		"Rotation[0]": [
-			-0.0,
-			-0.0,
-			0.0
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0
-		]
-	},
-	"Component[69]": {
-		"Enabled[0]": true,
-		"Name[0]": "SphereCollider",
-		"Radius[0]": 0.043896060436964035,
-		"ReferenceId[0]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		}
 	},
 	"Component[6]": {
 		"Enabled[0]": true,
@@ -1313,6 +1296,74 @@
 		"Static[0]": false
 	},
 	"Component[70]": {
+		"Enabled[0]": true,
+		"Name[0]": "Hand_3.R",
+		"Position[0]": [
+			-2.9802322387695313e-08,
+			0.20119917392730713,
+			-7.450580596923828e-09
+		],
+		"Rotation[0]": [
+			58.211639404296875,
+			314.9055480957031,
+			349.038330078125
+		],
+		"Scale[0]": [
+			1.0037729740142822,
+			1.0037729740142822,
+			1.0037730932235718
+		]
+	},
+	"Component[71]": {
+		"Enabled[0]": true,
+		"Name[0]": "Hand_4.R",
+		"Position[0]": [
+			-3.725290298461914e-08,
+			0.14000000059604645,
+			3.5390254282674505e-08
+		],
+		"Rotation[0]": [
+			23.662124633789063,
+			347.5531311035156,
+			357.3654479980469
+		],
+		"Scale[0]": [
+			2.3371896743774414,
+			2.3371896743774414,
+			2.3371896743774414
+		]
+	},
+	"Component[72]": {
+		"Enabled[0]": true,
+		"Name[0]": "Hand_4.R_end",
+		"Position[0]": [
+			0.0,
+			0.09321731328964233,
+			-0.0
+		],
+		"Rotation[0]": [
+			-0.0,
+			-0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[73]": {
+		"Enabled[0]": true,
+		"Name[0]": "SphereCollider",
+		"Radius[0]": 0.043896060436964035,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[74]": {
 		"Alignment[0]": 1,
 		"Enabled[0]": true,
 		"Height[0]": 0.051874786615371704,
@@ -1325,7 +1376,7 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[71]": {
+	"Component[75]": {
 		"Enabled[0]": true,
 		"Name[0]": "SphereCollider",
 		"Radius[0]": 0.08674240112304688,
@@ -1336,7 +1387,7 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[72]": {
+	"Component[76]": {
 		"Enabled[0]": true,
 		"Name[0]": "SphereCollider",
 		"Radius[0]": 0.07628932595252991,
@@ -1347,7 +1398,7 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[73]": {
+	"Component[77]": {
 		"Alignment[0]": 1,
 		"Enabled[0]": true,
 		"Height[0]": 0.13522206246852875,
@@ -1360,7 +1411,7 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[74]": {
+	"Component[78]": {
 		"Enabled[0]": true,
 		"Name[0]": "Hand_0.L",
 		"Position[0]": [
@@ -1379,7 +1430,7 @@
 			1.0000001192092896
 		]
 	},
-	"Component[75]": {
+	"Component[79]": {
 		"Enabled[0]": true,
 		"Name[0]": "Hand_1.L",
 		"Position[0]": [
@@ -1391,82 +1442,6 @@
 			332.1666259765625,
 			2.1497538089752197,
 			355.6309814453125
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0
-		]
-	},
-	"Component[76]": {
-		"Enabled[0]": true,
-		"Name[0]": "Hand_2.L",
-		"Position[0]": [
-			-1.2107192581822801e-08,
-			0.19880081713199615,
-			3.725290298461914e-09
-		],
-		"Rotation[0]": [
-			0.0,
-			0.0,
-			359.78936767578125
-		],
-		"Scale[0]": [
-			1.0,
-			0.9999998807907104,
-			0.9999998807907104
-		]
-	},
-	"Component[77]": {
-		"Enabled[0]": true,
-		"Name[0]": "Hand_3.L",
-		"Position[0]": [
-			-8.66129994392395e-08,
-			0.20119918882846832,
-			-3.725290298461914e-08
-		],
-		"Rotation[0]": [
-			0.4634662866592407,
-			359.99639892578125,
-			297.7028503417969
-		],
-		"Scale[0]": [
-			1.5262504816055298,
-			1.5262506008148193,
-			1.5262504816055298
-		]
-	},
-	"Component[78]": {
-		"Enabled[0]": true,
-		"Name[0]": "Hand_4.L",
-		"Position[0]": [
-			1.146690831177466e-08,
-			0.13999992609024048,
-			7.566995030572343e-09
-		],
-		"Rotation[0]": [
-			0.1863815188407898,
-			0.03204502537846565,
-			327.98358154296875
-		],
-		"Scale[0]": [
-			1.3129044771194458,
-			1.3129044771194458,
-			1.3129043579101563
-		]
-	},
-	"Component[79]": {
-		"Enabled[0]": true,
-		"Name[0]": "Hand_4.L_end",
-		"Position[0]": [
-			0.0,
-			0.09321731328964233,
-			-0.0
-		],
-		"Rotation[0]": [
-			-0.0,
-			-0.0,
-			0.0
 		],
 		"Scale[0]": [
 			1.0,
@@ -1492,6 +1467,82 @@
 	},
 	"Component[80]": {
 		"Enabled[0]": true,
+		"Name[0]": "Hand_2.L",
+		"Position[0]": [
+			-1.2107192581822801e-08,
+			0.19880081713199615,
+			3.725290298461914e-09
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			359.78936767578125
+		],
+		"Scale[0]": [
+			1.0,
+			0.9999998807907104,
+			0.9999998807907104
+		]
+	},
+	"Component[81]": {
+		"Enabled[0]": true,
+		"Name[0]": "Hand_3.L",
+		"Position[0]": [
+			-8.66129994392395e-08,
+			0.20119918882846832,
+			-3.725290298461914e-08
+		],
+		"Rotation[0]": [
+			0.4634662866592407,
+			359.99639892578125,
+			297.7028503417969
+		],
+		"Scale[0]": [
+			1.5262504816055298,
+			1.5262506008148193,
+			1.5262504816055298
+		]
+	},
+	"Component[82]": {
+		"Enabled[0]": true,
+		"Name[0]": "Hand_4.L",
+		"Position[0]": [
+			1.146690831177466e-08,
+			0.13999992609024048,
+			7.566995030572343e-09
+		],
+		"Rotation[0]": [
+			0.1863815188407898,
+			0.03204502537846565,
+			327.98358154296875
+		],
+		"Scale[0]": [
+			1.3129044771194458,
+			1.3129044771194458,
+			1.3129043579101563
+		]
+	},
+	"Component[83]": {
+		"Enabled[0]": true,
+		"Name[0]": "Hand_4.L_end",
+		"Position[0]": [
+			0.0,
+			0.09321731328964233,
+			-0.0
+		],
+		"Rotation[0]": [
+			-0.0,
+			-0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[84]": {
+		"Enabled[0]": true,
 		"Name[0]": "SphereCollider",
 		"Radius[0]": 0.043896060436964035,
 		"ReferenceId[0]": {
@@ -1501,7 +1552,7 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[81]": {
+	"Component[85]": {
 		"Alignment[0]": 1,
 		"Enabled[0]": true,
 		"Height[0]": 0.051874786615371704,
@@ -1514,7 +1565,7 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[82]": {
+	"Component[86]": {
 		"Enabled[0]": true,
 		"Name[0]": "SphereCollider",
 		"Radius[0]": 0.08674240112304688,
@@ -1525,7 +1576,7 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[83]": {
+	"Component[87]": {
 		"Enabled[0]": true,
 		"Name[0]": "SphereCollider",
 		"Radius[0]": 0.07628932595252991,
@@ -1536,7 +1587,7 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[84]": {
+	"Component[88]": {
 		"Alignment[0]": 1,
 		"Enabled[0]": true,
 		"Height[0]": 0.13522206246852875,
@@ -1549,7 +1600,7 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[85]": {
+	"Component[89]": {
 		"Enabled[0]": true,
 		"Name[0]": "SphereCollider",
 		"Radius[0]": 0.1753259152173996,
@@ -1560,7 +1611,27 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[86]": {
+	"Component[8]": {
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "Text",
+		"ReferenceId[0]": {
+			"Word[0]": -1086587185299083308,
+			"Word[1]": -3099971988833751002,
+			"Word[2]": -2450525099540004595,
+			"Word[3]": 4658386475609998942
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[90]": {
 		"Enabled[0]": true,
 		"Name[0]": "SphereCollider",
 		"Radius[0]": 0.21138350665569305,
@@ -1571,7 +1642,7 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[87]": {
+	"Component[91]": {
 		"Enabled[0]": true,
 		"Name[0]": "SphereCollider",
 		"Radius[0]": 0.23672513663768768,
@@ -1582,7 +1653,7 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[88]": {
+	"Component[92]": {
 		"ComponentFieldSublist[0]": {
 			"ComponentFieldSublist[0]": {
 				"Loop[0]": true,
@@ -1621,7 +1692,7 @@
 		"Enabled[0]": true,
 		"Name[0]": "Animator"
 	},
-	"Component[89]": {
+	"Component[93]": {
 		"ComponentFieldSublist[0]": {
 			"ComponentFieldSublist[0]": {
 				"ComponentFieldSublist[0]": {
@@ -2411,27 +2482,7 @@
 		"Enabled[0]": true,
 		"Name[0]": "SerializedFieldTypes"
 	},
-	"Component[8]": {
-		"Enabled[0]": true,
-		"Geometry Type[0]": 0,
-		"Instanced[0]": true,
-		"Layer[0]": 0,
-		"Name[0]": "Text",
-		"ReferenceId[0]": {
-			"Word[0]": -1086587185299083308,
-			"Word[1]": -3099971988833751002,
-			"Word[2]": -2450525099540004595,
-			"Word[3]": 4658386475609998942
-		},
-		"ReferenceId[1]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		},
-		"Static[0]": false
-	},
-	"Component[90]": {
+	"Component[94]": {
 		"Enabled[0]": true,
 		"Name[0]": "EmitionPoint",
 		"Position[0]": [
@@ -2450,7 +2501,7 @@
 			1.0
 		]
 	},
-	"Component[91]": {
+	"Component[95]": {
 		"ColliderRadius[0]": 0.5,
 		"ComponentFieldSublist[0]": {
 			"Max[0]": 0.20000000298023224,
@@ -2485,7 +2536,7 @@
 		},
 		"Spread[0]": 11.48900032043457
 	},
-	"Component[92]": {
+	"Component[96]": {
 		"Enabled[0]": true,
 		"Name[0]": "CharacterInstance",
 		"Position[0]": [
@@ -2504,7 +2555,7 @@
 			1.0
 		]
 	},
-	"Component[93]": {
+	"Component[97]": {
 		"Enabled[0]": true,
 		"Name[0]": "Subscene",
 		"ReferenceId[0]": {
@@ -2577,7 +2628,7 @@
 			"Type[0]": "Jimara::Transform"
 		},
 		"Node[1]": {
-			"Child Count[0]": 3,
+			"Child Count[0]": 4,
 			"Node[0]": {
 				"Child Count[0]": 1,
 				"Node[0]": {
@@ -2602,10 +2653,18 @@
 				},
 				"Type[0]": "Jimara::Transform"
 			},
+			"Node[3]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::SpotLight"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
 			"Type[0]": "Jimara::Transform"
 		},
 		"Node[2]": {
-			"Child Count[0]": 2,
+			"Child Count[0]": 3,
 			"Node[0]": {
 				"Child Count[0]": 1,
 				"Node[0]": {
@@ -2617,6 +2676,14 @@
 			"Node[1]": {
 				"Child Count[0]": 0,
 				"Type[0]": "Jimara::AudioListener"
+			},
+			"Node[2]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BloomEffect"
+				},
+				"Type[0]": "Jimara::Component"
 			},
 			"Type[0]": "Jimara::Transform"
 		},
