@@ -90,8 +90,8 @@
 			"Word[3]": 0
 		},
 		"Shadow Range[0]": 64.0,
-		"Shadow Resolution[0]": 2048,
-		"Shadow Softness[0]": 0.057999998331069946
+		"Shadow Resolution[0]": 1024,
+		"Shadow Softness[0]": 0.24699999392032623
 	},
 	"Component[14]": {
 		"Enabled[0]": true,
@@ -123,8 +123,8 @@
 		"Intensity[0]": 20.0,
 		"Name[0]": "PointLight",
 		"Radius[0]": 40.0,
-		"Shadow Resolution[0]": 512,
-		"Shadow Softness[0]": 0.6399999856948853
+		"Shadow Resolution[0]": 256,
+		"Shadow Softness[0]": 0.2329999953508377
 	},
 	"Component[16]": {
 		"Enabled[0]": true,
@@ -164,8 +164,8 @@
 			"Word[2]": 0,
 			"Word[3]": 0
 		},
-		"Shadow Resolution[0]": 512,
-		"Shadow Softness[0]": 0.23399999737739563
+		"Shadow Resolution[0]": 256,
+		"Shadow Softness[0]": 0.453000009059906
 	},
 	"Component[18]": {
 		"Enabled[0]": true,
@@ -229,9 +229,9 @@
 		"Enabled[0]": true,
 		"Name[0]": "Camera_Boom",
 		"Position[0]": [
-			4.0888275520956086e-07,
-			2.0334300994873047,
-			-6.356813430786133
+			4.0996516759150836e-07,
+			2.0352721214294434,
+			-6.3636884689331055
 		],
 		"Rotation[0]": [
 			15.0,
