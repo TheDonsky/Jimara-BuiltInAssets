@@ -2573,6 +2573,46 @@
 			"Word[3]": -2172428576778553609
 		}
 	},
+	"Component[98]": {
+		"Enabled[0]": true,
+		"Name[0]": "Transform",
+		"Position[0]": [
+			1.0306518305469581e-07,
+			5.454186916351318,
+			2.357856035232544
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.009999999776482582,
+			0.009999999776482582,
+			0.009999999776482582
+		]
+	},
+	"Component[99]": {
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "ParticleRenderer",
+		"Particle Budget[0]": 1000,
+		"ReferenceId[0]": {
+			"Word[0]": -6206607631767525888,
+			"Word[1]": -4897532854288411312,
+			"Word[2]": 4933851269465000863,
+			"Word[3]": 2561543703511622384
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
 	"Component[9]": {
 		"Enabled[0]": true,
 		"Geometry Type[0]": 0,
@@ -2594,7 +2634,7 @@
 		"Static[0]": false
 	},
 	"Node[0]": {
-		"Child Count[0]": 9,
+		"Child Count[0]": 10,
 		"Node[0]": {
 			"Child Count[0]": 5,
 			"Node[0]": {
@@ -2983,10 +3023,18 @@
 			},
 			"Type[0]": "Jimara::Transform"
 		},
+		"Node[9]": {
+			"Child Count[0]": 1,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::ParticleRenderer"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
 		"Type[0]": "Jimara::Component"
 	},
 	"Resources[0]": {
-		"Count[0]": 24,
+		"Count[0]": 25,
 		"ResourceId[0]": {
 			"Word[0]": 6664672384288179952,
 			"Word[1]": 484067359045946523,
@@ -3082,6 +3130,12 @@
 			"Word[1]": -5395051759304626342,
 			"Word[2]": -8281783678795527913,
 			"Word[3]": -2172428576778553609
+		},
+		"ResourceId[24]": {
+			"Word[0]": -6206607631767525888,
+			"Word[1]": -4897532854288411312,
+			"Word[2]": 4933851269465000863,
+			"Word[3]": 2561543703511622384
 		},
 		"ResourceId[2]": {
 			"Word[0]": -7172379983368361242,
