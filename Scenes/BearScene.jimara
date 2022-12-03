@@ -3,6 +3,97 @@
 		"Enabled[0]": true,
 		"Name[0]": "SceneRoot"
 	},
+	"Component[100]": {
+		"ComponentFieldSublist[0]": {
+			"ComponentFieldSublist[0]": {
+				"Radius[0]": 4000.0,
+				"Type[0]": "Jimara::InitializationKernels::PlaceOnSphere"
+			},
+			"ComponentFieldSublist[1]": {
+				"Max velocity[0]": 100.0,
+				"Min velocity[0]": 30.0,
+				"Type[0]": "Jimara::InitializationKernels::SetRandomVelocity"
+			},
+			"ComponentFieldSublist[2]": {
+				"Type[0]": "void"
+			}
+		},
+		"Emission Rate[0]": 50000.0,
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "ParticleRenderer",
+		"Particle Budget[0]": 50000,
+		"ReferenceId[0]": {
+			"Word[0]": -6206607631767525888,
+			"Word[1]": -4897532854288411312,
+			"Word[2]": 4933851269465000863,
+			"Word[3]": 2561543703511622384
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 1697562915611138424,
+			"Word[1]": 5814519785983706443,
+			"Word[2]": 3198800775531065199,
+			"Word[3]": 5042541090181460177
+		},
+		"Static[0]": false
+	},
+	"Component[101]": {
+		"Enabled[0]": true,
+		"Name[0]": "FastEmitter",
+		"Position[0]": [
+			-2.1664257049560547,
+			2.8211591243743896,
+			2.8758702278137207
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.009999999776482582,
+			0.009999999776482582,
+			0.009999999776482582
+		]
+	},
+	"Component[102]": {
+		"ComponentFieldSublist[0]": {
+			"ComponentFieldSublist[0]": {
+				"Radius[0]": 10.0,
+				"Type[0]": "Jimara::InitializationKernels::PlaceOnSphere"
+			},
+			"ComponentFieldSublist[1]": {
+				"Max velocity[0]": 1000.0,
+				"Min velocity[0]": 300.0,
+				"Type[0]": "Jimara::InitializationKernels::SetRandomVelocity"
+			},
+			"ComponentFieldSublist[2]": {
+				"Type[0]": "void"
+			}
+		},
+		"Emission Rate[0]": 500.0,
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "ParticleRenderer",
+		"Particle Budget[0]": 500,
+		"ReferenceId[0]": {
+			"Word[0]": -6206607631767525888,
+			"Word[1]": -4897532854288411312,
+			"Word[2]": 4933851269465000863,
+			"Word[3]": 2561543703511622384
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 1697562915611138424,
+			"Word[1]": 5814519785983706443,
+			"Word[2]": 3198800775531065199,
+			"Word[3]": 5042541090181460177
+		},
+		"Static[0]": false
+	},
 	"Component[10]": {
 		"Enabled[0]": true,
 		"Name[0]": "Collider",
@@ -229,9 +320,9 @@
 		"Enabled[0]": true,
 		"Name[0]": "Camera_Boom",
 		"Position[0]": [
-			4.0996516759150836e-07,
-			2.0352721214294434,
-			-6.3636884689331055
+			4.0996795291903254e-07,
+			2.0352768898010254,
+			-6.363706588745117
 		],
 		"Rotation[0]": [
 			15.0,
@@ -2575,10 +2666,14 @@
 	},
 	"Component[98]": {
 		"Enabled[0]": true,
-		"Name[0]": "Transform",
+		"Name[0]": "Particles"
+	},
+	"Component[99]": {
+		"Enabled[0]": true,
+		"Name[0]": "AmbientSparkles",
 		"Position[0]": [
-			1.0306518305469581e-07,
-			5.454186916351318,
+			8.812343139652512e-07,
+			23.256622314453125,
 			2.357856035232544
 		],
 		"Rotation[0]": [
@@ -2591,27 +2686,6 @@
 			0.009999999776482582,
 			0.009999999776482582
 		]
-	},
-	"Component[99]": {
-		"Enabled[0]": true,
-		"Geometry Type[0]": 0,
-		"Instanced[0]": true,
-		"Layer[0]": 0,
-		"Name[0]": "ParticleRenderer",
-		"Particle Budget[0]": 1000,
-		"ReferenceId[0]": {
-			"Word[0]": -6206607631767525888,
-			"Word[1]": -4897532854288411312,
-			"Word[2]": 4933851269465000863,
-			"Word[3]": 2561543703511622384
-		},
-		"ReferenceId[1]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		},
-		"Static[0]": false
 	},
 	"Component[9]": {
 		"Enabled[0]": true,
@@ -3024,17 +3098,29 @@
 			"Type[0]": "Jimara::Transform"
 		},
 		"Node[9]": {
-			"Child Count[0]": 1,
+			"Child Count[0]": 2,
 			"Node[0]": {
-				"Child Count[0]": 0,
-				"Type[0]": "Jimara::ParticleRenderer"
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::ParticleRenderer"
+				},
+				"Type[0]": "Jimara::Transform"
 			},
-			"Type[0]": "Jimara::Transform"
+			"Node[1]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::ParticleRenderer"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Type[0]": "Jimara::Component"
 		},
 		"Type[0]": "Jimara::Component"
 	},
 	"Resources[0]": {
-		"Count[0]": 25,
+		"Count[0]": 26,
 		"ResourceId[0]": {
 			"Word[0]": 6664672384288179952,
 			"Word[1]": 484067359045946523,
@@ -3136,6 +3222,12 @@
 			"Word[1]": -4897532854288411312,
 			"Word[2]": 4933851269465000863,
 			"Word[3]": 2561543703511622384
+		},
+		"ResourceId[25]": {
+			"Word[0]": 1697562915611138424,
+			"Word[1]": 5814519785983706443,
+			"Word[2]": 3198800775531065199,
+			"Word[3]": 5042541090181460177
 		},
 		"ResourceId[2]": {
 			"Word[0]": -7172379983368361242,
