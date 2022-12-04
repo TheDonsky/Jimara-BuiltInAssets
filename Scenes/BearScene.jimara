@@ -7,15 +7,15 @@
 		"ComponentFieldSublist[0]": {
 			"ComponentFieldSublist[0]": {
 				"Radius[0]": 4000.0,
-				"Type[0]": "Jimara::InitializationKernels::PlaceOnSphere"
+				"Type[0]": "Jimara::InitializationKernels::PlaceInSphere"
 			},
 			"ComponentFieldSublist[1]": {
 				"Max velocity[0]": 100.0,
-				"Min velocity[0]": 30.0,
+				"Min velocity[0]": 1.0,
 				"Type[0]": "Jimara::InitializationKernels::SetRandomVelocity"
 			},
 			"ComponentFieldSublist[2]": {
-				"Type[0]": "void"
+				"Type[0]": ""
 			}
 		},
 		"Emission Rate[0]": 50000.0,
@@ -62,7 +62,7 @@
 		"ComponentFieldSublist[0]": {
 			"ComponentFieldSublist[0]": {
 				"Radius[0]": 10.0,
-				"Type[0]": "Jimara::InitializationKernels::PlaceOnSphere"
+				"Type[0]": "Jimara::InitializationKernels::PlaceInSphere"
 			},
 			"ComponentFieldSublist[1]": {
 				"Max velocity[0]": 1000.0,
@@ -70,7 +70,7 @@
 				"Type[0]": "Jimara::InitializationKernels::SetRandomVelocity"
 			},
 			"ComponentFieldSublist[2]": {
-				"Type[0]": "void"
+				"Type[0]": ""
 			}
 		},
 		"Emission Rate[0]": 500.0,
@@ -320,9 +320,9 @@
 		"Enabled[0]": true,
 		"Name[0]": "Camera_Boom",
 		"Position[0]": [
-			4.0996795291903254e-07,
-			2.0352768898010254,
-			-6.363706588745117
+			4.0996806660587026e-07,
+			2.0352773666381836,
+			-6.363707542419434
 		],
 		"Rotation[0]": [
 			15.0,
