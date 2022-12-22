@@ -1,0 +1,15 @@
+{
+	"Alphas Threshold[0]": 0.5809999704360962,
+	"Base Color[0]": [
+		1.0,
+		1.0,
+		1.0
+	],
+	"Diffuse[0]": {
+		"Word[0]": -6282904481795198033,
+		"Word[1]": 2241947705650854098,
+		"Word[2]": -7133013696685288239,
+		"Word[3]": -134063190755065830
+	},
+	"Shader[0]": "Jimara/Data/Materials/SampleParticle/Jimara_SampleParticleShader"
+}
