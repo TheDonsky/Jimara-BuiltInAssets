@@ -20,19 +20,24 @@
 				"Type[0]": "Jimara::ParticleInitialization::SetRandomVelocity"
 			},
 			"ComponentFieldSublist[3]": {
+				"Max Lifetime[0]": 4.0,
+				"Min Lifetime[0]": 3.0,
+				"Type[0]": "Jimara::ParticleInitialization::SetRandomLifetime"
+			},
+			"ComponentFieldSublist[4]": {
 				"Type[0]": ""
 			}
 		},
 		"ComponentFieldSublist[1]": {
 			"ComponentFieldSublist[0]": {
-				"Gravity Scale[0]": 0.10000000149011612,
+				"Gravity Scale[0]": 0.20000000298023224,
 				"Type[0]": "Jimara::ParticleTimestep::ApplyGravity"
 			},
 			"ComponentFieldSublist[1]": {
 				"Type[0]": ""
 			}
 		},
-		"Emission Rate[0]": 100000.0,
+		"Emission Rate[0]": 25000.0,
 		"Enabled[0]": true,
 		"Geometry Type[0]": 0,
 		"Instanced[0]": true,
@@ -248,9 +253,9 @@
 	"Component[13]": {
 		"Ambient Light Amount[0]": 0.25,
 		"Color[0]": [
-			0.06829041987657547,
-			0.8932142853736877,
-			0.9646017551422119
+			0.3355000615119934,
+			0.4955752491950989,
+			0.4743262827396393
 		],
 		"ComponentFieldSublist[0]": {
 			"ComponentFieldSublist[0]": {
@@ -310,7 +315,7 @@
 		"Filter Size[0]": 7,
 		"Intensity[0]": 20.0,
 		"Name[0]": "PointLight",
-		"Radius[0]": 40.0,
+		"Radius[0]": 20.0,
 		"Shadow Resolution[0]": 256,
 		"Shadow Softness[0]": 0.2329999953508377
 	},
@@ -341,11 +346,11 @@
 		],
 		"Enabled[0]": true,
 		"Filter Size[0]": 5,
-		"Inner Angle[0]": 41.36199951171875,
+		"Inner Angle[0]": 41.362003326416016,
 		"Intensity[0]": 16.0,
 		"Name[0]": "SpotLight",
 		"Outer Angle[0]": 67.40399932861328,
-		"Range[0]": 100.0,
+		"Range[0]": 30.0,
 		"ReferenceId[0]": {
 			"Word[0]": 0,
 			"Word[1]": 0,
@@ -434,9 +439,9 @@
 	},
 	"Component[21]": {
 		"Clear color[0]": [
-			0.054594382643699646,
-			0.5640081763267517,
-			0.6960784196853638,
+			0.5421332716941833,
+			0.796805739402771,
+			0.8628318309783936,
 			1.0
 		],
 		"Close Plane[0]": 0.10000000149011612,
@@ -2769,8 +2774,8 @@
 		"Enabled[0]": true,
 		"Name[0]": "AmbientSparkles",
 		"Position[0]": [
-			8.812343139652512e-07,
-			23.256622314453125,
+			1.5061207250255393e-06,
+			37.55234146118164,
 			2.357856035232544
 		],
 		"Rotation[0]": [
