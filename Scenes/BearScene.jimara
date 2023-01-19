@@ -6,36 +6,42 @@
 	"Component[100]": {
 		"ComponentFieldSublist[0]": {
 			"ComponentFieldSublist[0]": {
-				"Radius[0]": 40.0,
-				"Type[0]": "Jimara::ParticleInitialization::PlaceInSphere"
+				"ComponentFieldSublist[0]": {
+					"Radius[0]": 40.0,
+					"Type[0]": "Jimara::ParticleInitialization::PlaceInSphere"
+				},
+				"ComponentFieldSublist[1]": {
+					"Max Scale[0]": 0.10000000149011612,
+					"Min Scale[0]": 0.05000000074505806,
+					"Type[0]": "Jimara::ParticleInitialization::SetRandomScale"
+				},
+				"ComponentFieldSublist[2]": {
+					"Max velocity[0]": 1.0,
+					"Min velocity[0]": 0.0,
+					"Type[0]": "Jimara::ParticleInitialization::SetRandomVelocity"
+				},
+				"ComponentFieldSublist[3]": {
+					"Max Lifetime[0]": 4.0,
+					"Min Lifetime[0]": 3.0,
+					"Type[0]": "Jimara::ParticleInitialization::SetRandomLifetime"
+				},
+				"ComponentFieldSublist[4]": {
+					"Type[0]": ""
+				}
 			},
-			"ComponentFieldSublist[1]": {
-				"Max Scale[0]": 0.10000000149011612,
-				"Min Scale[0]": 0.05000000074505806,
-				"Type[0]": "Jimara::ParticleInitialization::SetRandomScale"
-			},
-			"ComponentFieldSublist[2]": {
-				"Max velocity[0]": 1.0,
-				"Min velocity[0]": 0.0,
-				"Type[0]": "Jimara::ParticleInitialization::SetRandomVelocity"
-			},
-			"ComponentFieldSublist[3]": {
-				"Max Lifetime[0]": 4.0,
-				"Min Lifetime[0]": 3.0,
-				"Type[0]": "Jimara::ParticleInitialization::SetRandomLifetime"
-			},
-			"ComponentFieldSublist[4]": {
-				"Type[0]": ""
-			}
+			"Layer Count[0]": 1
 		},
 		"ComponentFieldSublist[1]": {
 			"ComponentFieldSublist[0]": {
-				"Gravity Scale[0]": 0.20000000298023224,
-				"Type[0]": "Jimara::ParticleTimestep::ApplyGravity"
+				"ComponentFieldSublist[0]": {
+					"Gravity Scale[0]": 0.20000000298023224,
+					"Type[0]": "Jimara::ParticleTimestep::ApplyGravity"
+				},
+				"ComponentFieldSublist[1]": {
+					"Type[0]": ""
+				}
 			},
-			"ComponentFieldSublist[1]": {
-				"Type[0]": ""
-			}
+			"Layer Count[0]": 1
 		},
 		"Emission Rate[0]": 25000.0,
 		"Enabled[0]": true,
@@ -56,6 +62,7 @@
 			"Word[2]": -8194116061999552599,
 			"Word[3]": 5904426452812355596
 		},
+		"Simulate In LocalSpace[0]": false,
 		"Static[0]": false
 	},
 	"Component[101]": {
@@ -80,31 +87,37 @@
 	"Component[102]": {
 		"ComponentFieldSublist[0]": {
 			"ComponentFieldSublist[0]": {
-				"Radius[0]": 0.05000000074505806,
-				"Type[0]": "Jimara::ParticleInitialization::PlaceInSphere"
+				"ComponentFieldSublist[0]": {
+					"Radius[0]": 0.05000000074505806,
+					"Type[0]": "Jimara::ParticleInitialization::PlaceInSphere"
+				},
+				"ComponentFieldSublist[1]": {
+					"Max Scale[0]": 0.009999999776482582,
+					"Min Scale[0]": 0.004999999888241291,
+					"Type[0]": "Jimara::ParticleInitialization::SetRandomScale"
+				},
+				"ComponentFieldSublist[2]": {
+					"Max velocity[0]": 10.0,
+					"Min velocity[0]": 1.0,
+					"Type[0]": "Jimara::ParticleInitialization::SetRandomVelocity"
+				},
+				"ComponentFieldSublist[3]": {
+					"Type[0]": ""
+				}
 			},
-			"ComponentFieldSublist[1]": {
-				"Max Scale[0]": 0.009999999776482582,
-				"Min Scale[0]": 0.004999999888241291,
-				"Type[0]": "Jimara::ParticleInitialization::SetRandomScale"
-			},
-			"ComponentFieldSublist[2]": {
-				"Max velocity[0]": 10.0,
-				"Min velocity[0]": 1.0,
-				"Type[0]": "Jimara::ParticleInitialization::SetRandomVelocity"
-			},
-			"ComponentFieldSublist[3]": {
-				"Type[0]": ""
-			}
+			"Layer Count[0]": 1
 		},
 		"ComponentFieldSublist[1]": {
 			"ComponentFieldSublist[0]": {
-				"Gravity Scale[0]": 1.0,
-				"Type[0]": "Jimara::ParticleTimestep::ApplyGravity"
+				"ComponentFieldSublist[0]": {
+					"Gravity Scale[0]": 1.0,
+					"Type[0]": "Jimara::ParticleTimestep::ApplyGravity"
+				},
+				"ComponentFieldSublist[1]": {
+					"Type[0]": ""
+				}
 			},
-			"ComponentFieldSublist[1]": {
-				"Type[0]": ""
-			}
+			"Layer Count[0]": 1
 		},
 		"Emission Rate[0]": 500.0,
 		"Enabled[0]": true,
@@ -125,6 +138,7 @@
 			"Word[2]": 3198800775531065199,
 			"Word[3]": 5042541090181460177
 		},
+		"Simulate In LocalSpace[0]": false,
 		"Static[0]": false
 	},
 	"Component[103]": {
@@ -149,31 +163,37 @@
 	"Component[104]": {
 		"ComponentFieldSublist[0]": {
 			"ComponentFieldSublist[0]": {
-				"Radius[0]": 0.30000001192092896,
-				"Type[0]": "Jimara::ParticleInitialization::PlaceInSphere"
+				"ComponentFieldSublist[0]": {
+					"Radius[0]": 0.30000001192092896,
+					"Type[0]": "Jimara::ParticleInitialization::PlaceInSphere"
+				},
+				"ComponentFieldSublist[1]": {
+					"Max Scale[0]": 0.009999999776482582,
+					"Min Scale[0]": 0.004999999888241291,
+					"Type[0]": "Jimara::ParticleInitialization::SetRandomScale"
+				},
+				"ComponentFieldSublist[2]": {
+					"Max velocity[0]": 0.5,
+					"Min velocity[0]": 0.0,
+					"Type[0]": "Jimara::ParticleInitialization::SetRandomVelocity"
+				},
+				"ComponentFieldSublist[3]": {
+					"Type[0]": ""
+				}
 			},
-			"ComponentFieldSublist[1]": {
-				"Max Scale[0]": 0.009999999776482582,
-				"Min Scale[0]": 0.004999999888241291,
-				"Type[0]": "Jimara::ParticleInitialization::SetRandomScale"
-			},
-			"ComponentFieldSublist[2]": {
-				"Max velocity[0]": 0.5,
-				"Min velocity[0]": 0.0,
-				"Type[0]": "Jimara::ParticleInitialization::SetRandomVelocity"
-			},
-			"ComponentFieldSublist[3]": {
-				"Type[0]": ""
-			}
+			"Layer Count[0]": 1
 		},
 		"ComponentFieldSublist[1]": {
 			"ComponentFieldSublist[0]": {
-				"Gravity Scale[0]": -0.25,
-				"Type[0]": "Jimara::ParticleTimestep::ApplyGravity"
+				"ComponentFieldSublist[0]": {
+					"Gravity Scale[0]": -0.25,
+					"Type[0]": "Jimara::ParticleTimestep::ApplyGravity"
+				},
+				"ComponentFieldSublist[1]": {
+					"Type[0]": ""
+				}
 			},
-			"ComponentFieldSublist[1]": {
-				"Type[0]": ""
-			}
+			"Layer Count[0]": 1
 		},
 		"Emission Rate[0]": 1000.0,
 		"Enabled[0]": true,
@@ -194,6 +214,231 @@
 			"Word[2]": 3198800775531065199,
 			"Word[3]": 5042541090181460177
 		},
+		"Simulate In LocalSpace[0]": false,
+		"Static[0]": false
+	},
+	"Component[105]": {
+		"Enabled[0]": true,
+		"Name[0]": "CurvesOverLifetime",
+		"Position[0]": [
+			0.2734309136867523,
+			5.960616588592529,
+			2.232529401779175
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[106]": {
+		"ComponentFieldSublist[0]": {
+			"ComponentFieldSublist[0]": {
+				"ComponentFieldSublist[0]": {
+					"Max Lifetime[0]": 10.0,
+					"Min Lifetime[0]": 10.0,
+					"Type[0]": "Jimara::ParticleInitialization::SetRandomLifetime"
+				},
+				"ComponentFieldSublist[1]": {
+					"Radius[0]": 2.0,
+					"Type[0]": "Jimara::ParticleInitialization::PlaceInSphere"
+				},
+				"ComponentFieldSublist[2]": {
+					"Max Scale[0]": 0.699999988079071,
+					"Min Scale[0]": 0.5,
+					"Type[0]": "Jimara::ParticleInitialization::SetRandomScale"
+				},
+				"ComponentFieldSublist[3]": {
+					"Max velocity[0]": 1.0,
+					"Min velocity[0]": 0.5,
+					"Type[0]": "Jimara::ParticleInitialization::SetRandomVelocity"
+				},
+				"ComponentFieldSublist[4]": {
+					"Type[0]": ""
+				}
+			},
+			"Layer Count[0]": 1
+		},
+		"ComponentFieldSublist[1]": {
+			"ComponentFieldSublist[0]": {
+				"ComponentFieldSublist[0]": {
+					"Gravity Scale[0]": 0.009999999776482582,
+					"Type[0]": "Jimara::ParticleTimestep::ApplyGravity"
+				},
+				"ComponentFieldSublist[1]": {
+					"ComponentFieldSublist[0]": {
+						"ComponentFieldSublist[0]": {
+							"ComponentFieldSublist[0]": {
+								"Flags[0]": 0,
+								"NextHandle[0]": 0.0,
+								"Value[0]": 0.0
+							},
+							"Time[0]": 0.0
+						},
+						"ComponentFieldSublist[1]": {
+							"ComponentFieldSublist[0]": {
+								"Flags[0]": 0,
+								"NextHandle[0]": 0.0,
+								"Value[0]": 1.0
+							},
+							"Time[0]": 0.10000000149011612
+						},
+						"ComponentFieldSublist[2]": {
+							"ComponentFieldSublist[0]": {
+								"Flags[0]": 1,
+								"NextHandle[0]": -1.2109689712524414,
+								"PrevHandle[0]": -0.0,
+								"Value[0]": 1.0
+							},
+							"Time[0]": 0.5
+						},
+						"ComponentFieldSublist[3]": {
+							"ComponentFieldSublist[0]": {
+								"Flags[0]": 0,
+								"NextHandle[0]": 0.3477203845977783,
+								"Value[0]": 0.5931649208068848
+							},
+							"Time[0]": 0.7962771654129028
+						},
+						"ComponentFieldSublist[4]": {
+							"ComponentFieldSublist[0]": {
+								"Flags[0]": 0,
+								"NextHandle[0]": 0.0,
+								"Value[0]": 0.0
+							},
+							"Time[0]": 1.0
+						},
+						"KeyFrame Count[0]": 5
+					},
+					"Type[0]": "Jimara::ParticleTimestep::SizeOverLifetime"
+				},
+				"ComponentFieldSublist[2]": {
+					"ComponentFieldSublist[0]": {
+						"ComponentFieldSublist[0]": {
+							"ComponentFieldSublist[0]": {
+								"Flags[0]": 0,
+								"NextHandle[0]": [
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								],
+								"Value[0]": [
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							},
+							"Time[0]": 0.0
+						},
+						"ComponentFieldSublist[1]": {
+							"ComponentFieldSublist[0]": {
+								"Flags[0]": 0,
+								"NextHandle[0]": [
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								],
+								"Value[0]": [
+									0.16083332896232605,
+									0.7933332920074463,
+									0.4908333122730255,
+									1.0
+								]
+							},
+							"Time[0]": 0.2576422691345215
+						},
+						"ComponentFieldSublist[2]": {
+							"ComponentFieldSublist[0]": {
+								"Flags[0]": 0,
+								"NextHandle[0]": [
+									0.0,
+									-0.05270833522081375,
+									0.0,
+									0.0
+								],
+								"Value[0]": [
+									0.6420832872390747,
+									0.09666665643453598,
+									0.3670833110809326,
+									1.0
+								]
+							},
+							"Time[0]": 0.5062601566314697
+						},
+						"ComponentFieldSublist[3]": {
+							"ComponentFieldSublist[0]": {
+								"Flags[0]": 0,
+								"NextHandle[0]": [
+									0.0,
+									-0.2033897489309311,
+									0.0,
+									-0.12562355399131775
+								],
+								"Value[0]": [
+									0.3945833146572113,
+									0.20208331942558289,
+									0.628333330154419,
+									0.7612499594688416
+								]
+							},
+							"Time[0]": 0.7262601256370544
+						},
+						"ComponentFieldSublist[4]": {
+							"ComponentFieldSublist[0]": {
+								"Flags[0]": 0,
+								"NextHandle[0]": [
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								],
+								"Value[0]": [
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							},
+							"Time[0]": 1.0
+						},
+						"KeyFrame Count[0]": 5
+					},
+					"Type[0]": "Jimara::ParticleTimestep::ColorOverLifetime"
+				},
+				"ComponentFieldSublist[3]": {
+					"Type[0]": ""
+				}
+			},
+			"Layer Count[0]": 1
+		},
+		"Emission Rate[0]": 10.0,
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "ParticleRenderer",
+		"Particle Budget[0]": 1000,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": -3319541480862941035,
+			"Word[1]": -6229550486240787075,
+			"Word[2]": -8194116061999552599,
+			"Word[3]": 5904426452812355596
+		},
+		"Simulate In LocalSpace[0]": false,
 		"Static[0]": false
 	},
 	"Component[10]": {
@@ -422,9 +667,9 @@
 		"Enabled[0]": true,
 		"Name[0]": "Camera_Boom",
 		"Position[0]": [
-			4.0996806660587026e-07,
-			2.0352773666381836,
-			-6.363707542419434
+			4.0996795291903254e-07,
+			2.0352768898010254,
+			-6.363706588745117
 		],
 		"Rotation[0]": [
 			15.0,
@@ -3200,7 +3445,7 @@
 			"Type[0]": "Jimara::Transform"
 		},
 		"Node[9]": {
-			"Child Count[0]": 3,
+			"Child Count[0]": 4,
 			"Node[0]": {
 				"Child Count[0]": 1,
 				"Node[0]": {
@@ -3218,6 +3463,14 @@
 				"Type[0]": "Jimara::Transform"
 			},
 			"Node[2]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::ParticleRenderer"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[3]": {
 				"Child Count[0]": 1,
 				"Node[0]": {
 					"Child Count[0]": 0,
