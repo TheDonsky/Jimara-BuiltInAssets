@@ -441,6 +441,67 @@
 		"Simulate In LocalSpace[0]": false,
 		"Static[0]": false
 	},
+	"Component[107]": {
+		"Enabled[0]": true,
+		"Name[0]": "Canvas",
+		"Reference Size[0]": [
+			1920.0,
+			1080.0
+		],
+		"Render Category[0]": 2048,
+		"Render Priority[0]": 0,
+		"Width Bias[0]": 1.0
+	},
+	"Component[108]": {
+		"Anchor Min[0]": [
+			0.0,
+			-0.5
+		],
+		"Anchor Offset[0]": [
+			0.0,
+			0.0
+		],
+		"Anchor max[0]": [
+			0.0,
+			-0.5
+		],
+		"Border Offset[0]": [
+			0.0,
+			0.0
+		],
+		"Border Size[0]": [
+			1024.0,
+			24.0
+		],
+		"Enabled[0]": true,
+		"Name[0]": "Bar",
+		"Offset[0]": [
+			0.0,
+			64.0
+		],
+		"Rotation[0]": 0.0,
+		"Scale[0]": [
+			1.0,
+			1.0
+		]
+	},
+	"Component[109]": {
+		"Color[0]": [
+			0.8761062026023865,
+			0.15118645131587982,
+			0.15118645131587982,
+			1.0
+		],
+		"Enabled[0]": true,
+		"Keep Aspect[0]": true,
+		"Name[0]": "UIImage",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
 	"Component[10]": {
 		"Enabled[0]": true,
 		"Name[0]": "Collider",
@@ -452,6 +513,116 @@
 		},
 		"ReferenceId[1]": {
 			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[110]": {
+		"Anchor Min[0]": [
+			0.5,
+			0.0
+		],
+		"Anchor Offset[0]": [
+			0.0,
+			0.0
+		],
+		"Anchor max[0]": [
+			0.5,
+			0.0
+		],
+		"Border Offset[0]": [
+			0.0,
+			0.0
+		],
+		"Border Size[0]": [
+			96.0,
+			96.0
+		],
+		"Enabled[0]": true,
+		"Name[0]": "Transform",
+		"Offset[0]": [
+			0.0,
+			0.0
+		],
+		"Rotation[0]": 0.0,
+		"Scale[0]": [
+			1.0,
+			1.0
+		]
+	},
+	"Component[111]": {
+		"Color[0]": [
+			0.04802646115422249,
+			0.9867256879806519,
+			0.9618043303489685,
+			1.0
+		],
+		"Enabled[0]": true,
+		"Keep Aspect[0]": true,
+		"Name[0]": "UIImage",
+		"ReferenceId[0]": {
+			"Word[0]": -6282904481795198033,
+			"Word[1]": 2241947705650854098,
+			"Word[2]": -7133013696685288239,
+			"Word[3]": -134063190755065830
+		}
+	},
+	"Component[112]": {
+		"Anchor Min[0]": [
+			-0.5,
+			0.5
+		],
+		"Anchor Offset[0]": [
+			0.0,
+			0.0
+		],
+		"Anchor max[0]": [
+			-0.5,
+			0.5
+		],
+		"Border Offset[0]": [
+			0.0,
+			0.0
+		],
+		"Border Size[0]": [
+			256.0,
+			256.0
+		],
+		"Enabled[0]": true,
+		"Name[0]": "Compass",
+		"Offset[0]": [
+			160.0,
+			-160.0
+		],
+		"Rotation[0]": 45.0,
+		"Scale[0]": [
+			1.0,
+			1.0
+		]
+	},
+	"Component[113]": {
+		"Color[0]": [
+			1.0,
+			1.0,
+			1.0,
+			1.0
+		],
+		"Enabled[0]": true,
+		"Keep Aspect[0]": true,
+		"Name[0]": "UIImage",
+		"ReferenceId[0]": {
+			"Word[0]": -37787638815603232,
+			"Word[1]": -2203821905221989771,
+			"Word[2]": -5410766907735278908,
+			"Word[3]": -6422505469919614753
+		}
+	},
+	"Component[114]": {
+		"Enabled[0]": true,
+		"Name[0]": "Compass",
+		"ReferenceId[0]": {
+			"Word[0]": 21,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -667,9 +838,9 @@
 		"Enabled[0]": true,
 		"Name[0]": "Camera_Boom",
 		"Position[0]": [
-			4.0996795291903254e-07,
-			2.0352768898010254,
-			-6.363706588745117
+			4.099681234492891e-07,
+			2.0352773666381836,
+			-6.363707542419434
 		],
 		"Rotation[0]": [
 			15.0,
@@ -847,12 +1018,14 @@
 	},
 	"Component[30]": {
 		"Acceleration[0]": 8.0,
+		"Enabled[0]": true,
 		"Ground Check Distance[0]": 0.5,
 		"Ground Check Origin[0]": -0.25,
 		"Jump speed[0]": 8.0,
 		"Max velocity[0]": 4.0,
 		"Min velocity[0]": 1.0,
 		"Movement deadzone[0]": 0.25,
+		"Name[0]": "CharacterMovement",
 		"ReferenceId[0]": {
 			"Word[0]": 33,
 			"Word[1]": 0,
@@ -876,6 +1049,8 @@
 		"Volume[0]": 1.0
 	},
 	"Component[32]": {
+		"Enabled[0]": true,
+		"Name[0]": "PlayerMovementInput",
 		"ReferenceId[0]": {
 			"Word[0]": 22,
 			"Word[1]": 0,
@@ -3055,7 +3230,7 @@
 		"Static[0]": false
 	},
 	"Node[0]": {
-		"Child Count[0]": 10,
+		"Child Count[0]": 11,
 		"Node[0]": {
 			"Child Count[0]": 5,
 			"Node[0]": {
@@ -3095,6 +3270,38 @@
 				"Type[0]": "Jimara::MeshRenderer"
 			},
 			"Type[0]": "Jimara::Transform"
+		},
+		"Node[10]": {
+			"Child Count[0]": 2,
+			"Node[0]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::UI::UIImage"
+				},
+				"Node[1]": {
+					"Child Count[0]": 1,
+					"Node[0]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::UI::UIImage"
+					},
+					"Type[0]": "Jimara::UI::UITransform"
+				},
+				"Type[0]": "Jimara::UI::UITransform"
+			},
+			"Node[1]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::UI::UIImage"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::SampleGame::Compass"
+				},
+				"Type[0]": "Jimara::UI::UITransform"
+			},
+			"Type[0]": "Jimara::UI::Canvas"
 		},
 		"Node[1]": {
 			"Child Count[0]": 4,
@@ -3483,7 +3690,7 @@
 		"Type[0]": "Jimara::Component"
 	},
 	"Resources[0]": {
-		"Count[0]": 27,
+		"Count[0]": 29,
 		"ResourceId[0]": {
 			"Word[0]": 6664672384288179952,
 			"Word[1]": 484067359045946523,
@@ -3597,6 +3804,18 @@
 			"Word[1]": 5814519785983706443,
 			"Word[2]": 3198800775531065199,
 			"Word[3]": 5042541090181460177
+		},
+		"ResourceId[27]": {
+			"Word[0]": -6282904481795198033,
+			"Word[1]": 2241947705650854098,
+			"Word[2]": -7133013696685288239,
+			"Word[3]": -134063190755065830
+		},
+		"ResourceId[28]": {
+			"Word[0]": -37787638815603232,
+			"Word[1]": -2203821905221989771,
+			"Word[2]": -5410766907735278908,
+			"Word[3]": -6422505469919614753
 		},
 		"ResourceId[2]": {
 			"Word[0]": -7172379983368361242,
