@@ -1,2 +1,5 @@
 # We do not need redundant .blend files; Git offers enough duplication as is...
 **/*.blend1
+
+# Temporary stuff is here... We do not need those
+__TMP__/*
