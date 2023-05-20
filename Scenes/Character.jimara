@@ -5,6 +5,63 @@
 	},
 	"Component[10]": {
 		"Enabled[0]": true,
+		"Name[0]": "Core_2",
+		"Position[0]": [
+			0.0,
+			0.3999999761581421,
+			-0.0
+		],
+		"Rotation[0]": [
+			-0.0,
+			-0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[11]": {
+		"Enabled[0]": true,
+		"Name[0]": "Core_3",
+		"Position[0]": [
+			0.0,
+			0.30000007152557373,
+			-0.0
+		],
+		"Rotation[0]": [
+			-0.0,
+			-0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[12]": {
+		"Enabled[0]": true,
+		"Name[0]": "Core_4",
+		"Position[0]": [
+			0.0,
+			0.2999999523162842,
+			-0.0
+		],
+		"Rotation[0]": [
+			-0.0,
+			-0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[13]": {
+		"Enabled[0]": true,
 		"Name[0]": "Core_5",
 		"Position[0]": [
 			0.0,
@@ -22,7 +79,7 @@
 			1.0
 		]
 	},
-	"Component[11]": {
+	"Component[14]": {
 		"Enabled[0]": true,
 		"Name[0]": "Core_5_end",
 		"Position[0]": [
@@ -41,7 +98,19 @@
 			1.0
 		]
 	},
-	"Component[12]": {
+	"Component[15]": {
+		"Color[0]": [
+			0.0,
+			1.0,
+			0.0
+		],
+		"Enabled[0]": true,
+		"Intensity[0]": 1.0,
+		"Name[0]": "PointLight",
+		"Radius[0]": 1.0,
+		"Shadow Resolution[0]": 0
+	},
+	"Component[16]": {
 		"Enabled[0]": true,
 		"Name[0]": "Hand_0.R",
 		"Position[0]": [
@@ -60,7 +129,7 @@
 			1.0
 		]
 	},
-	"Component[13]": {
+	"Component[17]": {
 		"Enabled[0]": true,
 		"Name[0]": "Hand_1.R",
 		"Position[0]": [
@@ -79,7 +148,7 @@
 			1.0
 		]
 	},
-	"Component[14]": {
+	"Component[18]": {
 		"Enabled[0]": true,
 		"Name[0]": "Hand_2.R",
 		"Position[0]": [
@@ -98,7 +167,7 @@
 			1.0
 		]
 	},
-	"Component[15]": {
+	"Component[19]": {
 		"Enabled[0]": true,
 		"Name[0]": "Hand_3.R",
 		"Position[0]": [
@@ -110,82 +179,6 @@
 			-1.2132853388174096e-20,
 			1.6284440159178293e-12,
 			6.464536040549819e-20
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0
-		]
-	},
-	"Component[16]": {
-		"Enabled[0]": true,
-		"Name[0]": "Hand_4.R",
-		"Position[0]": [
-			4.440892098500626e-16,
-			0.14000000059604645,
-			3.430589146091734e-14
-		],
-		"Rotation[0]": [
-			-5.835667025166913e-07,
-			-1.3660375770996325e-05,
-			3.9022623565636294e-13
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0
-		]
-	},
-	"Component[17]": {
-		"Enabled[0]": true,
-		"Name[0]": "Hand_4.R_end",
-		"Position[0]": [
-			0.0,
-			0.09321731328964233,
-			-0.0
-		],
-		"Rotation[0]": [
-			-0.0,
-			-0.0,
-			0.0
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0
-		]
-	},
-	"Component[18]": {
-		"Enabled[0]": true,
-		"Name[0]": "Hand_0.L",
-		"Position[0]": [
-			0.0,
-			0.30000007152557373,
-			-0.0
-		],
-		"Rotation[0]": [
-			-8.522206371708307e-06,
-			-2.1878911127259926e-07,
-			94.06009674072266
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0
-		]
-	},
-	"Component[19]": {
-		"Enabled[0]": true,
-		"Name[0]": "Hand_1.L",
-		"Position[0]": [
-			5.681067705154419e-08,
-			0.14123773574829102,
-			-1.7541523789077473e-14
-		],
-		"Rotation[0]": [
-			1.2429518392309546e-06,
-			1.4421024388866499e-05,
-			-4.060083389282227
 		],
 		"Scale[0]": [
 			1.0,
@@ -214,6 +207,94 @@
 	},
 	"Component[20]": {
 		"Enabled[0]": true,
+		"Name[0]": "Hand_4.R",
+		"Position[0]": [
+			4.440892098500626e-16,
+			0.14000000059604645,
+			3.430589146091734e-14
+		],
+		"Rotation[0]": [
+			-5.835667025166913e-07,
+			-1.3660375770996325e-05,
+			3.9022623565636294e-13
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[21]": {
+		"Enabled[0]": true,
+		"Name[0]": "Hand_4.R_end",
+		"Position[0]": [
+			0.0,
+			0.09321731328964233,
+			-0.0
+		],
+		"Rotation[0]": [
+			-0.0,
+			-0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[22]": {
+		"Color[0]": [
+			1.0,
+			0.0,
+			0.0
+		],
+		"Enabled[0]": true,
+		"Intensity[0]": 1.0,
+		"Name[0]": "PointLight",
+		"Radius[0]": 1.0,
+		"Shadow Resolution[0]": 0
+	},
+	"Component[23]": {
+		"Enabled[0]": true,
+		"Name[0]": "Hand_0.L",
+		"Position[0]": [
+			0.0,
+			0.30000007152557373,
+			-0.0
+		],
+		"Rotation[0]": [
+			-8.522206371708307e-06,
+			-2.1878911127259926e-07,
+			94.06009674072266
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[24]": {
+		"Enabled[0]": true,
+		"Name[0]": "Hand_1.L",
+		"Position[0]": [
+			5.681067705154419e-08,
+			0.14123773574829102,
+			-1.7541523789077473e-14
+		],
+		"Rotation[0]": [
+			1.2429518392309546e-06,
+			1.4421024388866499e-05,
+			-4.060083389282227
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[25]": {
+		"Enabled[0]": true,
 		"Name[0]": "Hand_2.L",
 		"Position[0]": [
 			-6.661338147750939e-16,
@@ -231,7 +312,7 @@
 			1.0
 		]
 	},
-	"Component[21]": {
+	"Component[26]": {
 		"Enabled[0]": true,
 		"Name[0]": "Hand_3.L",
 		"Position[0]": [
@@ -250,7 +331,7 @@
 			1.0
 		]
 	},
-	"Component[22]": {
+	"Component[27]": {
 		"Enabled[0]": true,
 		"Name[0]": "Hand_4.L",
 		"Position[0]": [
@@ -269,7 +350,7 @@
 			1.0
 		]
 	},
-	"Component[23]": {
+	"Component[28]": {
 		"Enabled[0]": true,
 		"Name[0]": "Hand_4.L_end",
 		"Position[0]": [
@@ -288,7 +369,37 @@
 			1.0
 		]
 	},
-	"Component[24]": {
+	"Component[29]": {
+		"Color[0]": [
+			0.0,
+			0.017699241638183594,
+			1.0
+		],
+		"Enabled[0]": true,
+		"Intensity[0]": 1.0,
+		"Name[0]": "PointLight",
+		"Radius[0]": 1.0,
+		"Shadow Resolution[0]": 0
+	},
+	"Component[2]": {
+		"Angular Velocity[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Enable CCD[0]": false,
+		"Enabled[0]": true,
+		"Kinematic[0]": false,
+		"Lock[0]": 40,
+		"Mass[0]": 1.0,
+		"Name[0]": "Rigidbody",
+		"Velocity[0]": [
+			0.0,
+			0.0,
+			0.0
+		]
+	},
+	"Component[30]": {
 		"ComponentFieldSublist[0]": {
 			"ComponentFieldSublist[0]": {
 				"Loop[0]": true,
@@ -315,25 +426,7 @@
 		"Enabled[0]": true,
 		"Name[0]": "Animator"
 	},
-	"Component[25]": {
-		"Angular Velocity[0]": [
-			0.0,
-			0.0,
-			0.0
-		],
-		"Enable CCD[0]": false,
-		"Enabled[0]": true,
-		"Kinematic[0]": false,
-		"Lock[0]": 40,
-		"Mass[0]": 1.0,
-		"Name[0]": "Rigidbody",
-		"Velocity[0]": [
-			0.0,
-			0.0,
-			0.0
-		]
-	},
-	"Component[26]": {
+	"Component[3]": {
 		"Enabled[0]": true,
 		"Name[0]": "ColliderOffset",
 		"Position[0]": [
@@ -352,7 +445,7 @@
 			1.0
 		]
 	},
-	"Component[27]": {
+	"Component[4]": {
 		"Alignment[0]": 1,
 		"Enabled[0]": true,
 		"Height[0]": 1.2023369073867798,
@@ -365,7 +458,7 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[2]": {
+	"Component[5]": {
 		"Enabled[0]": true,
 		"Name[0]": "Cone_Guy",
 		"Position[0]": [
@@ -384,101 +477,101 @@
 			1.0
 		]
 	},
-	"Component[3]": {
+	"Component[6]": {
 		"ComponentFieldSublist[0]": {
 			"Count[0]": 16,
 			"ReferenceId[0]": {
-				"Word[0]": 6,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			},
-			"ReferenceId[10]": {
-				"Word[0]": 17,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			},
-			"ReferenceId[11]": {
-				"Word[0]": 19,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			},
-			"ReferenceId[12]": {
-				"Word[0]": 20,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			},
-			"ReferenceId[13]": {
-				"Word[0]": 21,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			},
-			"ReferenceId[14]": {
-				"Word[0]": 22,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			},
-			"ReferenceId[15]": {
-				"Word[0]": 23,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			},
-			"ReferenceId[1]": {
-				"Word[0]": 7,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			},
-			"ReferenceId[2]": {
-				"Word[0]": 8,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			},
-			"ReferenceId[3]": {
 				"Word[0]": 9,
 				"Word[1]": 0,
 				"Word[2]": 0,
 				"Word[3]": 0
 			},
-			"ReferenceId[4]": {
+			"ReferenceId[10]": {
+				"Word[0]": 21,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
+			"ReferenceId[11]": {
+				"Word[0]": 24,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
+			"ReferenceId[12]": {
+				"Word[0]": 25,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
+			"ReferenceId[13]": {
+				"Word[0]": 26,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
+			"ReferenceId[14]": {
+				"Word[0]": 27,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
+			"ReferenceId[15]": {
+				"Word[0]": 28,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
+			"ReferenceId[1]": {
 				"Word[0]": 10,
 				"Word[1]": 0,
 				"Word[2]": 0,
 				"Word[3]": 0
 			},
-			"ReferenceId[5]": {
+			"ReferenceId[2]": {
 				"Word[0]": 11,
 				"Word[1]": 0,
 				"Word[2]": 0,
 				"Word[3]": 0
 			},
-			"ReferenceId[6]": {
+			"ReferenceId[3]": {
+				"Word[0]": 12,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
+			"ReferenceId[4]": {
 				"Word[0]": 13,
 				"Word[1]": 0,
 				"Word[2]": 0,
 				"Word[3]": 0
 			},
-			"ReferenceId[7]": {
+			"ReferenceId[5]": {
 				"Word[0]": 14,
 				"Word[1]": 0,
 				"Word[2]": 0,
 				"Word[3]": 0
 			},
+			"ReferenceId[6]": {
+				"Word[0]": 17,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
+			"ReferenceId[7]": {
+				"Word[0]": 18,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
 			"ReferenceId[8]": {
-				"Word[0]": 15,
+				"Word[0]": 19,
 				"Word[1]": 0,
 				"Word[2]": 0,
 				"Word[3]": 0
 			},
 			"ReferenceId[9]": {
-				"Word[0]": 16,
+				"Word[0]": 20,
 				"Word[1]": 0,
 				"Word[2]": 0,
 				"Word[3]": 0
@@ -509,7 +602,7 @@
 		},
 		"Static[0]": false
 	},
-	"Component[4]": {
+	"Component[7]": {
 		"Enabled[0]": true,
 		"Name[0]": "Armature",
 		"Position[0]": [
@@ -528,7 +621,7 @@
 			1.0
 		]
 	},
-	"Component[5]": {
+	"Component[8]": {
 		"Enabled[0]": true,
 		"Name[0]": "Core_0",
 		"Position[0]": [
@@ -547,7 +640,7 @@
 			1.0
 		]
 	},
-	"Component[6]": {
+	"Component[9]": {
 		"Enabled[0]": true,
 		"Name[0]": "Core_1",
 		"Position[0]": [
@@ -566,101 +659,36 @@
 			1.0
 		]
 	},
-	"Component[7]": {
-		"Enabled[0]": true,
-		"Name[0]": "Core_2",
-		"Position[0]": [
-			0.0,
-			0.3999999761581421,
-			-0.0
-		],
-		"Rotation[0]": [
-			-0.0,
-			-0.0,
-			0.0
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0
-		]
-	},
-	"Component[8]": {
-		"Enabled[0]": true,
-		"Name[0]": "Core_3",
-		"Position[0]": [
-			0.0,
-			0.30000007152557373,
-			-0.0
-		],
-		"Rotation[0]": [
-			-0.0,
-			-0.0,
-			0.0
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0
-		]
-	},
-	"Component[9]": {
-		"Enabled[0]": true,
-		"Name[0]": "Core_4",
-		"Position[0]": [
-			0.0,
-			0.2999999523162842,
-			-0.0
-		],
-		"Rotation[0]": [
-			-0.0,
-			-0.0,
-			0.0
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0
-		]
-	},
 	"Node[0]": {
 		"Child Count[0]": 1,
 		"Node[0]": {
-			"Child Count[0]": 4,
+			"Child Count[0]": 1,
 			"Node[0]": {
-				"Child Count[0]": 1,
+				"Child Count[0]": 4,
 				"Node[0]": {
-					"Child Count[0]": 0,
-					"Type[0]": "Jimara::SkinnedMeshRenderer"
+					"Child Count[0]": 1,
+					"Node[0]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::CapsuleCollider"
+					},
+					"Type[0]": "Jimara::Transform"
 				},
-				"Type[0]": "Jimara::Transform"
-			},
-			"Node[1]": {
-				"Child Count[0]": 1,
-				"Node[0]": {
+				"Node[1]": {
+					"Child Count[0]": 1,
+					"Node[0]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::SkinnedMeshRenderer"
+					},
+					"Type[0]": "Jimara::Transform"
+				},
+				"Node[2]": {
 					"Child Count[0]": 1,
 					"Node[0]": {
 						"Child Count[0]": 1,
 						"Node[0]": {
-							"Child Count[0]": 3,
+							"Child Count[0]": 1,
 							"Node[0]": {
-								"Child Count[0]": 1,
-								"Node[0]": {
-									"Child Count[0]": 1,
-									"Node[0]": {
-										"Child Count[0]": 1,
-										"Node[0]": {
-											"Child Count[0]": 0,
-											"Type[0]": "Jimara::Transform"
-										},
-										"Type[0]": "Jimara::Transform"
-									},
-									"Type[0]": "Jimara::Transform"
-								},
-								"Type[0]": "Jimara::Transform"
-							},
-							"Node[1]": {
-								"Child Count[0]": 1,
+								"Child Count[0]": 3,
 								"Node[0]": {
 									"Child Count[0]": 1,
 									"Node[0]": {
@@ -671,6 +699,34 @@
 												"Child Count[0]": 1,
 												"Node[0]": {
 													"Child Count[0]": 0,
+													"Type[0]": "Jimara::PointLight"
+												},
+												"Type[0]": "Jimara::Transform"
+											},
+											"Type[0]": "Jimara::Transform"
+										},
+										"Type[0]": "Jimara::Transform"
+									},
+									"Type[0]": "Jimara::Transform"
+								},
+								"Node[1]": {
+									"Child Count[0]": 1,
+									"Node[0]": {
+										"Child Count[0]": 1,
+										"Node[0]": {
+											"Child Count[0]": 1,
+											"Node[0]": {
+												"Child Count[0]": 1,
+												"Node[0]": {
+													"Child Count[0]": 1,
+													"Node[0]": {
+														"Child Count[0]": 1,
+														"Node[0]": {
+															"Child Count[0]": 0,
+															"Type[0]": "Jimara::PointLight"
+														},
+														"Type[0]": "Jimara::Transform"
+													},
 													"Type[0]": "Jimara::Transform"
 												},
 												"Type[0]": "Jimara::Transform"
@@ -681,11 +737,7 @@
 									},
 									"Type[0]": "Jimara::Transform"
 								},
-								"Type[0]": "Jimara::Transform"
-							},
-							"Node[2]": {
-								"Child Count[0]": 1,
-								"Node[0]": {
+								"Node[2]": {
 									"Child Count[0]": 1,
 									"Node[0]": {
 										"Child Count[0]": 1,
@@ -694,7 +746,15 @@
 											"Node[0]": {
 												"Child Count[0]": 1,
 												"Node[0]": {
-													"Child Count[0]": 0,
+													"Child Count[0]": 1,
+													"Node[0]": {
+														"Child Count[0]": 1,
+														"Node[0]": {
+															"Child Count[0]": 0,
+															"Type[0]": "Jimara::PointLight"
+														},
+														"Type[0]": "Jimara::Transform"
+													},
 													"Type[0]": "Jimara::Transform"
 												},
 												"Type[0]": "Jimara::Transform"
@@ -713,21 +773,9 @@
 					},
 					"Type[0]": "Jimara::Transform"
 				},
-				"Type[0]": "Jimara::Transform"
-			},
-			"Node[2]": {
-				"Child Count[0]": 0,
-				"Type[0]": "Jimara::Animator"
-			},
-			"Node[3]": {
-				"Child Count[0]": 1,
-				"Node[0]": {
-					"Child Count[0]": 1,
-					"Node[0]": {
-						"Child Count[0]": 0,
-						"Type[0]": "Jimara::CapsuleCollider"
-					},
-					"Type[0]": "Jimara::Transform"
+				"Node[3]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::Animator"
 				},
 				"Type[0]": "Jimara::Rigidbody"
 			},
