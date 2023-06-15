@@ -1,0 +1,3 @@
+All maps in this folder are taken from texturecan.com for internal engine testing purposes
+ 
+Here are details about the license: https://www.texturecan.com/terms/
