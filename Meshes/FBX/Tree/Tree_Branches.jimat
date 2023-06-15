@@ -1,9 +1,9 @@
 {
 	"Base Color[0]": {
-		"Word[0]": 0,
-		"Word[1]": 0,
-		"Word[2]": 0,
-		"Word[3]": 0
+		"Word[0]": -8866884693175718059,
+		"Word[1]": -3297849448148657395,
+		"Word[2]": -5622562324760958951,
+		"Word[3]": -7834982204031047944
 	},
 	"Emission[0]": {
 		"Word[0]": 0,
@@ -37,25 +37,27 @@
 	},
 	"Settings[0]": {
 		"Albedo[0]": [
+			0.8002556562423706,
+			0.8761062026023865,
+			0.7481791973114014,
+			1.0
+		],
+		"Alpha threshold[0]": 0.8999999761581421,
+		"Emission[0]": [
 			0.0,
-			1.0,
+			0.0,
 			0.0
 		],
-		"Emission[0]": [
-			4.0,
-			16.0,
-			4.0
-		],
-		"Metalness[0]": 0.04100000113248825,
+		"Metalness[0]": 0.050999999046325684,
 		"Offset[0]": [
 			0.0,
 			0.0
 		],
-		"Roughness[0]": 0.07800000160932541,
+		"Roughness[0]": 0.9660000205039978,
 		"Tiling[0]": [
 			1.0,
 			1.0
 		]
 	},
-	"Shader[0]": "Jimara/Data/Materials/PBR/Jimara_PBR_Shader_Opaque"
+	"Shader[0]": "Jimara/Data/Materials/PBR/Jimara_PBR_Shader_Cutout"
 }

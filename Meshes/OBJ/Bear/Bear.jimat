@@ -1,9 +1,61 @@
 {
-	"Diffuse[0]": {
+	"Base Color[0]": {
 		"Word[0]": -37787638815603232,
 		"Word[1]": -2203821905221989771,
 		"Word[2]": -5410766907735278908,
 		"Word[3]": -6422505469919614753
 	},
-	"Shader[0]": "Jimara/Data/Materials/SampleDiffuse/Jimara_SampleDiffuseShader"
+	"Emission[0]": {
+		"Word[0]": 0,
+		"Word[1]": 0,
+		"Word[2]": 0,
+		"Word[3]": 0
+	},
+	"Metalness[0]": {
+		"Word[0]": 0,
+		"Word[1]": 0,
+		"Word[2]": 0,
+		"Word[3]": 0
+	},
+	"Normal map[0]": {
+		"Word[0]": 0,
+		"Word[1]": 0,
+		"Word[2]": 0,
+		"Word[3]": 0
+	},
+	"Occlusion[0]": {
+		"Word[0]": 0,
+		"Word[1]": 0,
+		"Word[2]": 0,
+		"Word[3]": 0
+	},
+	"Roughness[0]": {
+		"Word[0]": 0,
+		"Word[1]": 0,
+		"Word[2]": 0,
+		"Word[3]": 0
+	},
+	"Settings[0]": {
+		"Albedo[0]": [
+			1.0,
+			1.0,
+			1.0
+		],
+		"Emission[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Metalness[0]": 0.10000000149011612,
+		"Offset[0]": [
+			0.0,
+			0.0
+		],
+		"Roughness[0]": 0.10000000149011612,
+		"Tiling[0]": [
+			1.0,
+			1.0
+		]
+	},
+	"Shader[0]": "Jimara/Data/Materials/PBR/Jimara_PBR_Shader_Opaque"
 }

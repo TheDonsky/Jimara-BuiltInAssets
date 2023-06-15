@@ -5,12 +5,6 @@
 		"Word[2]": 0,
 		"Word[3]": 0
 	},
-	"Emission[0]": {
-		"Word[0]": 0,
-		"Word[1]": 0,
-		"Word[2]": 0,
-		"Word[3]": 0
-	},
 	"Metalness[0]": {
 		"Word[0]": 0,
 		"Word[1]": 0,
@@ -37,25 +31,22 @@
 	},
 	"Settings[0]": {
 		"Albedo[0]": [
-			0.0,
-			1.0,
-			0.0
+			0.991150438785553,
+			0.7581303715705872,
+			0.29822227358818054,
+			0.5
 		],
-		"Emission[0]": [
-			4.0,
-			16.0,
-			4.0
-		],
-		"Metalness[0]": 0.04100000113248825,
+		"Alpha threshold[0]": 0.25,
+		"Metalness[0]": 0.014999999664723873,
 		"Offset[0]": [
 			0.0,
 			0.0
 		],
-		"Roughness[0]": 0.07800000160932541,
+		"Roughness[0]": 0.05700000002980232,
 		"Tiling[0]": [
 			1.0,
 			1.0
 		]
 	},
-	"Shader[0]": "Jimara/Data/Materials/PBR/Jimara_PBR_Shader_Opaque"
+	"Shader[0]": "Jimara/Data/Materials/PBR/Jimara_PBR_Shader_Transparent"
 }

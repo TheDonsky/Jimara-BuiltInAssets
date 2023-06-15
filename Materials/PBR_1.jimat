@@ -1,0 +1,12 @@
+{
+	"Settings[0]": {
+		"Albedo[0]": [
+			1.0,
+			0.0,
+			0.0
+		],
+		"Metalness[0]": 0.0,
+		"Roughness[0]": 0.2840000092983246
+	},
+	"Shader[0]": "Jimara/Data/Materials/PBR/Jimara_PBR_ColorShader"
+}
