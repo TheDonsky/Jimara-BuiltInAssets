@@ -5,8 +5,8 @@
 			0.0,
 			0.0
 		],
-		"Metalness[0]": 0.0,
-		"Roughness[0]": 0.2840000092983246
+		"Metalness[0]": 0.9309999942779541,
+		"Roughness[0]": 0.11299999803304672
 	},
 	"Shader[0]": "Jimara/Data/Materials/PBR/Jimara_PBR_ColorShader"
 }

@@ -5,6 +5,12 @@
 		"Word[2]": 1783730242147471371,
 		"Word[3]": 6928671086591374662
 	},
+	"Emission[0]": {
+		"Word[0]": 0,
+		"Word[1]": 0,
+		"Word[2]": 0,
+		"Word[3]": 0
+	},
 	"Metalness[0]": {
 		"Word[0]": 5324273148132174723,
 		"Word[1]": -4473286643070699074,
@@ -35,6 +41,11 @@
 			1.0,
 			1.0
 		],
+		"Emission[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
 		"Metalness[0]": 1.0,
 		"Offset[0]": [
 			0.0,
@@ -42,8 +53,8 @@
 		],
 		"Roughness[0]": 1.0,
 		"Tiling[0]": [
-			16.0,
-			16.0
+			4.0,
+			4.0
 		]
 	},
 	"Shader[0]": "Jimara/Data/Materials/PBR/Jimara_PBR_Shader_Opaque"
