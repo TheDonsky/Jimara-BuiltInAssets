@@ -401,8 +401,10 @@
 	},
 	"Component[30]": {
 		"ComponentFieldSublist[0]": {
+			"Channel Count[0]": 1,
 			"ComponentFieldSublist[0]": {
 				"Loop[0]": true,
+				"Play[0]": true,
 				"ReferenceId[0]": {
 					"Word[0]": -7875414619296903243,
 					"Word[1]": -5809245987759003144,
@@ -410,21 +412,18 @@
 					"Word[3]": -3973447733194979316
 				},
 				"Speed[0]": 1.0,
-				"Time[0]": 0.015030499547719955,
+				"Time[0]": 0.0,
 				"Weight[0]": 1.0
-			},
-			"ComponentFieldSublist[1]": {
-				"ReferenceId[0]": {
-					"Word[0]": 0,
-					"Word[1]": 0,
-					"Word[2]": 0,
-					"Word[3]": 0
-				}
-			},
-			"Count[0]": 2
+			}
 		},
 		"Enabled[0]": true,
-		"Name[0]": "Animator"
+		"Name[0]": "Animator",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
 	},
 	"Component[3]": {
 		"Enabled[0]": true,
