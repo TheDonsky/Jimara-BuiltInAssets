@@ -6088,6 +6088,7 @@
 	},
 	"Component[380]": {
 		"Ambient Light Amount[0]": 0.20000000298023224,
+		"Bleeding Reduction[0]": 0.125,
 		"Color[0]": [
 			1.0,
 			0.9831623435020447,
@@ -8450,9 +8451,9 @@
 		"Enabled[0]": true,
 		"Name[0]": "CameraBoom",
 		"Position[0]": [
-			1.2787315845489502,
-			3.7426846027374268,
-			-12.197333335876465
+			1.3329161405563354,
+			3.7414989471435547,
+			-12.194971084594727
 		],
 		"Rotation[0]": [
 			15.0,
@@ -8501,7 +8502,7 @@
 		"Min pitch[0]": -60.0,
 		"Name[0]": "ThirdPersonCamera",
 		"ReferenceId[0]": {
-			"Word[0]": 477,
+			"Word[0]": 482,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -8717,6 +8718,76 @@
 	"Component[473]": {
 		"Anchor Min[0]": [
 			-0.5,
+			2.0
+		],
+		"Anchor Offset[0]": [
+			0.0,
+			0.0
+		],
+		"Anchor max[0]": [
+			-0.5,
+			2.0
+		],
+		"Border Offset[0]": [
+			0.5,
+			0.0
+		],
+		"Border Size[0]": [
+			512.0,
+			64.0
+		],
+		"Enabled[0]": true,
+		"Name[0]": "TextBox",
+		"Offset[0]": [
+			0.0,
+			0.0
+		],
+		"Rotation[0]": 0.0,
+		"Scale[0]": [
+			1.0,
+			1.0
+		]
+	},
+	"Component[474]": {
+		"Color[0]": [
+			1.0,
+			1.0,
+			1.0,
+			0.5
+		],
+		"Enabled[0]": true,
+		"Keep Aspect[0]": true,
+		"Name[0]": "UIImage",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[475]": {
+		"Color[0]": [
+			0.9469026327133179,
+			0.1382645219564438,
+			0.1382645219564438,
+			1.0
+		],
+		"Enabled[0]": true,
+		"Font Size[0]": 48.0,
+		"Horizontal Alignment[0]": 0.5,
+		"Name[0]": "UIText",
+		"ReferenceId[0]": {
+			"Word[0]": -8683803942463771116,
+			"Word[1]": -1720472129334952739,
+			"Word[2]": 5963940428656260144,
+			"Word[3]": -6813631216862201217
+		},
+		"Text[0]": "არაა ეს სიცოცხლე",
+		"Vertical Alignment[0]": 0.5
+	},
+	"Component[476]": {
+		"Anchor Min[0]": [
+			-0.5,
 			0.5
 		],
 		"Anchor Offset[0]": [
@@ -8747,7 +8818,7 @@
 			1.0
 		]
 	},
-	"Component[474]": {
+	"Component[477]": {
 		"Color[0]": [
 			1.0,
 			1.0,
@@ -8764,7 +8835,7 @@
 			"Word[3]": -6422505469919614753
 		}
 	},
-	"Component[475]": {
+	"Component[478]": {
 		"Enabled[0]": true,
 		"Name[0]": "Compass",
 		"ReferenceId[0]": {
@@ -8774,73 +8845,37 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[476]": {
-		"Enabled[0]": true,
-		"Name[0]": "Player",
-		"Position[0]": [
-			1.15280020236969,
-			2.3352599143981934,
-			-9.393247604370117
-		],
-		"Rotation[0]": [
-			-0.0,
-			0.0,
-			0.0
-		],
-		"Scale[0]": [
-			0.25,
-			0.25,
-			0.25
-		]
-	},
-	"Component[477]": {
-		"Enabled[0]": true,
-		"Geometry Type[0]": 0,
-		"Instanced[0]": true,
-		"Layer[0]": 0,
-		"Name[0]": "MeshRenderer",
-		"ReferenceId[0]": {
-			"Word[0]": -1265771011357638757,
-			"Word[1]": 4035089871313439853,
-			"Word[2]": -3583355939427195498,
-			"Word[3]": -1653136093903532486
-		},
-		"ReferenceId[1]": {
-			"Word[0]": -5871822129702302276,
-			"Word[1]": -7306570987909437462,
-			"Word[2]": -7872353087175851160,
-			"Word[3]": 1420256311877123005
-		},
-		"Static[0]": false
-	},
-	"Component[478]": {
-		"Color[0]": [
-			0.0,
-			1.0,
-			0.0
-		],
-		"Enabled[0]": true,
-		"Intensity[0]": 1.0,
-		"Name[0]": "PointLight",
-		"Radius[0]": 3.0,
-		"Shadow Resolution[0]": 0
-	},
 	"Component[479]": {
-		"Angular Velocity[0]": [
-			0.0,
+		"Anchor Min[0]": [
 			0.0,
 			0.0
 		],
-		"Enable CCD[0]": true,
-		"Enabled[0]": true,
-		"Kinematic[0]": false,
-		"Lock[0]": 0,
-		"Mass[0]": 64.0,
-		"Name[0]": "Rigidbody",
-		"Velocity[0]": [
-			0.0,
+		"Anchor Offset[0]": [
 			0.0,
 			0.0
+		],
+		"Anchor max[0]": [
+			0.0,
+			0.0
+		],
+		"Border Offset[0]": [
+			0.0,
+			0.0
+		],
+		"Border Size[0]": [
+			128.0,
+			100.0
+		],
+		"Enabled[0]": true,
+		"Name[0]": "TextBox",
+		"Offset[0]": [
+			0.0,
+			0.0
+		],
+		"Rotation[0]": -90.0,
+		"Scale[0]": [
+			1.0,
+			1.0
 		]
 	},
 	"Component[47]": {
@@ -8863,6 +8898,95 @@
 		]
 	},
 	"Component[480]": {
+		"Color[0]": [
+			0.0,
+			0.8407080173492432,
+			1.0,
+			1.0
+		],
+		"Enabled[0]": true,
+		"Font Size[0]": 23.0,
+		"Horizontal Alignment[0]": 0.5,
+		"Name[0]": "UIText",
+		"ReferenceId[0]": {
+			"Word[0]": 7634418158198634200,
+			"Word[1]": 6540000680812016311,
+			"Word[2]": 9047526201723219875,
+			"Word[3]": -7469552052440077618
+		},
+		"Text[0]": "Pretend This is a Compass",
+		"Vertical Alignment[0]": 0.5
+	},
+	"Component[481]": {
+		"Enabled[0]": true,
+		"Name[0]": "Player",
+		"Position[0]": [
+			1.15280020236969,
+			2.3352599143981934,
+			-9.393247604370117
+		],
+		"Rotation[0]": [
+			-0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.25,
+			0.25,
+			0.25
+		]
+	},
+	"Component[482]": {
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -1265771011357638757,
+			"Word[1]": 4035089871313439853,
+			"Word[2]": -3583355939427195498,
+			"Word[3]": -1653136093903532486
+		},
+		"ReferenceId[1]": {
+			"Word[0]": -5871822129702302276,
+			"Word[1]": -7306570987909437462,
+			"Word[2]": -7872353087175851160,
+			"Word[3]": 1420256311877123005
+		},
+		"Static[0]": false
+	},
+	"Component[483]": {
+		"Color[0]": [
+			0.0,
+			1.0,
+			0.0
+		],
+		"Enabled[0]": true,
+		"Intensity[0]": 1.0,
+		"Name[0]": "PointLight",
+		"Radius[0]": 3.0,
+		"Shadow Resolution[0]": 0
+	},
+	"Component[484]": {
+		"Angular Velocity[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Enable CCD[0]": true,
+		"Enabled[0]": true,
+		"Kinematic[0]": false,
+		"Lock[0]": 0,
+		"Mass[0]": 64.0,
+		"Name[0]": "Rigidbody",
+		"Velocity[0]": [
+			0.0,
+			0.0,
+			0.0
+		]
+	},
+	"Component[485]": {
 		"Enabled[0]": true,
 		"Name[0]": "BoxCollider",
 		"ReferenceId[0]": {
@@ -8877,7 +9001,7 @@
 			2.0
 		]
 	},
-	"Component[481]": {
+	"Component[486]": {
 		"Acceleration[0]": 8.0,
 		"Enabled[0]": true,
 		"Ground Check Distance[0]": 0.5,
@@ -8888,13 +9012,13 @@
 		"Movement deadzone[0]": 0.25,
 		"Name[0]": "CharacterMovement",
 		"ReferenceId[0]": {
-			"Word[0]": 484,
+			"Word[0]": 489,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
 		}
 	},
-	"Component[482]": {
+	"Component[487]": {
 		"Enabled[0]": true,
 		"Looping[0]": true,
 		"Name[0]": "AudioSource3D",
@@ -8909,7 +9033,7 @@
 		},
 		"Volume[0]": 1.0
 	},
-	"Component[483]": {
+	"Component[488]": {
 		"Enabled[0]": true,
 		"Name[0]": "PlayerMovementInput",
 		"ReferenceId[0]": {
@@ -11879,7 +12003,7 @@
 		"Node[8]": {
 			"Child Count[0]": 2,
 			"Node[0]": {
-				"Child Count[0]": 2,
+				"Child Count[0]": 3,
 				"Node[0]": {
 					"Child Count[0]": 0,
 					"Type[0]": "Jimara::UI::UIImage"
@@ -11892,10 +12016,22 @@
 					},
 					"Type[0]": "Jimara::UI::UITransform"
 				},
+				"Node[2]": {
+					"Child Count[0]": 2,
+					"Node[0]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::UI::UIImage"
+					},
+					"Node[1]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::UI::UIText"
+					},
+					"Type[0]": "Jimara::UI::UITransform"
+				},
 				"Type[0]": "Jimara::UI::UITransform"
 			},
 			"Node[1]": {
-				"Child Count[0]": 2,
+				"Child Count[0]": 3,
 				"Node[0]": {
 					"Child Count[0]": 0,
 					"Type[0]": "Jimara::UI::UIImage"
@@ -11903,6 +12039,14 @@
 				"Node[1]": {
 					"Child Count[0]": 0,
 					"Type[0]": "Jimara::SampleGame::Compass"
+				},
+				"Node[2]": {
+					"Child Count[0]": 1,
+					"Node[0]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::UI::UIText"
+					},
+					"Type[0]": "Jimara::UI::UITransform"
 				},
 				"Type[0]": "Jimara::UI::UITransform"
 			},
@@ -11943,7 +12087,7 @@
 		"Type[0]": "Jimara::Component"
 	},
 	"Resources[0]": {
-		"Count[0]": 45,
+		"Count[0]": 47,
 		"ResourceId[0]": {
 			"Word[0]": 6664672384288179952,
 			"Word[1]": 484067359045946523,
@@ -12155,24 +12299,36 @@
 			"Word[3]": -134063190755065830
 		},
 		"ResourceId[41]": {
+			"Word[0]": -8683803942463771116,
+			"Word[1]": -1720472129334952739,
+			"Word[2]": 5963940428656260144,
+			"Word[3]": -6813631216862201217
+		},
+		"ResourceId[42]": {
 			"Word[0]": -37787638815603232,
 			"Word[1]": -2203821905221989771,
 			"Word[2]": -5410766907735278908,
 			"Word[3]": -6422505469919614753
 		},
-		"ResourceId[42]": {
+		"ResourceId[43]": {
+			"Word[0]": 7634418158198634200,
+			"Word[1]": 6540000680812016311,
+			"Word[2]": 9047526201723219875,
+			"Word[3]": -7469552052440077618
+		},
+		"ResourceId[44]": {
 			"Word[0]": -1265771011357638757,
 			"Word[1]": 4035089871313439853,
 			"Word[2]": -3583355939427195498,
 			"Word[3]": -1653136093903532486
 		},
-		"ResourceId[43]": {
+		"ResourceId[45]": {
 			"Word[0]": -5871822129702302276,
 			"Word[1]": -7306570987909437462,
 			"Word[2]": -7872353087175851160,
 			"Word[3]": 1420256311877123005
 		},
-		"ResourceId[44]": {
+		"ResourceId[46]": {
 			"Word[0]": 8211668808434510263,
 			"Word[1]": -198904311922887152,
 			"Word[2]": -5252853645379885448,
