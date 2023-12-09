@@ -8451,9 +8451,9 @@
 		"Enabled[0]": true,
 		"Name[0]": "CameraBoom",
 		"Position[0]": [
-			1.3329161405563354,
-			3.7414989471435547,
-			-12.194971084594727
+			1.3288874626159668,
+			3.7416014671325684,
+			-12.195175170898438
 		],
 		"Rotation[0]": [
 			15.0,
@@ -8502,7 +8502,7 @@
 		"Min pitch[0]": -60.0,
 		"Name[0]": "ThirdPersonCamera",
 		"ReferenceId[0]": {
-			"Word[0]": 482,
+			"Word[0]": 489,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -8718,7 +8718,7 @@
 	"Component[473]": {
 		"Anchor Min[0]": [
 			-0.5,
-			2.0
+			1.0
 		],
 		"Anchor Offset[0]": [
 			0.0,
@@ -8726,29 +8726,62 @@
 		],
 		"Anchor max[0]": [
 			-0.5,
-			2.0
+			1.0
 		],
 		"Border Offset[0]": [
 			0.5,
-			0.0
+			0.5
 		],
 		"Border Size[0]": [
-			512.0,
-			64.0
+			400.0,
+			200.0
 		],
 		"Enabled[0]": true,
 		"Name[0]": "TextBox",
 		"Offset[0]": [
 			0.0,
-			0.0
+			-8.0
 		],
-		"Rotation[0]": 0.0,
+		"Rotation[0]": 6.175000190734863,
 		"Scale[0]": [
-			1.0,
+			3.0,
 			1.0
 		]
 	},
 	"Component[474]": {
+		"Anchor Min[0]": [
+			-0.5,
+			-0.5
+		],
+		"Anchor Offset[0]": [
+			0.0,
+			0.0
+		],
+		"Anchor max[0]": [
+			-0.5,
+			-0.5
+		],
+		"Border Offset[0]": [
+			0.5,
+			0.5
+		],
+		"Border Size[0]": [
+			450.0,
+			56.0
+		],
+		"Enabled[0]": true,
+		"Name[0]": "TiltTransform",
+		"Offset[0]": [
+			0.0,
+			0.0
+		],
+		"Rotation[0]": -18.0,
+		"Scale[0]": [
+			0.75,
+			1.0
+		]
+	},
+	"Component[475]": {
 		"Color[0]": [
 			1.0,
 			1.0,
@@ -8765,16 +8798,17 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[475]": {
+	"Component[476]": {
 		"Color[0]": [
-			0.9469026327133179,
-			0.1382645219564438,
-			0.1382645219564438,
+			1.0,
+			0.0,
+			0.0,
 			1.0
 		],
 		"Enabled[0]": true,
-		"Font Size[0]": 48.0,
+		"Font Size[0]": 0.800000011920929,
 		"Horizontal Alignment[0]": 0.5,
+		"Line Wrapping[0]": 3,
 		"Name[0]": "UIText",
 		"ReferenceId[0]": {
 			"Word[0]": -8683803942463771116,
@@ -8782,10 +8816,12 @@
 			"Word[2]": 5963940428656260144,
 			"Word[3]": -6813631216862201217
 		},
-		"Text[0]": "არაა ეს სიცოცხლე",
+		"Size Mode[0]": 1,
+		"Size bias[0]": 0.0,
+		"Text[0]": "ეს არ მუშაობს!?",
 		"Vertical Alignment[0]": 0.5
 	},
-	"Component[476]": {
+	"Component[477]": {
 		"Anchor Min[0]": [
 			-0.5,
 			0.5
@@ -8818,7 +8854,7 @@
 			1.0
 		]
 	},
-	"Component[477]": {
+	"Component[478]": {
 		"Color[0]": [
 			1.0,
 			1.0,
@@ -8835,7 +8871,7 @@
 			"Word[3]": -6422505469919614753
 		}
 	},
-	"Component[478]": {
+	"Component[479]": {
 		"Enabled[0]": true,
 		"Name[0]": "Compass",
 		"ReferenceId[0]": {
@@ -8845,7 +8881,26 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[479]": {
+	"Component[47]": {
+		"Enabled[0]": true,
+		"Name[0]": "Tree",
+		"Position[0]": [
+			0.0,
+			1.0,
+			0.0
+		],
+		"Rotation[0]": [
+			89.99999237060547,
+			-180.0,
+			180.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[480]": {
 		"Anchor Min[0]": [
 			0.0,
 			0.0
@@ -8878,26 +8933,7 @@
 			1.0
 		]
 	},
-	"Component[47]": {
-		"Enabled[0]": true,
-		"Name[0]": "Tree",
-		"Position[0]": [
-			0.0,
-			1.0,
-			0.0
-		],
-		"Rotation[0]": [
-			89.99999237060547,
-			-180.0,
-			180.0
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0
-		]
-	},
-	"Component[480]": {
+	"Component[481]": {
 		"Color[0]": [
 			0.0,
 			0.8407080173492432,
@@ -8907,6 +8943,7 @@
 		"Enabled[0]": true,
 		"Font Size[0]": 23.0,
 		"Horizontal Alignment[0]": 0.5,
+		"Line Wrapping[0]": 3,
 		"Name[0]": "UIText",
 		"ReferenceId[0]": {
 			"Word[0]": 7634418158198634200,
@@ -8914,10 +8951,163 @@
 			"Word[2]": 9047526201723219875,
 			"Word[3]": -7469552052440077618
 		},
+		"Size Mode[0]": 0,
 		"Text[0]": "Pretend This is a Compass",
 		"Vertical Alignment[0]": 0.5
 	},
-	"Component[481]": {
+	"Component[482]": {
+		"Anchor Min[0]": [
+			0.5,
+			0.5
+		],
+		"Anchor Offset[0]": [
+			0.0,
+			0.0
+		],
+		"Anchor max[0]": [
+			0.5,
+			0.5
+		],
+		"Border Offset[0]": [
+			-0.5,
+			-0.5
+		],
+		"Border Size[0]": [
+			147.0,
+			64.0
+		],
+		"Enabled[0]": true,
+		"Name[0]": "Button",
+		"Offset[0]": [
+			32.0,
+			-8.0
+		],
+		"Rotation[0]": 26.600000381469727,
+		"Scale[0]": [
+			1.600000023841858,
+			0.800000011920929
+		]
+	},
+	"Component[483]": {
+		"Anchor Min[0]": [
+			-0.5,
+			-0.5
+		],
+		"Anchor Offset[0]": [
+			-0.5,
+			0.5
+		],
+		"Anchor max[0]": [
+			0.5,
+			0.5
+		],
+		"Border Offset[0]": [
+			0.0,
+			0.0
+		],
+		"Border Size[0]": [
+			0.0,
+			0.0
+		],
+		"Enabled[0]": true,
+		"Name[0]": "Tilt",
+		"Offset[0]": [
+			0.0,
+			0.0
+		],
+		"Rotation[0]": -45.0,
+		"Scale[0]": [
+			1.0,
+			1.0
+		]
+	},
+	"Component[484]": {
+		"Color[0]": [
+			1.0,
+			1.0,
+			1.0,
+			1.0
+		],
+		"Enabled[0]": true,
+		"Keep Aspect[0]": false,
+		"Name[0]": "ButtonBackground",
+		"ReferenceId[0]": {
+			"Word[0]": -44224955285723820,
+			"Word[1]": -5199362774581960248,
+			"Word[2]": 1429960868673865985,
+			"Word[3]": 976022622739657774
+		}
+	},
+	"Component[485]": {
+		"Color[0]": [
+			1.0,
+			1.0,
+			1.0,
+			0.0
+		],
+		"Enabled[0]": true,
+		"Keep Aspect[0]": true,
+		"Name[0]": "ButtonForeground",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[486]": {
+		"Color[0]": [
+			1.0,
+			0.0,
+			0.0,
+			1.0
+		],
+		"Enabled[0]": true,
+		"Font Size[0]": 24.0,
+		"Horizontal Alignment[0]": 0.5,
+		"Line Wrapping[0]": 3,
+		"Name[0]": "UIText",
+		"ReferenceId[0]": {
+			"Word[0]": 7634418158198634200,
+			"Word[1]": 6540000680812016311,
+			"Word[2]": 9047526201723219875,
+			"Word[3]": -7469552052440077618
+		},
+		"Size Mode[0]": 0,
+		"Text[0]": "CLICK ME",
+		"Vertical Alignment[0]": 0.5
+	},
+	"Component[487]": {
+		"Button Flags[0]": 13,
+		"Click Flags[0]": 1,
+		"Enabled[0]": true,
+		"Hover Color[0]": [
+			0.75,
+			0.75,
+			0.75,
+			0.5
+		],
+		"Idle Color[0]": [
+			1.0,
+			1.0,
+			1.0,
+			0.0
+		],
+		"Name[0]": "Button",
+		"Pressed Color[0]": [
+			0.5,
+			0.5,
+			0.5,
+			0.5
+		],
+		"ReferenceId[0]": {
+			"Word[0]": 486,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[488]": {
 		"Enabled[0]": true,
 		"Name[0]": "Player",
 		"Position[0]": [
@@ -8936,7 +9126,7 @@
 			0.25
 		]
 	},
-	"Component[482]": {
+	"Component[489]": {
 		"Enabled[0]": true,
 		"Geometry Type[0]": 0,
 		"Instanced[0]": true,
@@ -8955,93 +9145,6 @@
 			"Word[3]": 1420256311877123005
 		},
 		"Static[0]": false
-	},
-	"Component[483]": {
-		"Color[0]": [
-			0.0,
-			1.0,
-			0.0
-		],
-		"Enabled[0]": true,
-		"Intensity[0]": 1.0,
-		"Name[0]": "PointLight",
-		"Radius[0]": 3.0,
-		"Shadow Resolution[0]": 0
-	},
-	"Component[484]": {
-		"Angular Velocity[0]": [
-			0.0,
-			0.0,
-			0.0
-		],
-		"Enable CCD[0]": true,
-		"Enabled[0]": true,
-		"Kinematic[0]": false,
-		"Lock[0]": 0,
-		"Mass[0]": 64.0,
-		"Name[0]": "Rigidbody",
-		"Velocity[0]": [
-			0.0,
-			0.0,
-			0.0
-		]
-	},
-	"Component[485]": {
-		"Enabled[0]": true,
-		"Name[0]": "BoxCollider",
-		"ReferenceId[0]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		},
-		"Size[0]": [
-			2.0,
-			2.0,
-			2.0
-		]
-	},
-	"Component[486]": {
-		"Acceleration[0]": 8.0,
-		"Enabled[0]": true,
-		"Ground Check Distance[0]": 0.5,
-		"Ground Check Origin[0]": -0.25,
-		"Jump speed[0]": 8.0,
-		"Max velocity[0]": 4.0,
-		"Min velocity[0]": 1.0,
-		"Movement deadzone[0]": 0.25,
-		"Name[0]": "CharacterMovement",
-		"ReferenceId[0]": {
-			"Word[0]": 489,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		}
-	},
-	"Component[487]": {
-		"Enabled[0]": true,
-		"Looping[0]": true,
-		"Name[0]": "AudioSource3D",
-		"Pitch[0]": 1.0,
-		"Playing[0]": false,
-		"Priority[0]": 0,
-		"ReferenceId[0]": {
-			"Word[0]": 8211668808434510263,
-			"Word[1]": -198904311922887152,
-			"Word[2]": -5252853645379885448,
-			"Word[3]": -8588506170053871019
-		},
-		"Volume[0]": 1.0
-	},
-	"Component[488]": {
-		"Enabled[0]": true,
-		"Name[0]": "PlayerMovementInput",
-		"ReferenceId[0]": {
-			"Word[0]": 463,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		}
 	},
 	"Component[48]": {
 		"Enabled[0]": true,
@@ -9062,6 +9165,93 @@
 			"Word[3]": 6501267854338994566
 		},
 		"Static[0]": false
+	},
+	"Component[490]": {
+		"Color[0]": [
+			0.0,
+			1.0,
+			0.0
+		],
+		"Enabled[0]": true,
+		"Intensity[0]": 1.0,
+		"Name[0]": "PointLight",
+		"Radius[0]": 3.0,
+		"Shadow Resolution[0]": 0
+	},
+	"Component[491]": {
+		"Angular Velocity[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Enable CCD[0]": true,
+		"Enabled[0]": true,
+		"Kinematic[0]": false,
+		"Lock[0]": 0,
+		"Mass[0]": 64.0,
+		"Name[0]": "Rigidbody",
+		"Velocity[0]": [
+			0.0,
+			0.0,
+			0.0
+		]
+	},
+	"Component[492]": {
+		"Enabled[0]": true,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			2.0,
+			2.0,
+			2.0
+		]
+	},
+	"Component[493]": {
+		"Acceleration[0]": 8.0,
+		"Enabled[0]": true,
+		"Ground Check Distance[0]": 0.5,
+		"Ground Check Origin[0]": -0.25,
+		"Jump speed[0]": 8.0,
+		"Max velocity[0]": 4.0,
+		"Min velocity[0]": 1.0,
+		"Movement deadzone[0]": 0.25,
+		"Name[0]": "CharacterMovement",
+		"ReferenceId[0]": {
+			"Word[0]": 496,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[494]": {
+		"Enabled[0]": true,
+		"Looping[0]": true,
+		"Name[0]": "AudioSource3D",
+		"Pitch[0]": 1.0,
+		"Playing[0]": false,
+		"Priority[0]": 0,
+		"ReferenceId[0]": {
+			"Word[0]": 8211668808434510263,
+			"Word[1]": -198904311922887152,
+			"Word[2]": -5252853645379885448,
+			"Word[3]": -8588506170053871019
+		},
+		"Volume[0]": 1.0
+	},
+	"Component[495]": {
+		"Enabled[0]": true,
+		"Name[0]": "PlayerMovementInput",
+		"ReferenceId[0]": {
+			"Word[0]": 463,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
 	},
 	"Component[49]": {
 		"Enabled[0]": true,
@@ -12001,7 +12191,7 @@
 			"Type[0]": "Jimara::Component"
 		},
 		"Node[8]": {
-			"Child Count[0]": 2,
+			"Child Count[0]": 3,
 			"Node[0]": {
 				"Child Count[0]": 3,
 				"Node[0]": {
@@ -12017,14 +12207,18 @@
 					"Type[0]": "Jimara::UI::UITransform"
 				},
 				"Node[2]": {
-					"Child Count[0]": 2,
+					"Child Count[0]": 1,
 					"Node[0]": {
-						"Child Count[0]": 0,
-						"Type[0]": "Jimara::UI::UIImage"
-					},
-					"Node[1]": {
-						"Child Count[0]": 0,
-						"Type[0]": "Jimara::UI::UIText"
+						"Child Count[0]": 2,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::UI::UIImage"
+						},
+						"Node[1]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::UI::UIText"
+						},
+						"Type[0]": "Jimara::UI::UITransform"
 					},
 					"Type[0]": "Jimara::UI::UITransform"
 				},
@@ -12045,6 +12239,30 @@
 					"Node[0]": {
 						"Child Count[0]": 0,
 						"Type[0]": "Jimara::UI::UIText"
+					},
+					"Type[0]": "Jimara::UI::UITransform"
+				},
+				"Type[0]": "Jimara::UI::UITransform"
+			},
+			"Node[2]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 4,
+					"Node[0]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::UI::UIImage"
+					},
+					"Node[1]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::UI::UIImage"
+					},
+					"Node[2]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::UI::UIText"
+					},
+					"Node[3]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::UI::UIButton"
 					},
 					"Type[0]": "Jimara::UI::UITransform"
 				},
@@ -12087,7 +12305,7 @@
 		"Type[0]": "Jimara::Component"
 	},
 	"Resources[0]": {
-		"Count[0]": 47,
+		"Count[0]": 48,
 		"ResourceId[0]": {
 			"Word[0]": 6664672384288179952,
 			"Word[1]": 484067359045946523,
@@ -12317,18 +12535,24 @@
 			"Word[3]": -7469552052440077618
 		},
 		"ResourceId[44]": {
+			"Word[0]": -44224955285723820,
+			"Word[1]": -5199362774581960248,
+			"Word[2]": 1429960868673865985,
+			"Word[3]": 976022622739657774
+		},
+		"ResourceId[45]": {
 			"Word[0]": -1265771011357638757,
 			"Word[1]": 4035089871313439853,
 			"Word[2]": -3583355939427195498,
 			"Word[3]": -1653136093903532486
 		},
-		"ResourceId[45]": {
+		"ResourceId[46]": {
 			"Word[0]": -5871822129702302276,
 			"Word[1]": -7306570987909437462,
 			"Word[2]": -7872353087175851160,
 			"Word[3]": 1420256311877123005
 		},
-		"ResourceId[46]": {
+		"ResourceId[47]": {
 			"Word[0]": 8211668808434510263,
 			"Word[1]": -198904311922887152,
 			"Word[2]": -5252853645379885448,
