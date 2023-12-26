@@ -1,0 +1,252 @@
+{
+	"Component[0]": {
+		"Enabled[0]": true,
+		"Name[0]": "SceneRoot"
+	},
+	"Component[1]": {
+		"Enabled[0]": true,
+		"Name[0]": "Tree",
+		"Position[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[2]": {
+		"Enabled[0]": true,
+		"Name[0]": "Tree",
+		"Position[0]": [
+			0.0,
+			1.0,
+			0.0
+		],
+		"Rotation[0]": [
+			89.99999237060547,
+			-180.0,
+			180.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[3]": {
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Max On-Screen Size[0]": 1.0,
+			"Min On-Screen Size[0]": 0.699999988079071
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "Tree.LOD0",
+		"ReferenceId[0]": {
+			"Word[0]": 2164673656286483205,
+			"Word[1]": -5546978316941740642,
+			"Word[2]": -5481957907216888653,
+			"Word[3]": -1739998802214466883
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 6725275239249936803,
+			"Word[1]": -7893738134768716511,
+			"Word[2]": 5516793120792060910,
+			"Word[3]": 6501267854338994566
+		},
+		"Static[0]": true
+	},
+	"Component[4]": {
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Max On-Screen Size[0]": 0.7009999752044678,
+			"Min On-Screen Size[0]": 0.0
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "Tree.LOD1",
+		"ReferenceId[0]": {
+			"Word[0]": 3159697445744118393,
+			"Word[1]": -3137232761522384813,
+			"Word[2]": -897605856093446348,
+			"Word[3]": 2777884720073231930
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 6725275239249936803,
+			"Word[1]": -7893738134768716511,
+			"Word[2]": 5516793120792060910,
+			"Word[3]": 6501267854338994566
+		},
+		"Static[0]": true
+	},
+	"Component[5]": {
+		"Enabled[0]": true,
+		"Name[0]": "MeshCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 3257638984556860683,
+			"Word[1]": -3025658793253411273,
+			"Word[2]": 1239124396691603954,
+			"Word[3]": 3512304397288706737
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[6]": {
+		"Enabled[0]": true,
+		"Name[0]": "Leaves",
+		"Position[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Rotation[0]": [
+			89.99999237060547,
+			-180.0,
+			180.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[7]": {
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Max On-Screen Size[0]": 1.0,
+			"Min On-Screen Size[0]": 0.0
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "Leaves",
+		"ReferenceId[0]": {
+			"Word[0]": 6417747863647687391,
+			"Word[1]": 5445830250001330981,
+			"Word[2]": 514270488100802568,
+			"Word[3]": 6197394450647927960
+		},
+		"ReferenceId[1]": {
+			"Word[0]": -4584296006231085291,
+			"Word[1]": -3264241266912163292,
+			"Word[2]": -8631981581212281338,
+			"Word[3]": -1302834661323043295
+		},
+		"Static[0]": true
+	},
+	"Node[0]": {
+		"Child Count[0]": 1,
+		"Node[0]": {
+			"Child Count[0]": 2,
+			"Node[0]": {
+				"Child Count[0]": 3,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[2]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshCollider"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[1]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Type[0]": "Jimara::Component"
+	},
+	"Resources[0]": {
+		"Count[0]": 6,
+		"ResourceId[0]": {
+			"Word[0]": 2164673656286483205,
+			"Word[1]": -5546978316941740642,
+			"Word[2]": -5481957907216888653,
+			"Word[3]": -1739998802214466883
+		},
+		"ResourceId[1]": {
+			"Word[0]": 6725275239249936803,
+			"Word[1]": -7893738134768716511,
+			"Word[2]": 5516793120792060910,
+			"Word[3]": 6501267854338994566
+		},
+		"ResourceId[2]": {
+			"Word[0]": 3159697445744118393,
+			"Word[1]": -3137232761522384813,
+			"Word[2]": -897605856093446348,
+			"Word[3]": 2777884720073231930
+		},
+		"ResourceId[3]": {
+			"Word[0]": 3257638984556860683,
+			"Word[1]": -3025658793253411273,
+			"Word[2]": 1239124396691603954,
+			"Word[3]": 3512304397288706737
+		},
+		"ResourceId[4]": {
+			"Word[0]": 6417747863647687391,
+			"Word[1]": 5445830250001330981,
+			"Word[2]": 514270488100802568,
+			"Word[3]": 6197394450647927960
+		},
+		"ResourceId[5]": {
+			"Word[0]": -4584296006231085291,
+			"Word[1]": -3264241266912163292,
+			"Word[2]": -8631981581212281338,
+			"Word[3]": -1302834661323043295
+		}
+	}
+}
