@@ -53,7 +53,7 @@
 				0.0,
 				0.0
 			],
-			"Max On-Screen Size[0]": 1.0,
+			"Has Max On-Screen Size[0]": false,
 			"Min On-Screen Size[0]": 0.699999988079071
 		},
 		"Enabled[0]": true,
@@ -87,6 +87,7 @@
 				0.0,
 				0.0
 			],
+			"Has Max On-Screen Size[0]": true,
 			"Max On-Screen Size[0]": 0.7009999752044678,
 			"Min On-Screen Size[0]": 0.0
 		},
@@ -156,7 +157,7 @@
 				0.0,
 				0.0
 			],
-			"Max On-Screen Size[0]": 1.0,
+			"Has Max On-Screen Size[0]": false,
 			"Min On-Screen Size[0]": 0.0
 		},
 		"Enabled[0]": true,
