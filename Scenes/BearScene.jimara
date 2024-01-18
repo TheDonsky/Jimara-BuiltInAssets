@@ -7361,6 +7361,7 @@
 			"Word[3]": 5904426452812355596
 		},
 		"Simulate In LocalSpace[0]": false,
+		"Simulate Only If Visible[0]": false,
 		"Static[0]": false
 	},
 	"Component[395]": {
@@ -7451,6 +7452,7 @@
 			"Word[3]": 5042541090181460177
 		},
 		"Simulate In LocalSpace[0]": false,
+		"Simulate Only If Visible[0]": false,
 		"Static[0]": false
 	},
 	"Component[397]": {
@@ -7541,6 +7543,7 @@
 			"Word[3]": 5042541090181460177
 		},
 		"Simulate In LocalSpace[0]": false,
+		"Simulate Only If Visible[0]": false,
 		"Static[0]": false
 	},
 	"Component[399]": {
@@ -7823,6 +7826,7 @@
 			"Word[3]": 5904426452812355596
 		},
 		"Simulate In LocalSpace[0]": false,
+		"Simulate Only If Visible[0]": false,
 		"Static[0]": false
 	},
 	"Component[401]": {
@@ -7952,6 +7956,8 @@
 		"Intensity[0]": 16.0,
 		"Name[0]": "PointLight",
 		"Radius[0]": 8.0,
+		"Shadow Distance[0]": 20.0,
+		"Shadow Fade Distance[0]": 10.0,
 		"Shadow Resolution[0]": 256,
 		"Shadow Softness[0]": 0.2329999953508377
 	},
