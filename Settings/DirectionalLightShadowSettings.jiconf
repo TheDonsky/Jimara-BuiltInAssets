@@ -1,0 +1,26 @@
+{
+	"Resource Data[0]": {
+		"Ambient Light Amount[0]": 0.20000000298023224,
+		"Bleeding Reduction[0]": 0.125,
+		"Cascades[0]": {
+			"Cascade[0]": {
+				"Blend Size[0]": 1.0,
+				"Size[0]": 8.0
+			},
+			"Cascade[1]": {
+				"Blend Size[0]": 1.0,
+				"Size[0]": 16.0
+			},
+			"Cascade[2]": {
+				"Blend Size[0]": 3.0,
+				"Size[0]": 32.0
+			},
+			"Count[0]": 3
+		},
+		"Filter Size[0]": 3,
+		"Shadow Range[0]": 64.0,
+		"Shadow Resolution[0]": 1024,
+		"Shadow Softness[0]": 0.3499999940395355
+	},
+	"Resource Type[0]": "Jimara::DirectionalLight::ShadowSettings"
+}
