@@ -1,0 +1,764 @@
+{
+	"Component[0]": {
+		"Enabled[0]": true,
+		"Name[0]": "SceneRoot"
+	},
+	"Component[10]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -3142547608431162726,
+			"Word[1]": 3929005549266851122,
+			"Word[2]": 2668998496745312434,
+			"Word[3]": -3328820269413600146
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[11]": {
+		"Enabled[0]": true,
+		"Max Tilt Angle[0]": 40.0,
+		"Name[0]": "NavMeshAgent",
+		"Radius[0]": 0.4000000059604645,
+		"ReferenceId[0]": {
+			"Word[0]": 8,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Walk On Walls[0]": false
+	},
+	"Component[12]": {
+		"Enabled[0]": true,
+		"Name[0]": "Agent",
+		"Position[0]": [
+			10.27928352355957,
+			2.279916524887085,
+			0.4513421356678009
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0001459352351957932,
+			-0.0001459352351957932
+		],
+		"Scale[0]": [
+			0.20000000298023224,
+			0.20000000298023224,
+			0.20000000298023224
+		]
+	},
+	"Component[13]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -3142547608431162726,
+			"Word[1]": 3929005549266851122,
+			"Word[2]": 2668998496745312434,
+			"Word[3]": -3328820269413600146
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[14]": {
+		"Enabled[0]": true,
+		"Max Tilt Angle[0]": 180.0,
+		"Name[0]": "NavMeshAgent",
+		"Radius[0]": 0.20000000298023224,
+		"ReferenceId[0]": {
+			"Word[0]": 8,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Walk On Walls[0]": false
+	},
+	"Component[15]": {
+		"Enabled[0]": true,
+		"Name[0]": "Agent",
+		"Position[0]": [
+			10.279260635375977,
+			0.06633388996124268,
+			-6.379911422729492
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0001459352351957932,
+			-0.0001459352351957932
+		],
+		"Scale[0]": [
+			0.20000000298023224,
+			0.20000000298023224,
+			0.20000000298023224
+		]
+	},
+	"Component[16]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -3142547608431162726,
+			"Word[1]": 3929005549266851122,
+			"Word[2]": 2668998496745312434,
+			"Word[3]": -3328820269413600146
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[17]": {
+		"Enabled[0]": true,
+		"Max Tilt Angle[0]": 15.0,
+		"Name[0]": "NavMeshAgent",
+		"Radius[0]": 0.20000000298023224,
+		"ReferenceId[0]": {
+			"Word[0]": 8,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Walk On Walls[0]": false
+	},
+	"Component[18]": {
+		"Enabled[0]": true,
+		"Name[0]": "Agent",
+		"Position[0]": [
+			0.9852780103683472,
+			4.8155341148376465,
+			-6.686734199523926
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0001459352351957932,
+			-0.0001459352351957932
+		],
+		"Scale[0]": [
+			0.20000000298023224,
+			0.20000000298023224,
+			0.20000000298023224
+		]
+	},
+	"Component[19]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -3142547608431162726,
+			"Word[1]": 3929005549266851122,
+			"Word[2]": 2668998496745312434,
+			"Word[3]": -3328820269413600146
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[1]": {
+		"Enabled[0]": true,
+		"Name[0]": "Sun",
+		"Position[0]": [
+			0.8155340552330017,
+			8.690893173217773,
+			-2.2850544452667236
+		],
+		"Rotation[0]": [
+			69.39140319824219,
+			-137.437255859375,
+			38.119171142578125
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[20]": {
+		"Enabled[0]": true,
+		"Max Tilt Angle[0]": 50.0,
+		"Name[0]": "NavMeshAgent",
+		"Radius[0]": 0.4000000059604645,
+		"ReferenceId[0]": {
+			"Word[0]": 8,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Walk On Walls[0]": true
+	},
+	"Component[21]": {
+		"Enabled[0]": true,
+		"Name[0]": "Agent",
+		"Position[0]": [
+			8.416275024414063,
+			4.469200611114502,
+			-4.973271369934082
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0001459352351957932,
+			-0.0001459352351957932
+		],
+		"Scale[0]": [
+			0.20000000298023224,
+			0.20000000298023224,
+			0.20000000298023224
+		]
+	},
+	"Component[22]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -3142547608431162726,
+			"Word[1]": 3929005549266851122,
+			"Word[2]": 2668998496745312434,
+			"Word[3]": -3328820269413600146
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[23]": {
+		"Enabled[0]": true,
+		"Max Tilt Angle[0]": 60.0,
+		"Name[0]": "NavMeshAgent",
+		"Radius[0]": 0.10000000149011612,
+		"ReferenceId[0]": {
+			"Word[0]": 8,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Walk On Walls[0]": true
+	},
+	"Component[24]": {
+		"Enabled[0]": true,
+		"Name[0]": "Agent",
+		"Position[0]": [
+			-1.66145658493042,
+			0.10146720707416534,
+			1.3967801332473755
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0001459352351957932,
+			-0.0001459352351957932
+		],
+		"Scale[0]": [
+			0.20000000298023224,
+			0.20000000298023224,
+			0.20000000298023224
+		]
+	},
+	"Component[25]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -3142547608431162726,
+			"Word[1]": 3929005549266851122,
+			"Word[2]": 2668998496745312434,
+			"Word[3]": -3328820269413600146
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[26]": {
+		"Enabled[0]": true,
+		"Max Tilt Angle[0]": 15.0,
+		"Name[0]": "NavMeshAgent",
+		"Radius[0]": 0.20000000298023224,
+		"ReferenceId[0]": {
+			"Word[0]": 8,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Walk On Walls[0]": false
+	},
+	"Component[2]": {
+		"Color[0]": [
+			1.0,
+			1.0,
+			1.0
+		],
+		"Enabled[0]": true,
+		"Intensity[0]": 1.0,
+		"Name[0]": "DirectionalLight",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Shadow Resolution[0]": 0
+	},
+	"Component[3]": {
+		"Enabled[0]": true,
+		"Name[0]": "NavMesh",
+		"Position[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Rotation[0]": [
+			90.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[4]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Name[0]": "NavMeshSurface",
+		"ReferenceId[0]": {
+			"Word[0]": 823111727808299544,
+			"Word[1]": -5675140188087593466,
+			"Word[2]": 3108536286793854791,
+			"Word[3]": -7552801105398944498
+		}
+	},
+	"Component[5]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -6236977259279267860,
+			"Word[1]": -5503449409403309481,
+			"Word[2]": 401387790692049912,
+			"Word[3]": -4711541027592209775
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 5123729662285256009,
+			"Word[1]": 6115481868429298631,
+			"Word[2]": 2928764058523175659,
+			"Word[3]": -4672057571139633614
+		},
+		"Static[0]": false
+	},
+	"Component[6]": {
+		"Enabled[0]": true,
+		"Name[0]": "AgentTarget",
+		"Position[0]": [
+			0.04258129745721817,
+			2.2796099185943604,
+			5.466390609741211
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.20000000298023224,
+			0.20000000298023224,
+			0.20000000298023224
+		]
+	},
+	"Component[7]": {
+		"Enabled[0]": true,
+		"InputMode[0]": 0,
+		"Name[0]": "TransformInput",
+		"No Input If Disabled[0]": 1
+	},
+	"Component[8]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -3142547608431162726,
+			"Word[1]": 3929005549266851122,
+			"Word[2]": 2668998496745312434,
+			"Word[3]": -3328820269413600146
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 5072895257006205767,
+			"Word[1]": 2605154422846341214,
+			"Word[2]": 7597389335526331026,
+			"Word[3]": -6207467566342633233
+		},
+		"Static[0]": false
+	},
+	"Component[9]": {
+		"Enabled[0]": true,
+		"Name[0]": "Agent",
+		"Position[0]": [
+			10.084671020507813,
+			2.3149940967559814,
+			4.279810905456543
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0001459352351957932,
+			-0.0001459352351957932
+		],
+		"Scale[0]": [
+			0.20000000298023224,
+			0.20000000298023224,
+			0.20000000298023224
+		]
+	},
+	"Node[0]": {
+		"Child Count[0]": 9,
+		"Node[0]": {
+			"Child Count[0]": 1,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::DirectionalLight"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[1]": {
+			"Child Count[0]": 2,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::NavMeshSurface"
+			},
+			"Node[1]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::MeshRenderer"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[2]": {
+			"Child Count[0]": 2,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::TransformFieldInput"
+			},
+			"Node[1]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::MeshRenderer"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[3]": {
+			"Child Count[0]": 2,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::MeshRenderer"
+			},
+			"Node[1]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::NavMeshAgent"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[4]": {
+			"Child Count[0]": 2,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::MeshRenderer"
+			},
+			"Node[1]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::NavMeshAgent"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[5]": {
+			"Child Count[0]": 2,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::MeshRenderer"
+			},
+			"Node[1]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::NavMeshAgent"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[6]": {
+			"Child Count[0]": 2,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::MeshRenderer"
+			},
+			"Node[1]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::NavMeshAgent"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[7]": {
+			"Child Count[0]": 2,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::MeshRenderer"
+			},
+			"Node[1]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::NavMeshAgent"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[8]": {
+			"Child Count[0]": 2,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::MeshRenderer"
+			},
+			"Node[1]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::NavMeshAgent"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Type[0]": "Jimara::Component"
+	},
+	"Resources[0]": {
+		"Count[0]": 5,
+		"ResourceId[0]": {
+			"Word[0]": 823111727808299544,
+			"Word[1]": -5675140188087593466,
+			"Word[2]": 3108536286793854791,
+			"Word[3]": -7552801105398944498
+		},
+		"ResourceId[1]": {
+			"Word[0]": -6236977259279267860,
+			"Word[1]": -5503449409403309481,
+			"Word[2]": 401387790692049912,
+			"Word[3]": -4711541027592209775
+		},
+		"ResourceId[2]": {
+			"Word[0]": 5123729662285256009,
+			"Word[1]": 6115481868429298631,
+			"Word[2]": 2928764058523175659,
+			"Word[3]": -4672057571139633614
+		},
+		"ResourceId[3]": {
+			"Word[0]": -3142547608431162726,
+			"Word[1]": 3929005549266851122,
+			"Word[2]": 2668998496745312434,
+			"Word[3]": -3328820269413600146
+		},
+		"ResourceId[4]": {
+			"Word[0]": 5072895257006205767,
+			"Word[1]": 2605154422846341214,
+			"Word[2]": 7597389335526331026,
+			"Word[3]": -6207467566342633233
+		}
+	}
+}
