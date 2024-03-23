@@ -45,6 +45,9 @@
 		"Static[0]": false
 	},
 	"Component[11]": {
+		"ComponentFieldSublist[0]": {
+			"KeyFrame Count[0]": 0
+		},
 		"Enabled[0]": true,
 		"Max Tilt Angle[0]": 40.0,
 		"Name[0]": "NavMeshAgent",
@@ -55,15 +58,16 @@
 			"Word[2]": 0,
 			"Word[3]": 0
 		},
+		"Update interval[0]": 8,
 		"Walk On Walls[0]": false
 	},
 	"Component[12]": {
 		"Enabled[0]": true,
 		"Name[0]": "Agent",
 		"Position[0]": [
-			10.27928352355957,
-			2.279916524887085,
-			0.4513421356678009
+			10.689496040344238,
+			2.2799072265625,
+			0.17408683896064758
 		],
 		"Rotation[0]": [
 			0.0,
@@ -118,6 +122,9 @@
 		"Static[0]": false
 	},
 	"Component[14]": {
+		"ComponentFieldSublist[0]": {
+			"KeyFrame Count[0]": 0
+		},
 		"Enabled[0]": true,
 		"Max Tilt Angle[0]": 180.0,
 		"Name[0]": "NavMeshAgent",
@@ -128,6 +135,7 @@
 			"Word[2]": 0,
 			"Word[3]": 0
 		},
+		"Update interval[0]": 8,
 		"Walk On Walls[0]": false
 	},
 	"Component[15]": {
@@ -191,6 +199,9 @@
 		"Static[0]": false
 	},
 	"Component[17]": {
+		"ComponentFieldSublist[0]": {
+			"KeyFrame Count[0]": 0
+		},
 		"Enabled[0]": true,
 		"Max Tilt Angle[0]": 15.0,
 		"Name[0]": "NavMeshAgent",
@@ -201,6 +212,7 @@
 			"Word[2]": 0,
 			"Word[3]": 0
 		},
+		"Update interval[0]": 8,
 		"Walk On Walls[0]": false
 	},
 	"Component[18]": {
@@ -283,6 +295,33 @@
 		]
 	},
 	"Component[20]": {
+		"ComponentFieldSublist[0]": {
+			"ComponentFieldSublist[0]": {
+				"ComponentFieldSublist[0]": {
+					"Flags[0]": 0,
+					"NextHandle[0]": -0.7378993630409241,
+					"Value[0]": 1.0
+				},
+				"Time[0]": -50.0
+			},
+			"ComponentFieldSublist[1]": {
+				"ComponentFieldSublist[0]": {
+					"Flags[0]": 0,
+					"NextHandle[0]": -0.0036473111249506474,
+					"Value[0]": 0.0
+				},
+				"Time[0]": 15.0
+			},
+			"ComponentFieldSublist[2]": {
+				"ComponentFieldSublist[0]": {
+					"Flags[0]": 0,
+					"NextHandle[0]": 1.1012176275253296,
+					"Value[0]": 2.0
+				},
+				"Time[0]": 50.0
+			},
+			"KeyFrame Count[0]": 3
+		},
 		"Enabled[0]": true,
 		"Max Tilt Angle[0]": 50.0,
 		"Name[0]": "NavMeshAgent",
@@ -293,15 +332,16 @@
 			"Word[2]": 0,
 			"Word[3]": 0
 		},
+		"Update interval[0]": 8,
 		"Walk On Walls[0]": true
 	},
 	"Component[21]": {
 		"Enabled[0]": true,
 		"Name[0]": "Agent",
 		"Position[0]": [
-			8.416275024414063,
-			4.469200611114502,
-			-4.973271369934082
+			6.162258625030518,
+			4.927371978759766,
+			-4.389947891235352
 		],
 		"Rotation[0]": [
 			0.0,
@@ -356,6 +396,33 @@
 		"Static[0]": false
 	},
 	"Component[23]": {
+		"ComponentFieldSublist[0]": {
+			"ComponentFieldSublist[0]": {
+				"ComponentFieldSublist[0]": {
+					"Flags[0]": 0,
+					"NextHandle[0]": -0.7116744518280029,
+					"Value[0]": 1.0
+				},
+				"Time[0]": -50.0
+			},
+			"ComponentFieldSublist[1]": {
+				"ComponentFieldSublist[0]": {
+					"Flags[0]": 0,
+					"NextHandle[0]": 0.0,
+					"Value[0]": 0.0
+				},
+				"Time[0]": 15.0
+			},
+			"ComponentFieldSublist[2]": {
+				"ComponentFieldSublist[0]": {
+					"Flags[0]": 0,
+					"NextHandle[0]": 1.8930352926254272,
+					"Value[0]": 2.0
+				},
+				"Time[0]": 50.0
+			},
+			"KeyFrame Count[0]": 3
+		},
 		"Enabled[0]": true,
 		"Max Tilt Angle[0]": 60.0,
 		"Name[0]": "NavMeshAgent",
@@ -366,6 +433,7 @@
 			"Word[2]": 0,
 			"Word[3]": 0
 		},
+		"Update interval[0]": 8,
 		"Walk On Walls[0]": true
 	},
 	"Component[24]": {
@@ -429,6 +497,9 @@
 		"Static[0]": false
 	},
 	"Component[26]": {
+		"ComponentFieldSublist[0]": {
+			"KeyFrame Count[0]": 0
+		},
 		"Enabled[0]": true,
 		"Max Tilt Angle[0]": 15.0,
 		"Name[0]": "NavMeshAgent",
@@ -439,6 +510,7 @@
 			"Word[2]": 0,
 			"Word[3]": 0
 		},
+		"Update interval[0]": 8,
 		"Walk On Walls[0]": false
 	},
 	"Component[2]": {
@@ -457,12 +529,11 @@
 			"Word[3]": 0
 		},
 		"ReferenceId[1]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		},
-		"Shadow Resolution[0]": 0
+			"Word[0]": -3018189034561489363,
+			"Word[1]": 5186829564003174266,
+			"Word[2]": 4165041434416095378,
+			"Word[3]": 6282593712520289247
+		}
 	},
 	"Component[3]": {
 		"Enabled[0]": true,
@@ -729,32 +800,38 @@
 		"Type[0]": "Jimara::Component"
 	},
 	"Resources[0]": {
-		"Count[0]": 5,
+		"Count[0]": 6,
 		"ResourceId[0]": {
+			"Word[0]": -3018189034561489363,
+			"Word[1]": 5186829564003174266,
+			"Word[2]": 4165041434416095378,
+			"Word[3]": 6282593712520289247
+		},
+		"ResourceId[1]": {
 			"Word[0]": 823111727808299544,
 			"Word[1]": -5675140188087593466,
 			"Word[2]": 3108536286793854791,
 			"Word[3]": -7552801105398944498
 		},
-		"ResourceId[1]": {
+		"ResourceId[2]": {
 			"Word[0]": -6236977259279267860,
 			"Word[1]": -5503449409403309481,
 			"Word[2]": 401387790692049912,
 			"Word[3]": -4711541027592209775
 		},
-		"ResourceId[2]": {
+		"ResourceId[3]": {
 			"Word[0]": 5123729662285256009,
 			"Word[1]": 6115481868429298631,
 			"Word[2]": 2928764058523175659,
 			"Word[3]": -4672057571139633614
 		},
-		"ResourceId[3]": {
+		"ResourceId[4]": {
 			"Word[0]": -3142547608431162726,
 			"Word[1]": 3929005549266851122,
 			"Word[2]": 2668998496745312434,
 			"Word[3]": -3328820269413600146
 		},
-		"ResourceId[4]": {
+		"ResourceId[5]": {
 			"Word[0]": 5072895257006205767,
 			"Word[1]": 2605154422846341214,
 			"Word[2]": 7597389335526331026,
