@@ -1,5 +1,7 @@
 {
 	"Resource Data[0]": {
+		"Angle Threshold[0]": 5.0,
+		"Face Width Threshold[0]": 0.05000000074505806,
 		"Flags[0]": 0,
 		"Mesh[0]": {
 			"Word[0]": -6236977259279267860,

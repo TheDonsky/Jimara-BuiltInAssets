@@ -4,6 +4,25 @@
 		"Name[0]": "SceneRoot"
 	},
 	"Component[10]": {
+		"Enabled[0]": true,
+		"Name[0]": "Agent",
+		"Position[0]": [
+			10.084671020507813,
+			2.3149940967559814,
+			4.279810905456543
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0001459352351957932,
+			-0.0001459352351957932
+		],
+		"Scale[0]": [
+			0.20000000298023224,
+			0.20000000298023224,
+			0.20000000298023224
+		]
+	},
+	"Component[11]": {
 		"Cast Shadows[0]": true,
 		"ComponentFieldSublist[0]": {
 			"Boundary Offset[0]": [
@@ -44,7 +63,7 @@
 		},
 		"Static[0]": false
 	},
-	"Component[11]": {
+	"Component[12]": {
 		"ComponentFieldSublist[0]": {
 			"KeyFrame Count[0]": 0
 		},
@@ -53,7 +72,7 @@
 		"Name[0]": "NavMeshAgent",
 		"Radius[0]": 0.4000000059604645,
 		"ReferenceId[0]": {
-			"Word[0]": 8,
+			"Word[0]": 9,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -61,7 +80,7 @@
 		"Update interval[0]": 8,
 		"Walk On Walls[0]": false
 	},
-	"Component[12]": {
+	"Component[13]": {
 		"Enabled[0]": true,
 		"Name[0]": "Agent",
 		"Position[0]": [
@@ -80,7 +99,7 @@
 			0.20000000298023224
 		]
 	},
-	"Component[13]": {
+	"Component[14]": {
 		"Cast Shadows[0]": true,
 		"ComponentFieldSublist[0]": {
 			"Boundary Offset[0]": [
@@ -121,7 +140,7 @@
 		},
 		"Static[0]": false
 	},
-	"Component[14]": {
+	"Component[15]": {
 		"ComponentFieldSublist[0]": {
 			"KeyFrame Count[0]": 0
 		},
@@ -130,7 +149,7 @@
 		"Name[0]": "NavMeshAgent",
 		"Radius[0]": 0.20000000298023224,
 		"ReferenceId[0]": {
-			"Word[0]": 8,
+			"Word[0]": 9,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -138,7 +157,7 @@
 		"Update interval[0]": 8,
 		"Walk On Walls[0]": false
 	},
-	"Component[15]": {
+	"Component[16]": {
 		"Enabled[0]": true,
 		"Name[0]": "Agent",
 		"Position[0]": [
@@ -157,7 +176,7 @@
 			0.20000000298023224
 		]
 	},
-	"Component[16]": {
+	"Component[17]": {
 		"Cast Shadows[0]": true,
 		"ComponentFieldSublist[0]": {
 			"Boundary Offset[0]": [
@@ -198,7 +217,7 @@
 		},
 		"Static[0]": false
 	},
-	"Component[17]": {
+	"Component[18]": {
 		"ComponentFieldSublist[0]": {
 			"KeyFrame Count[0]": 0
 		},
@@ -207,7 +226,7 @@
 		"Name[0]": "NavMeshAgent",
 		"Radius[0]": 0.20000000298023224,
 		"ReferenceId[0]": {
-			"Word[0]": 8,
+			"Word[0]": 9,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -215,7 +234,7 @@
 		"Update interval[0]": 8,
 		"Walk On Walls[0]": false
 	},
-	"Component[18]": {
+	"Component[19]": {
 		"Enabled[0]": true,
 		"Name[0]": "Agent",
 		"Position[0]": [
@@ -233,47 +252,6 @@
 			0.20000000298023224,
 			0.20000000298023224
 		]
-	},
-	"Component[19]": {
-		"Cast Shadows[0]": true,
-		"ComponentFieldSublist[0]": {
-			"Boundary Offset[0]": [
-				0.0,
-				0.0,
-				0.0
-			],
-			"Boundary Thickness[0]": [
-				0.0,
-				0.0,
-				0.0
-			],
-			"Has Max On-Screen Size[0]": false,
-			"Min On-Screen Size[0]": 0.0,
-			"ReferenceId[0]": {
-				"Word[0]": 0,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			}
-		},
-		"Enabled[0]": true,
-		"Geometry Type[0]": 0,
-		"Instanced[0]": true,
-		"Layer[0]": 0,
-		"Name[0]": "MeshRenderer",
-		"ReferenceId[0]": {
-			"Word[0]": -3142547608431162726,
-			"Word[1]": 3929005549266851122,
-			"Word[2]": 2668998496745312434,
-			"Word[3]": -3328820269413600146
-		},
-		"ReferenceId[1]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		},
-		"Static[0]": false
 	},
 	"Component[1]": {
 		"Enabled[0]": true,
@@ -295,6 +273,47 @@
 		]
 	},
 	"Component[20]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -3142547608431162726,
+			"Word[1]": 3929005549266851122,
+			"Word[2]": 2668998496745312434,
+			"Word[3]": -3328820269413600146
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[21]": {
 		"ComponentFieldSublist[0]": {
 			"ComponentFieldSublist[0]": {
 				"ComponentFieldSublist[0]": {
@@ -327,7 +346,7 @@
 		"Name[0]": "NavMeshAgent",
 		"Radius[0]": 0.4000000059604645,
 		"ReferenceId[0]": {
-			"Word[0]": 8,
+			"Word[0]": 9,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -335,7 +354,7 @@
 		"Update interval[0]": 8,
 		"Walk On Walls[0]": true
 	},
-	"Component[21]": {
+	"Component[22]": {
 		"Enabled[0]": true,
 		"Name[0]": "Agent",
 		"Position[0]": [
@@ -354,7 +373,7 @@
 			0.20000000298023224
 		]
 	},
-	"Component[22]": {
+	"Component[23]": {
 		"Cast Shadows[0]": true,
 		"ComponentFieldSublist[0]": {
 			"Boundary Offset[0]": [
@@ -395,7 +414,7 @@
 		},
 		"Static[0]": false
 	},
-	"Component[23]": {
+	"Component[24]": {
 		"ComponentFieldSublist[0]": {
 			"ComponentFieldSublist[0]": {
 				"ComponentFieldSublist[0]": {
@@ -428,7 +447,7 @@
 		"Name[0]": "NavMeshAgent",
 		"Radius[0]": 0.10000000149011612,
 		"ReferenceId[0]": {
-			"Word[0]": 8,
+			"Word[0]": 9,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -436,7 +455,7 @@
 		"Update interval[0]": 8,
 		"Walk On Walls[0]": true
 	},
-	"Component[24]": {
+	"Component[25]": {
 		"Enabled[0]": true,
 		"Name[0]": "Agent",
 		"Position[0]": [
@@ -455,7 +474,7 @@
 			0.20000000298023224
 		]
 	},
-	"Component[25]": {
+	"Component[26]": {
 		"Cast Shadows[0]": true,
 		"ComponentFieldSublist[0]": {
 			"Boundary Offset[0]": [
@@ -496,7 +515,7 @@
 		},
 		"Static[0]": false
 	},
-	"Component[26]": {
+	"Component[27]": {
 		"ComponentFieldSublist[0]": {
 			"KeyFrame Count[0]": 0
 		},
@@ -505,13 +524,73 @@
 		"Name[0]": "NavMeshAgent",
 		"Radius[0]": 0.20000000298023224,
 		"ReferenceId[0]": {
-			"Word[0]": 8,
+			"Word[0]": 9,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
 		},
 		"Update interval[0]": 8,
 		"Walk On Walls[0]": false
+	},
+	"Component[28]": {
+		"Enabled[0]": true,
+		"Name[0]": "Transform",
+		"Position[0]": [
+			-0.5907046794891357,
+			0.4040420949459076,
+			-10.278267860412598
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			2.0,
+			1.0
+		]
+	},
+	"Component[29]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -2585784501655876622,
+			"Word[1]": 7556389038191156277,
+			"Word[2]": 42567918271465406,
+			"Word[3]": -4290958027567434022
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
 	},
 	"Component[2]": {
 		"Color[0]": [
@@ -534,6 +613,24 @@
 			"Word[2]": 4165041434416095378,
 			"Word[3]": 6282593712520289247
 		}
+	},
+	"Component[30]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 0,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			2.0,
+			2.0,
+			2.0
+		]
 	},
 	"Component[3]": {
 		"Enabled[0]": true,
@@ -608,6 +705,25 @@
 	},
 	"Component[6]": {
 		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 0,
+		"Name[0]": "MeshCollider",
+		"ReferenceId[0]": {
+			"Word[0]": -1931524071304638810,
+			"Word[1]": -4230143877133059237,
+			"Word[2]": 1954310141565369181,
+			"Word[3]": -2492076445592466917
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[7]": {
+		"Enabled[0]": true,
 		"Name[0]": "AgentTarget",
 		"Position[0]": [
 			0.04258129745721817,
@@ -625,13 +741,13 @@
 			0.20000000298023224
 		]
 	},
-	"Component[7]": {
+	"Component[8]": {
 		"Enabled[0]": true,
 		"InputMode[0]": 0,
 		"Name[0]": "TransformInput",
 		"No Input If Disabled[0]": 1
 	},
-	"Component[8]": {
+	"Component[9]": {
 		"Cast Shadows[0]": true,
 		"ComponentFieldSublist[0]": {
 			"Boundary Offset[0]": [
@@ -672,27 +788,8 @@
 		},
 		"Static[0]": false
 	},
-	"Component[9]": {
-		"Enabled[0]": true,
-		"Name[0]": "Agent",
-		"Position[0]": [
-			10.084671020507813,
-			2.3149940967559814,
-			4.279810905456543
-		],
-		"Rotation[0]": [
-			0.0,
-			0.0001459352351957932,
-			-0.0001459352351957932
-		],
-		"Scale[0]": [
-			0.20000000298023224,
-			0.20000000298023224,
-			0.20000000298023224
-		]
-	},
 	"Node[0]": {
-		"Child Count[0]": 9,
+		"Child Count[0]": 10,
 		"Node[0]": {
 			"Child Count[0]": 1,
 			"Node[0]": {
@@ -702,7 +799,7 @@
 			"Type[0]": "Jimara::Transform"
 		},
 		"Node[1]": {
-			"Child Count[0]": 2,
+			"Child Count[0]": 3,
 			"Node[0]": {
 				"Child Count[0]": 0,
 				"Type[0]": "Jimara::NavMeshSurface"
@@ -710,6 +807,10 @@
 			"Node[1]": {
 				"Child Count[0]": 0,
 				"Type[0]": "Jimara::MeshRenderer"
+			},
+			"Node[2]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::MeshCollider"
 			},
 			"Type[0]": "Jimara::Transform"
 		},
@@ -797,10 +898,22 @@
 			},
 			"Type[0]": "Jimara::Transform"
 		},
+		"Node[9]": {
+			"Child Count[0]": 2,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::MeshRenderer"
+			},
+			"Node[1]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::BoxCollider"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
 		"Type[0]": "Jimara::Component"
 	},
 	"Resources[0]": {
-		"Count[0]": 6,
+		"Count[0]": 8,
 		"ResourceId[0]": {
 			"Word[0]": -3018189034561489363,
 			"Word[1]": 5186829564003174266,
@@ -826,16 +939,28 @@
 			"Word[3]": -4672057571139633614
 		},
 		"ResourceId[4]": {
+			"Word[0]": -1931524071304638810,
+			"Word[1]": -4230143877133059237,
+			"Word[2]": 1954310141565369181,
+			"Word[3]": -2492076445592466917
+		},
+		"ResourceId[5]": {
 			"Word[0]": -3142547608431162726,
 			"Word[1]": 3929005549266851122,
 			"Word[2]": 2668998496745312434,
 			"Word[3]": -3328820269413600146
 		},
-		"ResourceId[5]": {
+		"ResourceId[6]": {
 			"Word[0]": 5072895257006205767,
 			"Word[1]": 2605154422846341214,
 			"Word[2]": 7597389335526331026,
 			"Word[3]": -6207467566342633233
+		},
+		"ResourceId[7]": {
+			"Word[0]": -2585784501655876622,
+			"Word[1]": 7556389038191156277,
+			"Word[2]": 42567918271465406,
+			"Word[3]": -4290958027567434022
 		}
 	}
 }
