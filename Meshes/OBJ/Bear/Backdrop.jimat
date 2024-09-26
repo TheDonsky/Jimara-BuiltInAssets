@@ -1,14 +1,20 @@
 {
-	"Color[0]": [
-		0.4080977737903595,
-		0.47787612676620483,
-		0.4649084806442261
+	"Shader[0]": "Jimara/Data/Materials/SampleDiffuse/Jimara_SampleDiffuseShader",
+	"baseColor[0]": [
+		0.4000000059604645,
+		0.47999998927116394,
+		0.46000000834465027
 	],
-	"Diffuse[0]": {
+	"colorTexture[0]": {
 		"Word[0]": 0,
 		"Word[1]": 0,
 		"Word[2]": 0,
 		"Word[3]": 0
 	},
-	"Shader[0]": "Jimara/Data/Materials/SampleDiffuse/Jimara_SampleDiffuseShader"
+	"normalMap[0]": {
+		"Word[0]": 0,
+		"Word[1]": 0,
+		"Word[2]": 0,
+		"Word[3]": 0
+	}
 }

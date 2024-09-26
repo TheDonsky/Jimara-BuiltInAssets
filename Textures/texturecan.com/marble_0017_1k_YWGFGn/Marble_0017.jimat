@@ -1,61 +1,59 @@
 {
-	"Base Color[0]": {
+	"Shader[0]": "Jimara/Data/Materials/PBR/Jimara_PBR_Shader_Opaque",
+	"albedo[0]": [
+		1.0,
+		1.0,
+		1.0
+	],
+	"baseColor[0]": {
 		"Word[0]": 2625585554558408761,
 		"Word[1]": -4421816919702958950,
 		"Word[2]": 6488602207936999271,
 		"Word[3]": -7367049685993613345
 	},
-	"Emission[0]": {
+	"emissionMap[0]": {
 		"Word[0]": 0,
 		"Word[1]": 0,
 		"Word[2]": 0,
 		"Word[3]": 0
 	},
-	"Metalness[0]": {
+	"emission[0]": [
+		0.0,
+		0.0,
+		0.0
+	],
+	"metalnessMap[0]": {
 		"Word[0]": 0,
 		"Word[1]": 0,
 		"Word[2]": 0,
 		"Word[3]": 0
 	},
-	"Normal map[0]": {
+	"metalness[0]": 0.05000000074505806,
+	"normalMap[0]": {
 		"Word[0]": 4207497305048546624,
 		"Word[1]": -8587904122449139594,
 		"Word[2]": -5625048013172719353,
 		"Word[3]": -1208841348600253616
 	},
-	"Occlusion[0]": {
+	"occlusionMap[0]": {
 		"Word[0]": 6303662520601051355,
 		"Word[1]": -1677693842343755131,
 		"Word[2]": -4965310877413909124,
 		"Word[3]": 1302267836718288510
 	},
-	"Roughness[0]": {
+	"offset[0]": [
+		0.0,
+		0.0
+	],
+	"roughnessMap[0]": {
 		"Word[0]": -5018779829124439547,
 		"Word[1]": -6611687092183736610,
 		"Word[2]": -1838658536666645764,
 		"Word[3]": 3628320759739878544
 	},
-	"Settings[0]": {
-		"Albedo[0]": [
-			1.0,
-			1.0,
-			1.0
-		],
-		"Emission[0]": [
-			0.0,
-			0.0,
-			0.0
-		],
-		"Metalness[0]": 0.05000000074505806,
-		"Offset[0]": [
-			0.0,
-			0.0
-		],
-		"Roughness[0]": 1.0,
-		"Tiling[0]": [
-			8.0,
-			8.0
-		]
-	},
-	"Shader[0]": "Jimara/Data/Materials/PBR/Jimara_PBR_Shader_Opaque"
+	"roughness[0]": 1.0,
+	"tiling[0]": [
+		8.0,
+		8.0
+	]
 }

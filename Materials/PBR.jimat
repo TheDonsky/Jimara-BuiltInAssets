@@ -1,52 +1,61 @@
 {
-	"Base Color[0]": {
+	"Shader[0]": "Jimara/Data/Materials/PBR/Jimara_PBR_Shader_Transparent",
+	"albedo[0]": [
+		1.0,
+		0.75,
+		0.30000001192092896,
+		0.5
+	],
+	"alphaThreshold[0]": 0.25,
+	"baseColor[0]": {
 		"Word[0]": 0,
 		"Word[1]": 0,
 		"Word[2]": 0,
 		"Word[3]": 0
 	},
-	"Metalness[0]": {
+	"emissionMap[0]": {
 		"Word[0]": 0,
 		"Word[1]": 0,
 		"Word[2]": 0,
 		"Word[3]": 0
 	},
-	"Normal map[0]": {
+	"emission[0]": [
+		0.0,
+		0.0,
+		0.0
+	],
+	"metalnessMap[0]": {
 		"Word[0]": 0,
 		"Word[1]": 0,
 		"Word[2]": 0,
 		"Word[3]": 0
 	},
-	"Occlusion[0]": {
+	"metalness[0]": 0.009999999776482582,
+	"normalMap[0]": {
 		"Word[0]": 0,
 		"Word[1]": 0,
 		"Word[2]": 0,
 		"Word[3]": 0
 	},
-	"Roughness[0]": {
+	"occlusionMap[0]": {
 		"Word[0]": 0,
 		"Word[1]": 0,
 		"Word[2]": 0,
 		"Word[3]": 0
 	},
-	"Settings[0]": {
-		"Albedo[0]": [
-			0.991150438785553,
-			0.7581303715705872,
-			0.29822227358818054,
-			0.5
-		],
-		"Alpha threshold[0]": 0.25,
-		"Metalness[0]": 0.014999999664723873,
-		"Offset[0]": [
-			0.0,
-			0.0
-		],
-		"Roughness[0]": 0.05700000002980232,
-		"Tiling[0]": [
-			1.0,
-			1.0
-		]
+	"offset[0]": [
+		0.0,
+		0.0
+	],
+	"roughnessMap[0]": {
+		"Word[0]": 0,
+		"Word[1]": 0,
+		"Word[2]": 0,
+		"Word[3]": 0
 	},
-	"Shader[0]": "Jimara/Data/Materials/PBR/Jimara_PBR_Shader_Transparent"
+	"roughness[0]": 0.05000000074505806,
+	"tiling[0]": [
+		1.0,
+		1.0
+	]
 }

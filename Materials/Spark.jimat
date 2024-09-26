@@ -1,14 +1,20 @@
 {
-	"Color[0]": [
+	"Shader[0]": "Jimara/Data/Materials/SampleDiffuse/Jimara_SampleDiffuseShader",
+	"baseColor[0]": [
 		64.0,
 		16.0,
 		8.0
 	],
-	"Diffuse[0]": {
+	"colorTexture[0]": {
 		"Word[0]": 0,
 		"Word[1]": 0,
 		"Word[2]": 0,
 		"Word[3]": 0
 	},
-	"Shader[0]": "Jimara/Data/Materials/SampleDiffuse/Jimara_SampleDiffuseShader"
+	"normalMap[0]": {
+		"Word[0]": 0,
+		"Word[1]": 0,
+		"Word[2]": 0,
+		"Word[3]": 0
+	}
 }
