@@ -5,7 +5,7 @@
 	"Collision meshes[0]": {
 		"Count[0]": 1,
 		"Mapping[0]": {
-			"FBXUid[0]": 531612803,
+			"FBXId[0]": "<TestNavMesh>[0]",
 			"GUID[0]": {
 				"Word[0]": -1931524071304638810,
 				"Word[1]": -4230143877133059237,
@@ -23,6 +23,7 @@
 	"Polygonal meshes[0]": {
 		"Count[0]": 1,
 		"Mapping[0]": {
+			"FBXId[0]": "<TestNavMesh>[0]",
 			"FBXUid[0]": 531612803,
 			"GUID[0]": {
 				"Word[0]": 3190117606126456930,
@@ -37,7 +38,7 @@
 	"Triangle meshes[0]": {
 		"Count[0]": 1,
 		"Mapping[0]": {
-			"FBXUid[0]": 531612803,
+			"FBXId[0]": "<TestNavMesh>[0]",
 			"GUID[0]": {
 				"Word[0]": -6236977259279267860,
 				"Word[1]": -5503449409403309481,

@@ -2,6 +2,7 @@
 	"Animations[0]": {
 		"Count[0]": 1,
 		"Mapping[0]": {
+			"FBXId[0]": "<Animation Base Layer>[0]",
 			"FBXUid[0]": 2444015951472,
 			"GUID[0]": {
 				"Word[0]": -3796219108282341194,
@@ -15,7 +16,7 @@
 	"Collision meshes[0]": {
 		"Count[0]": 1,
 		"Mapping[0]": {
-			"FBXUid[0]": 2441902575056,
+			"FBXId[0]": "<Scene>[0]",
 			"GUID[0]": {
 				"Word[0]": 2109757367282519183,
 				"Word[1]": 2847205596795321788,
@@ -33,6 +34,7 @@
 	"Polygonal meshes[0]": {
 		"Count[0]": 1,
 		"Mapping[0]": {
+			"FBXId[0]": "<Scene>[0]",
 			"FBXUid[0]": 2441902575056,
 			"GUID[0]": {
 				"Word[0]": 3827830548243192858,
@@ -47,7 +49,7 @@
 	"Triangle meshes[0]": {
 		"Count[0]": 1,
 		"Mapping[0]": {
-			"FBXUid[0]": 2441902575056,
+			"FBXId[0]": "<Scene>[0]",
 			"GUID[0]": {
 				"Word[0]": 7356724356977869375,
 				"Word[1]": -2056642072945915113,
